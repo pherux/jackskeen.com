@@ -144,23 +144,23 @@ Priority:
 
 # EPIC 6 — Sanity CMS
 
-- [ ] **P0** Create Sanity project/dataset.
-- [ ] **P0** Configure Studio.
-- [ ] **P0** Create site settings schema.
-- [ ] **P0** Create person schema.
-- [ ] **P0** Create article schema.
-- [ ] **P0** Create topic schema.
-- [ ] **P0** Create podcast schema.
-- [ ] **P0** Create video schema.
-- [ ] **P0** Create testimonial schema.
-- [ ] **P1** Create book schema.
-- [ ] **P0** Create FAQ schema.
-- [ ] **P1** Create redirect schema if managed in CMS.
-- [ ] **P0** Add schema validation.
-- [ ] **P0** Add typed queries.
-- [ ] **P0** Implement preview/draft mode.
-- [ ] **P1** Customize Studio navigation.
-- [ ] **P1** Add editorial helper text.
+- [!] **P0** Create Sanity project/dataset. Blocked pending Sanity CLI authentication and account/project access; repository integration is ready for the real project ID and dataset.
+- [x] **P0** Configure Studio.
+- [x] **P0** Create site settings schema.
+- [x] **P0** Create person schema.
+- [x] **P0** Create article schema.
+- [x] **P0** Create topic schema.
+- [x] **P0** Create podcast schema.
+- [x] **P0** Create video schema.
+- [x] **P0** Create testimonial schema.
+- [x] **P1** Create book schema.
+- [x] **P0** Create FAQ schema.
+- [x] **P1** Create redirect schema if managed in CMS.
+- [x] **P0** Add schema validation.
+- [x] **P0** Add typed queries.
+- [x] **P0** Implement preview/draft mode.
+- [x] **P1** Customize Studio navigation.
+- [x] **P1** Add editorial helper text.
 - [ ] **P1** Add scheduled publishing if required.
 
 ---

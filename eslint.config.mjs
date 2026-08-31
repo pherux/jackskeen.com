@@ -10,6 +10,10 @@ export default defineConfig([
     "out/**",
     "build/**",
     "coverage/**",
+    ".sanity/**",
+    ".sanity-dist/**",
+    "sanity/schema.json",
+    "src/types/sanity.generated.ts",
     "next-env.d.ts",
   ]),
 ]);

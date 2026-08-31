@@ -4,6 +4,10 @@ coverage
 playwright-report
 test-results
 package-lock.json
+.sanity
+.sanity-dist
+sanity/schema.json
+src/types/sanity.generated.ts
 
 # Project requirements are source documents; preserve their authored formatting.
 AGENTS.md
