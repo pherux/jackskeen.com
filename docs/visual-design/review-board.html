@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jack Skeen — Visual Design Review Board</title>
+    <style>
+      :root {
+        --blue: #0b2738;
+        --blue-deep: #071e2c;
+        --paper: #fbf9f5;
+        --soft: #f1ede6;
+        --ink: #332f2b;
+        --clay: #d86a4d;
+        --line: #ddd7cf;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, sans-serif; }
+      header { background: var(--blue); color: #f8f4ed; padding: 64px max(24px, 7vw); }
+      header p, .eyebrow { margin: 0; color: #d7e0e5; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; }
+      h1, h2 { font-family: Georgia, serif; font-weight: 400; }
+      h1 { max-width: 900px; margin: 18px 0 0; font-size: clamp(48px, 7vw, 92px); line-height: .95; }
+      main { width: min(1440px, 100%); margin: auto; padding: 72px max(24px, 6vw) 120px; }
+      section { border-top: 1px solid var(--line); padding: 48px 0 72px; }
+      h2 { margin: 12px 0 24px; font-size: clamp(36px, 5vw, 64px); line-height: 1; }
+      .intro { max-width: 760px; font-size: 18px; line-height: 1.7; }
+      .source { display: grid; grid-template-columns: 1.15fr .85fr; gap: 32px; align-items: start; }
+      figure { margin: 0; }
+      img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+      .comparison img { aspect-ratio: 1.42 / 1; object-fit: cover; object-position: top; }
+      figcaption, li, td, th { font-size: 14px; line-height: 1.6; }
+      figcaption { margin-top: 12px; color: #665d56; }
+      .notes { display: grid; gap: 24px; }
+      .note { border-top: 2px solid var(--clay); padding-top: 16px; }
+      .note strong { display: block; margin-bottom: 8px; }
+      .palette { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+      .swatch { min-height: 150px; display: flex; flex-direction: column; justify-content: end; padding: 14px; border: 1px solid var(--line); }
+      .swatch span { display: block; font-size: 12px; }
+      .swatch.dark { color: #f8f4ed; }
+      .screens { display: grid; grid-template-columns: 1.35fr .65fr; gap: 32px; align-items: start; }
+      table { width: 100%; border-collapse: collapse; }
+      th, td { border-top: 1px solid var(--line); padding: 14px 12px; text-align: left; vertical-align: top; }
+      th { color: var(--clay); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+      @media (max-width: 800px) {
+        .source, .screens { grid-template-columns: 1fr; }
+        .comparison-notes { grid-template-columns: 1fr; }
+        .palette { grid-template-columns: repeat(2, 1fr); }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>Jack Skeen · EPIC 4</p>
+      <h1>Visual design foundation</h1>
+    </header>
+    <main>
+      <p class="intro">A source-controlled alternative to Figma: the selected visual, responsive implementation evidence, final tokens, and page decisions live together here for review.</p>
+      <section>
+        <p class="eyebrow">01 · Source of truth</p>
+        <h2>Selected editorial direction</h2>
+        <div class="source comparison">
+          <figure>
+            <img src="assets/approved-homepage-reference.png" alt="Approved Jack Skeen homepage visual reference" />
+            <figcaption>Source reference — normalized to the above-the-fold region.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/homepage-desktop-epic4.png" alt="Final EPIC 4 desktop homepage implementation" />
+            <figcaption>Final implementation — deeper blue, lighter paper, retained composition and photography.</figcaption>
+          </figure>
+        </div>
+        <div class="notes comparison-notes" style="grid-template-columns:repeat(4,1fr);margin-top:32px">
+          <div class="note"><strong>Keep</strong>Hero image, split composition, large serif hierarchy, light reading surfaces, minimal controls, and restrained geometry.</div>
+          <div class="note"><strong>Adjust</strong>Move the dark field toward a deeper Atlantic blue and brighten the paper field. Keep clay as the small action accent.</div>
+          <div class="note"><strong>Prioritize</strong>The problem and the clarity offered by the Roadmap. Process detail supports the decision later in the page.</div>
+          <div class="note"><strong>Withhold</strong>Unsourced proof, credentials, testimonials, prices, and integrations remain visibly unavailable.</div>
+        </div>
+      </section>
+      <section>
+        <p class="eyebrow">02 · Palette</p>
+        <h2>Deep blue, warm light</h2>
+        <div class="palette">
+          <div class="swatch dark" style="background:#0b2738"><strong>Atlantic</strong><span>#0B2738</span></div>
+          <div class="swatch dark" style="background:#071e2c"><strong>Depth</strong><span>#071E2C</span></div>
+          <div class="swatch" style="background:#fbf9f5"><strong>Paper</strong><span>#FBF9F5</span></div>
+          <div class="swatch" style="background:#f1ede6"><strong>Soft</strong><span>#F1EDE6</span></div>
+          <div class="swatch dark" style="background:#332f2b"><strong>Ink</strong><span>#332F2B</span></div>
+          <div class="swatch dark" style="background:#d86a4d"><strong>Clay</strong><span>#D86A4D</span></div>
+        </div>
+      </section>
+      <section>
+        <p class="eyebrow">03 · Responsive evidence</p>
+        <h2>One hierarchy, two compositions</h2>
+        <div class="screens">
+          <figure><img src="assets/homepage-desktop-epic4.png" alt="Final desktop homepage implementation" /><figcaption>Desktop: split hero, editorial tension, horizontal Roadmap progression, proof frame, paired closing sections.</figcaption></figure>
+          <figure><img src="assets/homepage-mobile-epic4.png" alt="Final mobile homepage implementation" /><figcaption>Mobile: copy before image, stacked CTAs, single reading column, touch navigation.</figcaption></figure>
+        </div>
+      </section>
+      <section>
+        <p class="eyebrow">04 · Component rules</p>
+        <h2>Calm, editorial, functional</h2>
+        <table>
+          <thead><tr><th>Surface</th><th>Decision</th><th>Avoid</th></tr></thead>
+          <tbody>
+            <tr><td>Typography</td><td>Cormorant Garamond display; Manrope body and UI.</td><td>Heavy sans headings, excessive uppercase.</td></tr>
+            <tr><td>Buttons</td><td>Squared clay primary; outlined inverse secondary; 44px touch target.</td><td>Pills, shadows, glossy effects.</td></tr>
+            <tr><td>Photography</td><td>Documentary crops with subtle edge diffusion into blue.</td><td>Stock imagery, obscured faces, aggressive filters.</td></tr>
+            <tr><td>Structure</td><td>Whitespace, rules, meaningful two-column compositions.</td><td>Card grids and icon overload.</td></tr>
+            <tr><td>Motion</td><td>160–220ms state transitions; reduced-motion safe.</td><td>Parallax, scroll-jacking, decorative entrances.</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

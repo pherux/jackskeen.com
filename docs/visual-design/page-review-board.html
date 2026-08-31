@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jack Skeen — Page Template Review</title>
+    <style>
+      :root {
+        --blue: #0b2738;
+        --paper: #fbf9f5;
+        --ink: #332f2b;
+        --clay: #d86a4d;
+        --line: #ddd7cf;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font-family: Arial, sans-serif; }
+      header { padding: 64px max(24px, 6vw); background: var(--blue); color: #f8f4ed; }
+      p { line-height: 1.7; }
+      .eyebrow { color: var(--clay); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+      h1, h2 { font-family: Georgia, serif; font-weight: 400; }
+      h1 { max-width: 900px; margin: 16px 0 0; font-size: clamp(52px, 7vw, 96px); line-height: .94; }
+      main { width: min(1440px, 100%); margin: auto; padding: 72px max(24px, 5vw) 120px; }
+      section { border-top: 1px solid var(--line); padding: 48px 0 72px; }
+      h2 { margin: 12px 0 32px; font-size: clamp(36px, 5vw, 64px); line-height: 1; }
+      .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+      .pages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+      figure { margin: 0; }
+      img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+      .comparison img { aspect-ratio: 1.42 / 1; object-fit: cover; object-position: top; }
+      figcaption { margin-top: 10px; color: #665d56; font-size: 13px; line-height: 1.5; }
+      .status { display: inline-block; margin-top: 12px; border-bottom: 1px solid var(--clay); color: var(--clay); font-size: 12px; }
+      @media (max-width: 900px) { .pages { grid-template-columns: repeat(2, 1fr); } }
+      @media (max-width: 640px) { .comparison, .pages { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>Jack Skeen · Page build review</p>
+      <h1>One visual system, distinct page purposes.</h1>
+    </header>
+    <main>
+      <section>
+        <p class="eyebrow">Source continuity</p>
+        <h2>Selected direction and site implementation</h2>
+        <div class="comparison">
+          <figure><img src="assets/approved-homepage-reference.png" alt="Selected homepage design reference" /><figcaption>Selected reference: editorial typography, split photography, warm paper, restrained geometry.</figcaption></figure>
+          <figure><img src="assets/page-roadmap-desktop.png" alt="Roadmap page implementation" /><figcaption>Roadmap template: the same visual language with a purpose-specific problem, solution, process, evidence, and CTA structure.</figcaption></figure>
+        </div>
+      </section>
+      <section>
+        <p class="eyebrow">Strategic templates</p>
+        <h2>Completed responsive page families</h2>
+        <div class="pages">
+          <figure><img src="assets/page-roadmap-desktop.png" alt="Roadmap page" /><figcaption>The Roadmap and three support-page templates.<br /><span class="status">Built · source placeholders remain</span></figcaption></figure>
+          <figure><img src="assets/page-work-with-jack-desktop.png" alt="Work With Jack page" /><figcaption>Offer selector and four offer-detail templates.<br /><span class="status">Built · offer facts remain</span></figcaption></figure>
+          <figure><img src="assets/page-about-desktop.png" alt="About Jack page" /><figcaption>Biography, authority, origin, ideas, and source-gate structure.<br /><span class="status">Built · verified biography remains</span></figcaption></figure>
+          <figure><img src="assets/page-insights-desktop.png" alt="Insights page" /><figcaption>Format navigation, article library, topic hubs, and media empty states.<br /><span class="status">Built · media records remain</span></figcaption></figure>
+          <figure><img src="assets/page-article-desktop.png" alt="Legacy article page" /><figcaption>Preserved metadata, migration body, author, related content, and CTA.<br /><span class="status">Built · migrated body remains</span></figcaption></figure>
+          <figure><img src="assets/page-start-desktop.png" alt="Start Your Roadmap page" /><figcaption>Expectation, form, disabled integration, and legal dependency states.<br /><span class="status">Built · submission integration remains</span></figcaption></figure>
+        </div>
+      </section>
+      <section>
+        <p class="eyebrow">Responsive proof</p>
+        <h2>Mobile hierarchy is preserved.</h2>
+        <div class="pages">
+          <figure><img src="assets/page-roadmap-mobile.png" alt="Roadmap mobile page" /><figcaption>Roadmap mobile hero.</figcaption></figure>
+          <figure><img src="assets/page-article-mobile.png" alt="Article mobile page" /><figcaption>Long-title article handling.</figcaption></figure>
+          <figure><img src="assets/page-start-mobile.png" alt="Start mobile page" /><figcaption>Conversion route mobile hierarchy.</figcaption></figure>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

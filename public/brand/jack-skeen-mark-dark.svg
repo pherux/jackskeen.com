@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Jack Skeen compass mark">
+  <defs><mask id="center-cut"><rect width="512" height="512" fill="white"/><circle cx="256" cy="256" r="7" fill="black"/></mask></defs>
+  <path d="M139.3 372.7A165 165 0 1 1 372.7 372.7" fill="none" stroke="#142326" stroke-width="9" stroke-linecap="round"/>
+  <path d="M256 77v25M435 256h-25M256 435v-25M77 256h25" fill="none" stroke="#142326" stroke-width="9" stroke-linecap="round"/>
+  <path d="M256 117l40 147-40-20-40 20z" fill="#df6b4f"/>
+  <path d="M256 395l-40-131 40 18 40-18z" fill="#142326"/>
+  <circle cx="256" cy="256" r="14" fill="#142326" mask="url(#center-cut)"/>
+</svg>

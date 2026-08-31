@@ -1,0 +1,33 @@
+source_taxonomy,source_term,inventory_count,proposed_handling,proposed_primary_topic,notes
+category,Blog,103,MAP_PER_ITEM,,Do not create a public Blog category archive; use each record's mapped primary topic
+category,Video,10,CHANGE_CONTENT_TYPE,,Map useful records to video and assign a primary topic per item
+tag,Leadership Coaching,50,MAP_PER_ITEM,Leadership,Review broad historical tagging before assigning the topic
+tag,Executive Leadership Development,49,MAP_PER_ITEM,Leadership,Review broad historical tagging before assigning the topic
+tag,Personal Growth Coach,42,MAP_PER_ITEM,Personal Growth,Do not reproduce the tag archive
+tag,Self Help,32,MAP_PER_ITEM,Personal Growth,Use more specific topics where the article warrants it
+tag,Life Coach,31,MAP_PER_ITEM,Personal Growth,Do not use Life Coach as a public taxonomy
+tag,Professional development,28,MANUAL_REVIEW,,Choose Leadership or Personal Growth from the article's actual focus
+tag,Company Improvement,26,MAP_PER_ITEM,Leadership,Use only for organization and leadership content
+tag,Human Resource Professional Development,20,MAP_PER_ITEM,Leadership,Do not reproduce the tag archive
+tag,Improving Employee Satisfaction,19,MAP_PER_ITEM,Leadership,Review any unsupported business-result claims
+tag,Increasing Return on Employee Investment,19,MAP_PER_ITEM,Leadership,Review terminology and unsupported ROI claims
+tag,Reducing Turnover within my company,18,MAP_PER_ITEM,Leadership,Review unsupported retention claims
+tag,Civility,18,MAP_PER_ITEM,Relationships,Map framework-specific pieces individually
+tag,community,5,MAP_PER_ITEM,Relationships,Use Reflections when the piece is primarily a personal observation
+tag,leadership,3,MAP_PER_ITEM,Leadership,
+tag,Coaching,3,MANUAL_REVIEW,,Choose Leadership Personal Growth or Your Genius from the actual content
+tag,ego,2,MAP_PER_ITEM,Personal Growth,
+tag,Spiritual Growth,2,MANUAL_REVIEW,Personal Growth,Use Purpose when the article is primarily about meaning or calling
+tag,happiness,2,MAP_PER_ITEM,Success & Fulfillment,
+tag,responsibility,1,MANUAL_REVIEW,Personal Growth,Use Leadership if the context is organizational responsibility
+tag,Christmas,1,MAP_PER_ITEM,Reflections,
+tag,listening,1,MAP_PER_ITEM,Relationships,
+tag,Being,1,MAP_PER_ITEM,Personal Growth,
+tag,family,1,MAP_PER_ITEM,Relationships,
+tag,ritual,1,MAP_PER_ITEM,Reflections,
+tag,intentionality,1,MAP_PER_ITEM,Purpose,
+tag,creativity,1,MAP_PER_ITEM,Your Genius,
+tag,control,1,MAP_PER_ITEM,Personal Growth,
+tag,Development Reducing Turnover within my company,1,MAP_PER_ITEM,Leadership,Normalize duplicate malformed source tag in private migration metadata only
+tag,Human Resource Professional,1,MAP_PER_ITEM,Leadership,
+tag,neighbor. Fred Rogers,1,MAP_PER_ITEM,Reflections,Normalize punctuation in private migration metadata only

@@ -6,7 +6,10 @@ export default function GlobalError({ reset }: { reset: () => void }) {
       <body>
         <main>
           <h1>Something went wrong</h1>
-          <p>Placeholder — final error handling design is pending.</p>
+          <p>
+            Something interrupted this page. Try again, or return to the home
+            page and continue from there.
+          </p>
           <button type="button" onClick={reset}>
             Try again
           </button>

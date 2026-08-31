@@ -7,6 +7,7 @@
 /coverage
 /playwright-report
 /test-results
+/design-qa-*.png
 
 # local crawl and migration caches
 /.firecrawl/

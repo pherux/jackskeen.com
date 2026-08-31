@@ -60,65 +60,65 @@ Priority:
 
 # EPIC 2 — Content strategy
 
-- [ ] **P0** Approve primary positioning statement.
-- [ ] **P0** Approve homepage narrative.
-- [ ] **P0** Approve Roadmap positioning.
-- [ ] **P0** Approve offer hierarchy.
-- [ ] **P0** Approve sitemap.
-- [ ] **P0** Approve eight core topics.
-- [ ] **P1** Map legacy categories to core topics.
-- [ ] **P1** Create content brief for homepage.
-- [ ] **P1** Create content brief for Roadmap.
-- [ ] **P1** Create content brief for About.
-- [ ] **P1** Create content briefs for Work With Jack offers.
-- [ ] **P1** Create content brief for Success Stories.
-- [ ] **P1** Create topic-hub introductions.
-- [ ] **P1** Identify FAQ questions.
-- [ ] **P1** Identify missing photography.
-- [ ] **P1** Identify missing testimonials.
-- [ ] **P2** Build 3-month editorial calendar.
+- [x] **P0** Approve primary positioning statement. Strategic recommendation approved 2026-08-31.
+- [x] **P0** Approve homepage narrative. Narrative architecture approved 2026-08-31.
+- [x] **P0** Approve Roadmap positioning. Strategic framing approved 2026-08-31; factual process details remain source-dependent.
+- [x] **P0** Approve offer hierarchy. Strategic order approved 2026-08-31; active-offer specifications still require factual confirmation.
+- [x] **P0** Approve sitemap. Strategic routes approved 2026-08-31; unsupported offer routes remain noindex until substantive.
+- [x] **P0** Approve eight core topics. Topic system approved 2026-08-31.
+- [x] **P1** Map legacy categories to core topics.
+- [x] **P1** Create content brief for homepage.
+- [x] **P1** Create content brief for Roadmap.
+- [x] **P1** Create content brief for About.
+- [x] **P1** Create content briefs for Work With Jack offers.
+- [x] **P1** Create content brief for Success Stories.
+- [!] **P1** Create topic-hub introductions. Briefs are complete; substantive Jack-authored perspectives are required before drafting.
+- [x] **P1** Identify FAQ questions.
+- [x] **P1** Identify missing photography.
+- [x] **P1** Identify missing testimonials.
+- [x] **P2** Build 3-month editorial calendar.
 
 ---
 
 # EPIC 3 — UX
 
-- [ ] **P0** Homepage wireframe.
-- [ ] **P0** Roadmap wireframe.
-- [ ] **P0** About wireframe.
-- [ ] **P0** Article wireframe.
-- [ ] **P0** Insights wireframe.
-- [ ] **P0** Topic page wireframe.
-- [ ] **P1** Podcast wireframe.
-- [ ] **P1** Video wireframe.
-- [ ] **P1** Success Stories wireframe.
-- [ ] **P0** Start/contact wireframe.
-- [ ] **P0** Mobile menu/navigation wireframe.
-- [ ] **P0** Validate CTA hierarchy.
-- [ ] **P1** Validate internal-link strategy.
+- [x] **P0** Homepage wireframe. Responsive content-order specification complete.
+- [x] **P0** Roadmap wireframe. Responsive overview and support-page flow complete.
+- [x] **P0** About wireframe. Authority journey and source gates complete.
+- [x] **P0** Article wireframe. Legacy metadata, editorial, and conversion flow complete.
+- [x] **P0** Insights wireframe. Format, topic, and featured-content hierarchy complete.
+- [x] **P0** Topic page wireframe. Indexation and cross-format rules complete.
+- [x] **P1** Podcast wireframe. Listing/detail and transcript requirements complete.
+- [x] **P1** Video wireframe. Listing/detail and accessibility requirements complete.
+- [x] **P1** Success Stories wireframe. Proof and rights gates complete.
+- [x] **P0** Start/contact wireframe. Form states, routing, and integration gates complete.
+- [x] **P0** Mobile menu/navigation wireframe. Focus, close, scroll, and target rules complete.
+- [x] **P0** Validate CTA hierarchy. Global primary, secondary, and contextual CTAs documented.
+- [x] **P1** Validate internal-link strategy. Route contract documented; broken topic breadcrumb corrected and remaining link gaps recorded.
 
 ---
 
 # EPIC 4 — Visual design
 
-- [ ] **P0** Select typography direction.
-- [ ] **P0** Define colors.
-- [ ] **P0** Define spacing scale.
-- [ ] **P0** Define grid/container rules.
-- [ ] **P0** Define buttons/links.
-- [ ] **P0** Design header/navigation.
-- [ ] **P0** Design footer.
-- [ ] **P0** Design form controls.
-- [ ] **P0** Design article typography.
-- [ ] **P1** Design media embeds.
-- [ ] **P1** Design testimonial treatment.
-- [ ] **P1** Design topic cards/content teasers.
-- [ ] **P1** Define Circle-inspired geometry.
-- [ ] **P1** Define motion rules.
-- [ ] **P0** High-fidelity homepage.
-- [ ] **P0** High-fidelity Roadmap page.
-- [ ] **P0** High-fidelity article.
-- [ ] **P1** High-fidelity About.
-- [ ] **P0** Mobile designs.
+- [x] **P0** Select typography direction. Cormorant Garamond and Manrope are specified and loaded through `next/font`.
+- [x] **P0** Define colors. Deep Atlantic blue, warm paper, ink, clay action accent, and semantic mappings documented.
+- [x] **P0** Define spacing scale. Eight-step editorial spacing sequence documented.
+- [x] **P0** Define grid/container rules. 1440px canvas, reading measure, responsive columns, and mobile padding documented.
+- [x] **P0** Define buttons/links. Primary, inverse, light-surface, editorial, focus, and touch rules documented.
+- [x] **P0** Design header/navigation. Desktop and mobile compositions and behavior documented and implemented.
+- [x] **P0** Design footer. Deep-blue editorial footer system documented and implemented.
+- [x] **P0** Design form controls. Label, focus, error, disabled, success, and submission-gate rules documented.
+- [x] **P0** Design article typography. Title, metadata, reading measure, and related-content treatment documented and implemented.
+- [x] **P1** Design media embeds. Poster, play, autoplay, transcript, and loading rules documented.
+- [x] **P1** Design testimonial treatment. Single-story and verified-attribution rules documented; content remains blocked.
+- [x] **P1** Design topic cards/content teasers. Ruled editorial matrix and teaser treatment documented and implemented.
+- [x] **P1** Define Circle-inspired geometry. Supplied raster asset rules documented and implemented.
+- [x] **P1** Define motion rules. Restrained transition and reduced-motion rules documented and implemented.
+- [x] **P0** High-fidelity homepage. Selected reference direction implemented with approved photography and revised deep-blue palette.
+- [x] **P0** High-fidelity Roadmap page. Responsive high-fidelity shell implemented; approved content remains pending.
+- [x] **P0** High-fidelity article. Responsive high-fidelity shell implemented; migrated body remains pending.
+- [x] **P1** High-fidelity About. Responsive high-fidelity shell implemented; verified biography remains pending.
+- [x] **P0** Mobile designs. Homepage and shared templates are specified and implemented through 320px.
 
 ---
 
@@ -167,63 +167,63 @@ Priority:
 
 # EPIC 7 — Global UI
 
-- [ ] **P0** Header.
-- [ ] **P0** Desktop navigation.
-- [ ] **P0** Mobile navigation.
-- [ ] **P0** Footer.
-- [ ] **P0** Buttons.
+- [~] **P0** Header. Implemented; final content and navigation approval pending.
+- [~] **P0** Desktop navigation. Functional; final sitemap approval pending.
+- [~] **P0** Mobile navigation. Functional; final sitemap approval pending.
+- [~] **P0** Footer. Implemented; approved copy and social links pending.
+- [~] **P0** Buttons. Core variants implemented; final design-system review pending.
 - [ ] **P0** Rich-text renderer.
-- [ ] **P0** Responsive image component/pattern.
-- [ ] **P0** Breadcrumbs.
-- [ ] **P0** CTA section.
+- [~] **P0** Responsive image component/pattern. Next Image patterns implemented; CMS image path pending.
+- [~] **P0** Breadcrumbs. Implemented for strategic, topic, and legacy article routes.
+- [~] **P0** CTA section. Implemented with visibly marked approval placeholders.
 - [ ] **P1** Quote component.
 - [ ] **P1** Testimonial component.
-- [ ] **P1** Article teaser.
-- [ ] **P1** Podcast teaser.
-- [ ] **P1** Video teaser.
-- [ ] **P1** FAQ.
+- [~] **P1** Article teaser. Implemented from migration inventory metadata; CMS excerpts pending.
+- [!] **P1** Podcast teaser. Visual empty state implemented; blocked pending approved episode records.
+- [!] **P1** Video teaser. Visual empty state implemented; blocked pending approved video records.
+- [~] **P1** FAQ. Accessible Roadmap FAQ treatment implemented; approved answers and CMS records pending.
 - [ ] **P1** Newsletter block.
-- [ ] **P0** Form system.
+- [~] **P0** Form system. Accessible visual foundation implemented; submission intentionally blocked pending integration decisions.
 - [ ] **P1** Loading/skeleton behavior where useful.
 
 ---
 
 # EPIC 8 — Core pages
 
-- [ ] **P0** Homepage.
-- [ ] **P0** Roadmap.
-- [ ] **P1** Roadmap How It Works.
-- [ ] **P1** Roadmap Results.
-- [ ] **P1** Roadmap FAQ.
-- [ ] **P0** Work With Jack.
-- [ ] **P1** Executive Coaching.
-- [ ] **P1** Roadmap Essentials.
-- [ ] **P1** Roadmap Discovery Group.
-- [ ] **P1** Corporate.
-- [ ] **P0** About Jack.
-- [ ] **P1** Books landing.
-- [ ] **P1** Circle Blueprint page.
-- [ ] **P0** Success Stories.
-- [ ] **P0** Contact.
-- [ ] **P0** Start Your Roadmap.
-- [ ] **P0** Privacy.
-- [ ] **P0** Terms.
+- [~] **P0** Homepage. Visual implementation complete; approved copy/content and CMS wiring pending.
+- [~] **P0** Roadmap. Responsive page structure implemented; approved copy/proof pending.
+- [~] **P1** Roadmap How It Works. Responsive page structure implemented; approved copy pending.
+- [~] **P1** Roadmap Results. Responsive page structure implemented; approved outcomes/proof pending.
+- [~] **P1** Roadmap FAQ. Responsive page structure implemented; approved FAQs pending.
+- [~] **P0** Work With Jack. Responsive page structure implemented; approved offer copy pending.
+- [~] **P1** Executive Coaching. Responsive page structure implemented; approved offer copy pending.
+- [~] **P1** Roadmap Essentials. Responsive page structure implemented; approved offer copy pending.
+- [~] **P1** Roadmap Discovery Group. Responsive page structure implemented; approved offer copy pending.
+- [~] **P1** Corporate. Responsive page structure implemented; approved offer copy pending.
+- [~] **P0** About Jack. Responsive page structure implemented; verified biography and credentials pending.
+- [~] **P1** Books landing. Responsive page structure implemented; approved book records pending.
+- [~] **P1** Circle Blueprint page. Responsive page structure implemented; approved book copy/assets pending.
+- [~] **P0** Success Stories. Responsive page structure implemented; approved testimonials pending.
+- [~] **P0** Contact. Accessible disabled form foundation implemented; integration and legal copy pending.
+- [~] **P0** Start Your Roadmap. Accessible disabled form foundation implemented; CTA workflow/integration pending.
+- [~] **P0** Privacy. Route and legal-content shell implemented; approved legal copy pending.
+- [~] **P0** Terms. Route and legal-content shell implemented; approved legal copy pending.
 
 ---
 
 # EPIC 9 — Insights
 
-- [ ] **P0** Insights landing.
-- [ ] **P0** Article listing.
-- [ ] **P0** Article detail.
-- [ ] **P0** Topic detail.
-- [ ] **P1** Podcast listing.
-- [ ] **P1** Podcast detail.
-- [ ] **P1** Video listing.
-- [ ] **P1** Video detail.
-- [ ] **P1** Related-content engine.
-- [ ] **P1** Author block.
-- [ ] **P1** Topic navigation.
+- [~] **P0** Insights landing. Responsive page and topic directory implemented; CMS content pending.
+- [~] **P0** Article listing. Renders retained migration-inventory records; CMS excerpts/media pending.
+- [~] **P0** Article detail. Preserves audited metadata and URLs; transformed article bodies pending.
+- [~] **P0** Topic detail. Eight topic routes and mapped article listings implemented; approved introductions pending.
+- [~] **P1** Podcast listing. Route and content shell implemented; approved episode records pending.
+- [!] **P1** Podcast detail. Detail template specification exists; blocked because no canonical episode records or slugs are available.
+- [~] **P1** Video listing. Route and content shell implemented; approved video records pending.
+- [!] **P1** Video detail. Detail template specification exists; blocked because no canonical video records or slugs are available.
+- [~] **P1** Related-content engine. Topic-related legacy article treatment implemented; editorial CMS relationships pending.
+- [~] **P1** Author block. Responsive treatment implemented; verified biography and credentials pending.
+- [x] **P1** Topic navigation. Eight-topic directory and related-topic navigation implemented.
 - [ ] **P2** Site/content search.
 - [ ] **P2** Filter UI if content volume justifies it.
 
