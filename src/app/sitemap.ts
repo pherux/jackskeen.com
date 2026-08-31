@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 import { sitePages, topics } from "@/data/site-pages";
 import { getLegacyArticles } from "@/lib/content-catalog";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://jackskeen.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jackskeen.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const strategic = ["/", ...sitePages.map((page) => page.path)];
