@@ -1,0 +1,6 @@
+probe,source,status,destination,final_url,final_status
+http://jackskeen.com/,http://jackskeen.com/,301,https://jackskeen.com/,https://jackskeen.com/,200
+http://www.jackskeen.com/,http://www.jackskeen.com/,301,https://www.jackskeen.com/,https://jackskeen.com/,200
+http://www.jackskeen.com/,https://www.jackskeen.com/,301,https://jackskeen.com/,https://jackskeen.com/,200
+https://www.jackskeen.com/,https://www.jackskeen.com/,301,https://jackskeen.com/,https://jackskeen.com/,200
+https://jackskeen.com/sitemap.xml,https://jackskeen.com/sitemap.xml,301,https://jackskeen.com/wp-sitemap.xml,https://jackskeen.com/wp-sitemap.xml,200

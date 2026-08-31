@@ -1,0 +1,11 @@
+.next
+node_modules
+coverage
+playwright-report
+test-results
+package-lock.json
+
+# Project requirements are source documents; preserve their authored formatting.
+AGENTS.md
+README.md
+docs

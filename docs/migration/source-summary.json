@@ -1,0 +1,1198 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-31T13:30:32.877Z",
+    "scope": "Canonical public content URLs discovered from WordPress sitemaps, public WordPress REST records, and Firecrawl map output.",
+    "totalUrls": 218,
+    "actionCounts": {
+      "KEEP": 88,
+      "UPDATE": 31,
+      "CONSOLIDATE": 20,
+      "REDIRECT": 19,
+      "REMOVE": 59,
+      "NOINDEX": 1
+    },
+    "manualReviewCount": 70,
+    "sourceCounts": {
+      "wordpressPublishedRecords": 142,
+      "wordpressSitemapUrls": 219,
+      "firecrawlMapUrls": 218
+    },
+    "issueCounts": {
+      "exactDuplicateGroups": 3,
+      "nearDuplicatePairs": 4,
+      "duplicateSlugs": 2,
+      "brokenInternalLinks": 2,
+      "brokenExternalLinks": 2,
+      "externallyBlockedChecks": 2,
+      "brokenImages": 0,
+      "suspiciousExternalLinks": 4,
+      "orphanedContent": 50,
+      "observedRedirectHops": 5,
+      "legacyMarkupPages": 13,
+      "legacyShortcodePages": 0,
+      "unsupportedEmbedPages": 3,
+      "non200Urls": 2,
+      "missingMetaDescriptions": 218
+    }
+  },
+  "sitemapData": {
+    "sitemaps": [
+      "https://jackskeen.com/wp-sitemap.xml",
+      "https://jackskeen.com/wp-sitemap-posts-post-1.xml",
+      "https://jackskeen.com/wp-sitemap-posts-page-1.xml",
+      "https://jackskeen.com/wp-sitemap-posts-tp_event-1.xml",
+      "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml",
+      "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml",
+      "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml",
+      "https://jackskeen.com/wp-sitemap-taxonomies-category-1.xml",
+      "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml",
+      "https://jackskeen.com/wp-sitemap-taxonomies-post_format-1.xml",
+      "https://jackskeen.com/wp-sitemap-taxonomies-portfolio_category-1.xml",
+      "https://jackskeen.com/wp-sitemap-taxonomies-our_team_category-1.xml",
+      "https://jackskeen.com/wp-sitemap-users-1.xml"
+    ],
+    "urls": [
+      {
+        "url": "https://jackskeen.com/cost-of-pleasing/",
+        "lastModified": "2023-08-31T04:28:22+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/independence/",
+        "lastModified": "2023-08-31T04:30:19+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/gratitude/",
+        "lastModified": "2023-08-30T23:09:51+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/corporate-solutions/",
+        "lastModified": "2023-08-30T23:09:42+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/boiled-frog/",
+        "lastModified": "2023-08-30T22:09:02+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/story-of-ghandi/",
+        "lastModified": "2023-08-30T23:08:21+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/living-within-your-passion/",
+        "lastModified": "2023-08-30T23:08:43+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/thriving-scale-2/",
+        "lastModified": "2023-08-30T23:08:55+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-circle-blueprint-system/",
+        "lastModified": "2023-08-31T17:23:10+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/autonomy/",
+        "lastModified": "2019-05-08T09:00:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/choosing-to-expand-your-circle/",
+        "lastModified": "2019-03-06T09:00:24+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/gas-pedals-and-brakes/",
+        "lastModified": "2019-04-03T09:00:16+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/happiness/",
+        "lastModified": "2019-02-13T09:00:46+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-sub-factors-of-independence/",
+        "lastModified": "2019-05-01T09:00:21+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/money-and-happiness/",
+        "lastModified": "2019-02-20T09:00:00+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/taking-100-responsibility/",
+        "lastModified": "2019-03-20T09:00:29+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-change-formula/",
+        "lastModified": "2019-03-27T09:00:02+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-circle-blueprint-assessment/",
+        "lastModified": "2019-04-24T09:00:49+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-four-developmental-tasks/",
+        "lastModified": "2019-03-13T09:00:26+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-is-your-circle/",
+        "lastModified": "2023-08-31T17:22:27+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/why-i-wrote-the-circle-blueprint/",
+        "lastModified": "2019-02-06T09:30:37+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/whats-in-your-circle/",
+        "lastModified": "2023-08-30T23:10:37+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/jacks-purpose/",
+        "lastModified": "2023-08-31T04:31:00+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/accountability/",
+        "lastModified": "2019-04-10T09:00:52+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/big-and-little-self/",
+        "lastModified": "2019-04-17T09:00:50+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-and-getting-past-the-need-to-be-right/",
+        "lastModified": "2020-06-22T20:42:19+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/individuality-and-civility/",
+        "lastModified": "2020-06-02T20:48:55+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/community/",
+        "lastModified": "2020-05-08T20:54:06+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/control-in-difficult-times/",
+        "lastModified": "2020-04-09T20:58:01+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/north-star/",
+        "lastModified": "2020-04-04T21:03:34+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/meet-gladys-the-turtle/",
+        "lastModified": "2020-03-26T21:10:25+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-is-civility/",
+        "lastModified": "2020-03-24T21:13:07+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/community-2/",
+        "lastModified": "2020-02-26T21:18:18+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-and-taking-radical-responsibility/",
+        "lastModified": "2020-07-04T21:30:59+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/community-lets-get-creative/",
+        "lastModified": "2020-03-11T21:41:47+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/community-intentionality/",
+        "lastModified": "2020-02-12T21:45:29+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-loner-of-lover/",
+        "lastModified": "2020-01-30T21:48:45+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-being-a-plow-horse-or-a-reservoir/",
+        "lastModified": "2020-01-16T21:50:45+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-allies-or-enemies/",
+        "lastModified": "2020-01-02T21:53:48+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-christmas-civility-on-steroids/",
+        "lastModified": "2019-12-18T21:56:18+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/wont-you-be-my-neighbor/",
+        "lastModified": "2019-12-04T21:58:21+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-listening/",
+        "lastModified": "2019-11-20T22:00:24+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-who-are-you-being/",
+        "lastModified": "2019-11-05T22:02:19+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-lesson/",
+        "lastModified": "2019-10-23T22:03:56+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-and-grace/",
+        "lastModified": "2020-09-24T19:13:26+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-and-identity/",
+        "lastModified": "2020-10-23T14:35:14+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/your-free-coach/",
+        "lastModified": "2023-08-31T04:23:01+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/do-i-need-a-coach/",
+        "lastModified": "2021-01-27T00:48:22+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/breaking-through-upper-limits/",
+        "lastModified": "2021-02-09T17:55:16+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/how-can-you-be-so-dumb/",
+        "lastModified": "2021-02-23T15:39:09+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-kind-of-coach-do-you-need/",
+        "lastModified": "2021-03-09T13:38:29+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/messing-with-your-operating-system/",
+        "lastModified": "2021-03-29T18:43:14+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/are-you-thriving/",
+        "lastModified": "2021-05-04T17:20:46+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/taking-radical-responsibility-for-your-life/",
+        "lastModified": "2021-05-18T21:58:29+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/your-personal-development-plan/",
+        "lastModified": "2023-08-31T04:21:55+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-is-the-line/",
+        "lastModified": "2021-06-27T13:28:45+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/are-you-living-below-the-line/",
+        "lastModified": "2021-07-18T13:01:55+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/shifting-from-below-to-above-the-line/",
+        "lastModified": "2021-08-08T13:21:40+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/entitlements-we-all-have-them/",
+        "lastModified": "2021-08-28T12:48:13+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/drama-the-great-energy-waster/",
+        "lastModified": "2021-09-22T11:44:37+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/facts-versus-stories/",
+        "lastModified": "2021-10-09T15:48:06+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-three-faces-of-drama/",
+        "lastModified": "2021-10-31T13:17:41+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/thanksgiving-and-giving-thanks/",
+        "lastModified": "2021-11-26T14:41:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/wowthe-christmas-story/",
+        "lastModified": "2023-08-31T04:23:42+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/are-you-as-happy-as-you-want-to-be/",
+        "lastModified": "2022-02-25T10:40:50+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/finding-your-greatness/",
+        "lastModified": "2022-03-15T10:17:57+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/are-you-thriving-2/",
+        "lastModified": "2022-03-29T21:31:41+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-really-matters-to-you/",
+        "lastModified": "2022-04-22T12:58:14+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/letting-go-to-grow/",
+        "lastModified": "2022-05-21T11:30:56+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/whats-in-your-circle-2/",
+        "lastModified": "2022-06-18T12:27:21+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/expanding-your-circle/",
+        "lastModified": "2022-08-07T19:41:59+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness/",
+        "lastModified": "2022-09-11T20:32:36+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/growing-your-independence/",
+        "lastModified": "2022-10-27T14:08:48+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/giving-thanks-at-thanksgiving/",
+        "lastModified": "2022-11-17T15:04:19+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/humility-and-the-christmas-story/",
+        "lastModified": "2022-12-13T16:19:53+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/finding-your-power/",
+        "lastModified": "2023-01-17T14:51:16+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/how-to-identify-your-true-power/",
+        "lastModified": "2023-03-13T14:01:30+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-path-to-true-humility/",
+        "lastModified": "2023-10-12T19:08:08+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-do-you-want/",
+        "lastModified": "2023-10-25T13:00:02+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/leadership-lessons-from-iron-john/",
+        "lastModified": "2023-10-31T21:10:40+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-thriving-scale-a-first-step-to-greatness/",
+        "lastModified": "2023-11-08T14:52:12+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/embracing-gratitude-a-thanksgiving-reflection/",
+        "lastModified": "2023-11-21T16:38:39+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/mastering-the-self-taming-the-ego-for-lasting-fulfillment/",
+        "lastModified": "2023-12-02T18:19:44+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-art-of-mind-management-being-your-mind-vs-having-a-mind/",
+        "lastModified": "2023-12-21T04:02:12+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-universal-truth-of-happiness-a-journey-within/",
+        "lastModified": "2023-12-21T03:59:32+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-is-your-happiness-strategy/",
+        "lastModified": "2024-01-05T15:15:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-power-of-dreams-igniting-your-path-to-fulfillment/",
+        "lastModified": "2024-03-17T17:08:38+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/rediscovering-your-inner-greatness/",
+        "lastModified": "2024-04-24T04:34:35+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/feeding-the-fire-within/",
+        "lastModified": "2024-05-03T13:24:29+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/finding-your-path/",
+        "lastModified": "2024-05-10T17:20:59+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/making-real-connections-in-a-self-centered-world/",
+        "lastModified": "2024-05-17T17:28:12+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-power-of-being-seen-and-embracing-vulnerability/",
+        "lastModified": "2024-05-31T14:29:52+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/wear-your-life-scars-with-honor/",
+        "lastModified": "2024-06-07T13:22:07+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/outgrowing-your-shell-the-courage-to-become-a-bigger-you/",
+        "lastModified": "2024-06-14T18:41:10+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-gets-you-out-of-bed-in-the-morning/",
+        "lastModified": "2024-07-11T12:45:47+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream/",
+        "lastModified": "2024-07-11T12:45:33+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-power-of-fierce-conversations/",
+        "lastModified": "2024-08-20T13:56:09+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/overcoming-the-illusion-of-fear/",
+        "lastModified": "2024-08-29T13:59:53+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/embracing-stillness-a-path-to-inner-transformation/",
+        "lastModified": "2024-09-05T14:15:13+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-power-of-preference/",
+        "lastModified": "2024-09-13T14:13:42+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/are-you-crisis-prone/",
+        "lastModified": "2024-09-19T16:46:17+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/escaping-the-drama-trap-battling-the-imaginary-bear/",
+        "lastModified": "2024-09-30T19:48:47+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-small-part-of-who-we-are/",
+        "lastModified": "2024-10-23T03:04:54+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/what-the-dying-can-teach-us-about-living/",
+        "lastModified": "2024-11-21T15:25:31+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/discovering-your-unique-gift-to-the-world/",
+        "lastModified": "2024-12-06T15:24:28+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/100-percent-love-is-it-possible/",
+        "lastModified": "2024-12-16T14:29:23+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/shedding-your-shell-embracing-change-and-growth-in-2025/",
+        "lastModified": "2025-01-03T20:51:46+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/drama-triangle/",
+        "lastModified": "2025-01-13T21:54:43+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/authenticity-the-new-currency-in-a-world-of-illusions/",
+        "lastModified": "2025-01-20T15:47:24+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/civility-the-power-of-seeing-others/",
+        "lastModified": "2025-01-27T15:26:21+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/learning-to-play-a-friendly-game-of-tennis/",
+        "lastModified": "2025-02-10T19:10:52+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/its-a-wonderful-day-in-the-neighborhood/",
+        "lastModified": "2025-02-19T15:13:01+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/allies-or-enemies/",
+        "lastModified": "2025-02-25T15:45:11+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/being-a-plow-horse-or-a-reservoir/",
+        "lastModified": "2025-03-27T16:44:50+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/loner-or-lover/",
+        "lastModified": "2025-03-27T17:15:22+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-post-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/contact/",
+        "lastModified": "2026-05-01T15:56:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/maintenance/",
+        "lastModified": "2015-10-22T03:26:18+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/faqs/",
+        "lastModified": "2026-07-08T16:00:46+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/",
+        "lastModified": "2023-08-31T05:09:45+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/blog/",
+        "lastModified": "2023-10-31T21:15:30+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/",
+        "lastModified": "2026-04-24T00:47:36+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/independence/",
+        "lastModified": "2019-04-08T12:21:01+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/power/",
+        "lastModified": "2019-04-08T12:25:53+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/purpose/",
+        "lastModified": "2019-04-08T12:27:12+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/humility/",
+        "lastModified": "2019-04-08T12:28:47+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/gladys-turtle/",
+        "lastModified": "2023-08-31T17:33:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/community/",
+        "lastModified": "2024-09-21T22:45:45+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/lp-profile-6/",
+        "lastModified": "2023-08-30T23:57:27+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/instructors-7/",
+        "lastModified": "2023-08-30T23:57:27+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/lp-term-conditions-5/",
+        "lastModified": "2023-08-30T23:57:27+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/about-tcb/",
+        "lastModified": "2024-07-26T03:47:36+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/courses-2/",
+        "lastModified": "2023-08-31T00:02:27+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/executive-coaching/",
+        "lastModified": "2023-09-08T15:51:07+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/about-jack-skeen/",
+        "lastModified": "2023-09-01T03:17:59+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-roadmap/",
+        "lastModified": "2025-11-20T16:57:05+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/all-testimonials/",
+        "lastModified": "2024-07-26T02:56:55+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/roadmap-vault/",
+        "lastModified": "2023-10-09T19:06:18+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/free-ebook/",
+        "lastModified": "2023-10-12T20:08:16+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/free-books/",
+        "lastModified": "2024-02-22T17:23:19+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/skeen-stronghold/",
+        "lastModified": "2024-05-17T19:47:21+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/the-civility-essays/",
+        "lastModified": "2025-04-27T23:24:17+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/roadmap-essentials/",
+        "lastModified": "2025-12-12T03:07:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-page-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/events/annual-executive-coaching-conference/",
+        "lastModified": "2022-09-20T10:12:44+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-tp_event-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/events/spring-summit-rising-awareness/",
+        "lastModified": "2022-09-20T10:12:47+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-tp_event-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/events/capital-coaches-conference/",
+        "lastModified": "2022-09-30T09:34:42+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-tp_event-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/events/global-mentoring-coaching-and-supervision-conference/",
+        "lastModified": "2022-09-11T07:54:28+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-tp_event-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/ryze-faker/",
+        "lastModified": "2015-11-18T09:28:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/jane-nguyen/",
+        "lastModified": "2015-11-18T09:31:31+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/john-doe/",
+        "lastModified": "2015-11-18T09:32:08+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/jonathan/",
+        "lastModified": "2015-11-18T09:33:17+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/tony-teo/",
+        "lastModified": "2015-11-18T09:34:38+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/robert/",
+        "lastModified": "2015-11-18T09:44:51+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/christian/",
+        "lastModified": "2015-11-18T09:46:09+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team/belinda/",
+        "lastModified": "2015-11-18T09:48:16+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-our_team-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/mark-few/",
+        "lastModified": "2023-08-31T05:01:55+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/dr-laura-berman/",
+        "lastModified": "2023-08-31T05:01:11+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/mark-mitchell/",
+        "lastModified": "2023-08-31T05:00:31+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/rodrigo-leonardo-anunciato/",
+        "lastModified": "2023-08-31T04:57:03+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/samuel-p-chapman/",
+        "lastModified": "2023-08-31T04:57:54+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/shane-goodwin-phd/",
+        "lastModified": "2023-08-31T04:58:26+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/michael-stewart/",
+        "lastModified": "2023-08-31T04:55:43+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/marie-hartman/",
+        "lastModified": "2023-08-31T04:56:25+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/jean-moran/",
+        "lastModified": "2023-08-31T04:55:11+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/bob-moss/",
+        "lastModified": "2023-08-31T04:54:22+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/pat-mcmahon/",
+        "lastModified": "2018-03-22T08:26:20+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/alexander-koff/",
+        "lastModified": "2023-08-31T04:52:48+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/testimonials/kathleen-mccormick/",
+        "lastModified": "2023-08-31T04:51:54+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-testimonials-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/reading-glasses/",
+        "lastModified": "2016-03-01T03:06:07+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/design-cover/",
+        "lastModified": "2016-03-01T03:05:42+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/library/",
+        "lastModified": "2016-03-01T03:28:44+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/electronic-book/",
+        "lastModified": "2016-03-01T01:00:15+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/opened-book/",
+        "lastModified": "2016-03-01T03:50:51+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/fighting/",
+        "lastModified": "2016-03-01T01:54:22+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/keeping-smile/",
+        "lastModified": "2016-03-01T03:57:18+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/home-work/",
+        "lastModified": "2016-03-01T04:39:34+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/about-soft-skills/",
+        "lastModified": "2016-03-01T04:46:23+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/startup-team/",
+        "lastModified": "2016-03-01T04:44:09+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/up-your-skill/",
+        "lastModified": "2016-03-01T04:45:20+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio/reading-book/",
+        "lastModified": "2016-03-01T01:10:01+00:00",
+        "sitemap": "https://jackskeen.com/wp-sitemap-posts-portfolio-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/category/blog/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-category-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/category/video/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-category-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/coaching/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/company-improvement/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/executive-leadership-development/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/human-resource-professional-development/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/improving-employee-satisfaction/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/increasing-return-on-employee-investment/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/leadership-coaching/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/life-coach/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/personal-growth-coach/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/professional-development/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/reducing-turnover-within-my-company/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/self-help/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/development-reducing-turnover-within-my-company/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/human-resource-professional/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/civility/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/community/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/leadership/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/family/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/ritual/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/creativity/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/intentionality/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/christmas/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/neighbor-fred-rogers/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/listening/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/being/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/ego/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/fun/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/control/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/spiritual-growth/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/responsibility/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/tag/happiness/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_tag-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/type/video/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-post_format-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio-category/books/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-portfolio_category-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio-category/courses/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-portfolio_category-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/portfolio-category/presentations/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-portfolio_category-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/our_team_category/our-team/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-taxonomies-our_team_category-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/author/fernando/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-users-1.xml"
+      },
+      {
+        "url": "https://jackskeen.com/author/jack/",
+        "lastModified": "",
+        "sitemap": "https://jackskeen.com/wp-sitemap-users-1.xml"
+      }
+    ],
+    "errors": []
+  },
+  "wordPressTypes": [
+    {
+      "type": "post",
+      "restBase": "posts",
+      "recordCount": 115
+    },
+    {
+      "type": "page",
+      "restBase": "pages",
+      "recordCount": 27
+    },
+    {
+      "type": "lp_course",
+      "restBase": "lp_course",
+      "recordCount": 0
+    },
+    {
+      "type": "lp_quiz",
+      "restBase": "lp_quiz",
+      "recordCount": 0
+    },
+    {
+      "type": "elementor_library",
+      "restBase": "elementor_library",
+      "error": "Error: 401 https://jackskeen.com/wp-json/wp/v2/elementor_library?per_page=100&page=1&_embed=1",
+      "recordCount": 0
+    },
+    {
+      "type": "thim-component",
+      "restBase": "thim-component",
+      "recordCount": 0
+    },
+    {
+      "type": "wppb-rf-cpt",
+      "restBase": "wppb-rf-cpt",
+      "error": "Error: 401 https://jackskeen.com/wp-json/wp/v2/wppb-rf-cpt?per_page=100&page=1&_embed=1",
+      "recordCount": 0
+    },
+    {
+      "type": "wppb-epf-cpt",
+      "restBase": "wppb-epf-cpt",
+      "error": "Error: 401 https://jackskeen.com/wp-json/wp/v2/wppb-epf-cpt?per_page=100&page=1&_embed=1",
+      "recordCount": 0
+    }
+  ]
+}

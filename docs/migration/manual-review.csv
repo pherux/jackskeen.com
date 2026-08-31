@@ -1,0 +1,71 @@
+current_url,title,action,proposed_new_url,review_reasons
+https://jackskeen.com/,Home page,UPDATE,/,strategic page | unsupported external embed
+https://jackskeen.com/about-jack-skeen/,About Jack Skeen,REDIRECT,/about,redirect | suspicious external link
+https://jackskeen.com/about-tcb/,The Circle Blueprint,CONSOLIDATE,/books/circle-blueprint,strategic page | consolidate
+https://jackskeen.com/all-testimonials/,All Testimonials,REDIRECT,/success-stories,strategic page | redirect | unsupported external embed
+https://jackskeen.com/allies-or-enemies/,Allies or Enemies?,CONSOLIDATE,/civility-allies-or-enemies/,consolidate
+https://jackskeen.com/are-you-crisis-prone/,Are You Crisis-Prone?,KEEP,/are-you-crisis-prone/,substantial content / potential SEO value
+https://jackskeen.com/are-you-thriving-2/,Are You Thriving?,KEEP,/are-you-thriving-2/,title/slug collision
+https://jackskeen.com/are-you-thriving/,Are You Thriving?,KEEP,/are-you-thriving/,title/slug collision
+https://jackskeen.com/autonomy/,Autonomy,KEEP,/autonomy/,suspicious external link
+https://jackskeen.com/blog/,Blog,REDIRECT,/insights/articles,redirect
+https://jackskeen.com/category/blog/,Blog,REDIRECT,/insights/articles,redirect
+https://jackskeen.com/category/video/,Video,REDIRECT,/insights/videos,redirect
+https://jackskeen.com/civility-and-identity/,Civility and Identity,UPDATE,/civility-and-identity/,suspicious external link
+https://jackskeen.com/community-2/,Community: The Value of Ritual,KEEP,/community-2/,title/slug collision
+https://jackskeen.com/community/,Community,UPDATE,/community/,title/slug collision
+https://jackskeen.com/contact/,Contact,UPDATE,/contact/,strategic page
+https://jackskeen.com/control-in-difficult-times/,What Can You Control?,UPDATE,/control-in-difficult-times/,suspicious external link
+https://jackskeen.com/corporate-solutions/,Corporate Solutions,REDIRECT,/work-with-jack/corporate,strategic page | redirect
+https://jackskeen.com/discovering-your-unique-gift-to-the-world/,Discovering Your Unique Gift to the World,KEEP,/discovering-your-unique-gift-to-the-world/,substantial content / potential SEO value
+https://jackskeen.com/drama-triangle/,Understanding the Drama Triangle,KEEP,/drama-triangle/,substantial content / potential SEO value
+https://jackskeen.com/embracing-gratitude-a-thanksgiving-reflection/,Embracing Gratitude: A Thanksgiving Reflection,KEEP,/embracing-gratitude-a-thanksgiving-reflection/,substantial content / potential SEO value
+https://jackskeen.com/escaping-the-drama-trap-battling-the-imaginary-bear/,Escaping the Drama Trap: Battling the Imaginary Bear,KEEP,/escaping-the-drama-trap-battling-the-imaginary-bear/,substantial content / potential SEO value
+https://jackskeen.com/executive-coaching/,Executive Coaching,REDIRECT,/work-with-jack/executive-coaching,strategic page | redirect | substantial content / potential SEO value
+https://jackskeen.com/faqs/,FAQs,CONSOLIDATE,/roadmap/faq,strategic page | consolidate | substantial content / potential SEO value
+https://jackskeen.com/free-books/,Free Books,CONSOLIDATE,/books,strategic page | consolidate
+https://jackskeen.com/free-ebook/,Free eBook!,CONSOLIDATE,/books,strategic page | consolidate
+https://jackskeen.com/independence/,Independence,UPDATE,/independence/,title/slug collision
+https://jackskeen.com/individuality-and-civility/,Individuality and Civility,KEEP,/individuality-and-civility/,suspicious external link
+https://jackskeen.com/leadership-lessons-from-iron-john/,Leadership Lessons from “Iron John”,KEEP,/leadership-lessons-from-iron-john/,substantial content / potential SEO value
+https://jackskeen.com/learning-to-play-a-friendly-game-of-tennis/,Learning to Play a Friendly Game of Tennis,CONSOLIDATE,/civility-listening/,consolidate
+https://jackskeen.com/loner-or-lover/,Loner or Lover?,CONSOLIDATE,/civility-loner-of-lover/,consolidate
+https://jackskeen.com/mastering-the-self-taming-the-ego-for-lasting-fulfillment/,Mastering the Self: Taming the Ego for Lasting Fulfillment,KEEP,/mastering-the-self-taming-the-ego-for-lasting-fulfillment/,substantial content / potential SEO value
+https://jackskeen.com/portfolio-category/books/,404 Page,REMOVE,,HTTP 404
+https://jackskeen.com/portfolio-category/presentations/,404 Page,REMOVE,,HTTP 404
+https://jackskeen.com/rediscovering-your-inner-greatness/,Rediscovering Your Inner Greatness,KEEP,/rediscovering-your-inner-greatness/,substantial content / potential SEO value
+https://jackskeen.com/roadmap-essentials/,Roadmap Essentials,REDIRECT,/work-with-jack/roadmap-essentials,strategic page | redirect | unsupported external embed
+https://jackskeen.com/roadmap-vault/,Roadmap Vault,NOINDEX,/roadmap-vault/,strategic page | noindex
+https://jackskeen.com/tag/civility/,Civility,REDIRECT,/insights/topics/relationships,redirect
+https://jackskeen.com/tag/community/,community,REDIRECT,/insights/topics/relationships,redirect
+https://jackskeen.com/tag/family/,family,REDIRECT,/insights/topics/relationships,redirect
+https://jackskeen.com/tag/happiness/,happiness,REDIRECT,/insights/topics/success-fulfillment,redirect
+https://jackskeen.com/tag/leadership/,leadership,REDIRECT,/insights/topics/leadership,redirect
+https://jackskeen.com/tag/listening/,listening,REDIRECT,/insights/topics/relationships,redirect
+https://jackskeen.com/tag/personal-growth-coach/,Personal Growth Coach,REDIRECT,/insights/topics/personal-growth,redirect
+https://jackskeen.com/tag/spiritual-growth/,Spiritual Growth,REDIRECT,/insights/topics/personal-growth,redirect
+https://jackskeen.com/testimonials/,Success Stories,REDIRECT,/success-stories,strategic page | redirect
+https://jackskeen.com/testimonials/alexander-koff/,Alexander Koff – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/bob-moss/,Bob Moss – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/dr-laura-berman/,Dr. Laura Berman – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/jean-moran/,Jean Moran – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/kathleen-mccormick/,Kathleen McCormick – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/marie-hartman/,Marie Hartman – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/mark-few/,Mark Few – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/mark-mitchell/,Mark Mitchell – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/michael-stewart/,Michael Stewart – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/pat-mcmahon/,Pat McMahon – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/rodrigo-leonardo-anunciato/,Rodrigo Leonardo Anunciato – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/samuel-p-chapman/,Samuel P. Chapman – Jack Skeen,CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/testimonials/shane-goodwin-phd/,"Shane Goodwin, PhD – Jack Skeen",CONSOLIDATE,/success-stories,consolidate
+https://jackskeen.com/the-circle-blueprint-system/,The Circle Blueprint System,UPDATE,/the-circle-blueprint-system/,strategic page
+https://jackskeen.com/the-civility-essays/,The Civility Essays,UPDATE,/the-civility-essays/,strategic page
+https://jackskeen.com/the-path-to-true-humility/,The Path to True Humility,KEEP,/the-path-to-true-humility/,substantial content / potential SEO value
+https://jackskeen.com/the-power-of-dreams-igniting-your-path-to-fulfillment/,The Power of Dreams: Igniting Your Path to Fulfillment,KEEP,/the-power-of-dreams-igniting-your-path-to-fulfillment/,substantial content / potential SEO value
+https://jackskeen.com/the-roadmap/,The Roadmap,REDIRECT,/roadmap,strategic page | redirect
+https://jackskeen.com/the-small-part-of-who-we-are/,The Small Part of Who We Are,KEEP,/the-small-part-of-who-we-are/,substantial content / potential SEO value
+https://jackskeen.com/the-thriving-scale-a-first-step-to-greatness/,The Thriving Scale: A First Step to Greatness,KEEP,/the-thriving-scale-a-first-step-to-greatness/,substantial content / potential SEO value
+https://jackskeen.com/type/video/,Videos,REDIRECT,/insights/videos,redirect
+https://jackskeen.com/wear-your-life-scars-with-honor/,Wear Your Life Scars With Honor,KEEP,/wear-your-life-scars-with-honor/,substantial content / potential SEO value
+https://jackskeen.com/whats-in-your-circle-2/,What’s in Your Circle?,KEEP,/whats-in-your-circle-2/,title/slug collision
+https://jackskeen.com/whats-in-your-circle/,What’s in Your Circle?,UPDATE,/whats-in-your-circle/,title/slug collision
