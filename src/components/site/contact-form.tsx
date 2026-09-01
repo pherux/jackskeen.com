@@ -14,9 +14,8 @@ export function ContactForm({ kind }: { kind: "contact" | "start" }) {
             : "Share the context for your inquiry."}
         </h2>
         <p>
-          Form delivery is intentionally disabled until the approved CRM,
-          scheduling, privacy, consent, and spam-protection workflow is
-          confirmed.
+          Online inquiries are not open yet. This form will be enabled after the
+          contact, privacy, consent, and spam-protection workflow is approved.
         </p>
       </div>
       <form className="inquiry-form">
@@ -33,7 +32,7 @@ export function ContactForm({ kind }: { kind: "contact" | "start" }) {
           <textarea name="message" rows={6} disabled />
         </label>
         <button className="button button--primary" type="submit" disabled>
-          Form connection in progress
+          Online inquiries opening soon
         </button>
       </form>
     </section>

@@ -223,7 +223,7 @@ function LegacyArticlePage({ path }: { path: string }) {
           <p className="page-eyebrow">{article.topic}</p>
           <h1>{article.title}</h1>
           <p className="legacy-article__deck">
-            [Legacy article deck pending approved CMS migration]
+            Article introduction awaiting reviewed CMS migration.
           </p>
           <div className="legacy-article__byline">
             <span>By {article.author}</span>
@@ -246,7 +246,7 @@ function LegacyArticlePage({ path }: { path: string }) {
             <p>Existing URL preserved.</p>
           </aside>
           <div className="rich-text-placeholder">
-            <p>[Legacy article body pending approved CMS migration]</p>
+            <p>Article body awaiting reviewed CMS migration.</p>
             <p>
               The migration audit preserves this article’s title, author,
               publication date, canonical URL, topic mapping, and root-level
@@ -261,7 +261,7 @@ function LegacyArticlePage({ path }: { path: string }) {
             <h2>{article.author}</h2>
           </div>
           <div>
-            <p>[Verified author biography and credentials required]</p>
+            <p>Verified author biography and credentials are pending.</p>
             <Link href="/about">About Jack</Link>
           </div>
         </section>

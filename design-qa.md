@@ -1,76 +1,124 @@
-# Design QA — Hero Color, Brand Assets, and Accent Spacing
+# Design QA — Wide-screen hero alignment
 
 ## Evidence
 
-- Source visual truth: the homepage reference supplied during the design review.
-- Reported defect: coral accent rules overlapping the following serif headings.
-- Browser-rendered desktop and mobile captures were reviewed locally and are excluded
-  from source control as temporary QA artifacts.
-- Brand asset preview:
-  `C:/dev/jackskeen.com/docs/visual-design/assets/brand-assets-preview.png`
+- Source visual truth: `docs/visual-design/assets/wide-roadmap-user-report.png`
+- Reproduced pre-fix view: `docs/visual-design/assets/wide-roadmap-before.png`
+- Browser-rendered implementation: `docs/visual-design/assets/wide-roadmap-after.png`
+- Full-view comparison: `docs/visual-design/assets/wide-roadmap-comparison.png`
+- Homepage wide-screen check: `docs/visual-design/assets/wide-homepage-after.png`
+- Mobile regression check: `docs/visual-design/assets/wide-fix-roadmap-mobile.png`
 
 ## Normalization
 
-- Source hero: 882 × 576 pixels.
-- Implementation: 867 × 559 pixels from an 882 × 576 CSS viewport at DPR 1;
-  browser scrollbar space accounts for the pixel difference.
-- Mobile: 375 × 812 pixels from a 390 × 844 CSS viewport at DPR 1.
-- State: homepage with the navigation closed.
-- Side-by-side comparison: source and implementation top-aligned at native density.
+- User source: 2505 × 1020 pixels at DPR 1, including approximately 120 pixels of
+  browser chrome.
+- Reproduced and corrected implementation: 2505 × 900 CSS pixels at DPR 1 with
+  browser chrome excluded.
+- Comparison images: equal 2505 × 900 application viewports, scaled equally to
+  1252 × 450 panels in the side-by-side review.
+- State: `/roadmap`, navigation closed, page at the top.
 
 ## Findings
 
-No actionable P0, P1, or P2 mismatch remains.
+No actionable P0, P1, or P2 issue remains.
 
-- Fonts and typography: the Libre Caslon Display/Inter pairing remains unchanged.
-  The new wordmark uses deterministic, tracked sans-serif lettering and remains
-  readable at 140 pixels on desktop and 124 pixels on mobile.
-- Spacing and layout rhythm: the accent rules now remain in normal flow below their
-  labels. The About and Insights headings have a measured 20-pixel separation from
-  their labels, and the tension introduction is visibly clear of its accent line.
-- Colors and visual tokens: both `.site-header` and `.hero__content` compute to
-  `rgb(20, 35, 38)`. A low-opacity screen-blended Circle texture preserves the base
-  color instead of darkening the left hero panel.
-- Image quality and asset fidelity: the transparent wordmarks are rendered through
-  `next/image`. The compact compass mark is rendered deterministically in light/dark
-  vector and raster variants. The app icon uses the same mark and dark brand surface.
-- Copy and content: no page copy changed in this iteration.
-- Responsiveness: no horizontal overflow was found at 882-pixel desktop or 390-pixel
-  mobile viewports. Header, wordmark, menu, hero copy, CTAs, and photography remain
-  legible and correctly stacked.
+- Fonts and typography: the approved Libre Caslon Display and Inter hierarchy is
+  unchanged. The wide hero heading retains its intended size and wrapping.
+- Spacing and layout rhythm: the pre-fix hero heading began at 112px while the body
+  grid began at 629px. The corrected hero begins at 637px, an 8px optical difference
+  from the body grid rather than a 517px alignment break.
+- Colors and visual tokens: the dark hero, ivory copy, paper body, and coral accent
+  tokens are unchanged.
+- Image quality and asset fidelity: the supplied Jack Skeen photograph remains the
+  source asset. Above 1600px, its focal position changes from center to 18% vertical,
+  keeping Jack's full face visible without stretching or replacing the image.
+- Copy and content: no copy changed.
+- Responsiveness: no horizontal overflow was found at 2505px, 1440px, or 390px.
+  Standard desktop and mobile retain their previous center crop and padding.
 
 ## Focused review
 
-The hero comparison shows the requested continuous dark surface across the header and
-left panel. The two focused body captures verify the exact defect from the supplied
-screenshot: coral rules no longer cross the following serif headings.
-
-The brand preview evaluates the light and dark wordmarks and marks together, so text
-accuracy, transparency, line quality, and palette behavior are visible in one review
-surface.
+A separate cropped comparison was not needed because the full native-width captures
+make both affected surfaces legible: hero/body alignment and the portrait crop. DOM
+measurements verified the exact alignment values and computed image position.
 
 ## Interaction and browser checks
 
-- Homepage loaded with the generated wordmark and application icon.
-- Desktop and mobile hero colors matched exactly in computed styles.
-- Browser warning/error log count: zero.
-- Production build generated 145 pages, including `/icon.png`.
+- Homepage and Roadmap rendered at 2505px without overflow.
+- Roadmap navigation worked from the homepage at 1440px.
+- Mobile navigation remained present at 390px.
+- Browser console error count: zero.
 
 ## Comparison history
 
-1. Initial code blended the dark Circle raster directly into the hero background,
-   making the left panel visibly darker than the header. It also used negative margins
-   that pulled headings through coral accent rules.
-2. The hero was changed to a solid brand background with a screen-blended texture;
-   heading margins were restored to positive spacing.
-3. The first generated wordmark had unreliable letterforms, so it was not shipped.
-   The final exact-text wordmarks were rendered deterministically, while the generated
-   Circle mark was cleaned and retained as the icon direction.
-4. Post-fix desktop/mobile captures found no remaining actionable P0/P1/P2 issue.
+1. The user capture showed the hero copy anchored to the viewport edge while the
+   header and body used the centered 90rem site grid. The square portrait was also
+   vertically centered inside an ultra-wide media slot, cropping Jack's forehead.
+2. The issue was reproduced locally at 2505 × 900: hero text 112px, body text 629px,
+   image position 50% 50%.
+3. A wide-screen breakpoint aligned homepage and internal-page hero copy to the
+   centered grid and moved the portrait focal point upward. Post-fix measurements:
+   hero text 637px, body text 629px, image position 50% 18%.
+4. Standard desktop and mobile regression checks found no new layout, crop, overflow,
+   navigation, or console issues.
 
 ## Follow-up polish
 
-- P3: if a licensed corporate typeface becomes available, regenerate the wordmark
-  through the included asset script using that approved font file.
+- P3: a purpose-cropped landscape photograph could replace the square source in a
+  future photography pass, but the current focal-point correction is production-safe.
+
+final result: passed
+
+## Full strategic-page audit — 2026-08-31
+
+A subsequent UI/UX and copy audit reviewed twelve strategic routes at 1440 × 900
+and five representative routes at 390 × 844. Visitor-facing placeholders, link
+labels, supporting-text legibility, form availability language, legal pending states,
+and image-less hero branding were improved. No broken images, horizontal overflow,
+or browser console errors remained.
+
+Full report: `docs/visual-design/ui-ux-copy-audit.md`
+
+final result: passed with documented content dependencies
+
+## Wide homepage portrait correction — 2026-08-31
+
+### Evidence
+
+- Source visual truth: user-supplied wide homepage capture
+  `C:/Users/ferna/AppData/Local/Temp/codex-clipboard-556a6fe2-7591-4c01-b796-444c080ffd2b.png`
+- Pre-fix implementation: `docs/visual-design/assets/wide-home-portrait-before.png`
+- Post-fix implementation: `docs/visual-design/assets/wide-home-portrait-after.png`
+
+### Normalization
+
+- Source: 2461 × 947 pixels including browser chrome.
+- Implementation: the homepage rendered inside a 2461 × 947 CSS-pixel QA frame,
+  scaled to the available browser surface for full-composition comparison.
+- State: homepage at the top, navigation closed.
+
+### Findings and resolution
+
+- P1 image crop: a 50/50 grid made the square source photograph 1223 pixels wide
+  against a 618-pixel hero height. `object-fit: cover` therefore enlarged Jack and
+  removed too much of the source composition.
+- Fix: above 1600 pixels, the image track now caps at 960 pixels while the dark copy
+  track absorbs the additional width. The photograph retains `cover`, the established
+  dark-edge blend, and an upward focal point.
+- Post-fix evidence: the wide grid measures 1486px / 960px. Jack's face and torso are
+  better balanced, the image remains full bleed, and the left-side content alignment
+  is unchanged.
+
+### Required fidelity surfaces
+
+- Typography: unchanged.
+- Spacing/layout: image width is constrained only at the wide breakpoint.
+- Colors/tokens: unchanged.
+- Image quality: the supplied source asset remains sharp and unstretched.
+- Copy/content: unchanged.
+
+No actionable P0, P1, or P2 mismatch remains. A purpose-shot landscape image would
+be a P3 future enhancement, not a requirement for this correction.
 
 final result: passed

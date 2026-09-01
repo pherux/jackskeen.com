@@ -14,7 +14,7 @@ export function ArticleCard({ article }: { article: LegacyArticle }) {
       <h2>
         <Link href={article.pathname}>{article.title}</Link>
       </h2>
-      <p>[Legacy excerpt pending approved CMS migration]</p>
+      <p>Excerpt awaiting reviewed CMS migration.</p>
       <Link className="article-card__link" href={article.pathname}>
         Read article
       </Link>

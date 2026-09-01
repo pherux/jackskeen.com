@@ -397,7 +397,8 @@ export const sitePages: PageSpec[] = [
     path: "/privacy",
     eyebrow: "Legal",
     title: "Privacy",
-    description: "[Approved legal copy required]",
+    description:
+      "The final privacy policy is pending qualified review and publication approval.",
     kind: "legal",
     sections: [],
   },
@@ -405,7 +406,8 @@ export const sitePages: PageSpec[] = [
     path: "/terms",
     eyebrow: "Legal",
     title: "Terms",
-    description: "[Approved legal copy required]",
+    description:
+      "The final terms are pending qualified review and publication approval.",
     kind: "legal",
     sections: [],
   },

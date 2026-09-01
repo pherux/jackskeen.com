@@ -34,11 +34,15 @@ function LinkGrid({ items, label }: { items: LinkItem[]; label: string }) {
   return (
     <nav className="route-link-grid" aria-label={label}>
       {items.map((item) => (
-        <Link href={item.href} key={item.href}>
+        <Link
+          href={item.href}
+          key={item.href}
+          aria-label={`Explore ${item.title}`}
+        >
           <span className="page-eyebrow">{item.eyebrow}</span>
           <strong>{item.title}</strong>
           <span>{item.description}</span>
-          <span className="route-link-grid__action">View page</span>
+          <span className="route-link-grid__action">Explore</span>
         </Link>
       ))}
     </nav>
@@ -58,7 +62,7 @@ function PlaceholderPanel({
     <section className="placeholder-panel section-shell">
       <SectionHeading eyebrow={eyebrow} title={title} />
       <div className="placeholder-panel__content">
-        <p>Source material is still required to complete this section.</p>
+        <p>This section is awaiting editorial approval.</p>
         <ul>
           {items.map((item) => (
             <li key={item}>{item}</li>
@@ -614,7 +618,7 @@ function SuccessStoriesBody() {
       </section>
       <PlaceholderPanel
         eyebrow="Story collection"
-        title="Approved records required"
+        title="Client stories pending publication approval"
         items={[
           "Exact quote or video and publication permission",
           "Approved name, role, organization, portrait, and attribution",
@@ -654,13 +658,13 @@ function LegalBody({ title }: { title: string }) {
     <section className="legal-document section-shell">
       <SectionHeading
         eyebrow="Legal review required"
-        title={`[Approved ${title} document required]`}
-        description="The final document must reflect the actual CMS, analytics, forms, scheduling, newsletter, embeds, and data-retention behavior."
+        title={`${title} policy pending legal approval`}
+        description="This page will be completed after the site's production data practices and integrations receive qualified legal review."
       />
       <div>
         <p>
-          No legacy legal copy has been adapted because the production
-          integration inventory and qualified review are incomplete.
+          No provisional terms are being published in place of reviewed legal
+          text.
         </p>
       </div>
     </section>

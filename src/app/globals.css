@@ -866,6 +866,17 @@
   opacity: 0.72;
 }
 
+.page-hero__geometry::after {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: clamp(7rem, 13vw, 12rem);
+  aspect-ratio: 1;
+  content: "";
+  background: url("/brand/jack-skeen-mark-light.svg") center / contain no-repeat;
+  opacity: 0.24;
+  transform: translate(-50%, -50%);
+}
+
 .page-sections {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -889,7 +900,7 @@
   max-width: 40rem;
   margin: 1.75rem 0 0;
   color: #62574f;
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   line-height: 1.8;
 }
 
@@ -1004,7 +1015,7 @@
 .route-link-grid > a > span:nth-child(3) {
   margin-top: 1.5rem;
   color: #6f645c;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   line-height: 1.7;
 }
 
@@ -1018,7 +1029,7 @@
   border-bottom: 1px solid var(--coral);
   padding-bottom: 0.25rem;
   color: var(--coral);
-  font-size: 0.68rem;
+  font-size: 0.76rem;
 }
 
 .placeholder-panel {
@@ -1052,7 +1063,7 @@
   border-top: 1px solid var(--paper-line);
   padding: 1rem 0;
   color: #62574f;
-  font-size: 0.75rem;
+  font-size: 0.84rem;
   line-height: 1.6;
 }
 
@@ -1353,7 +1364,7 @@
   max-width: 18rem;
   margin: 2rem 0 0;
   color: #abb5b2;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   line-height: 1.7;
 }
 
@@ -1375,7 +1386,7 @@
 
 .full-footer nav a {
   color: #d6dcda;
-  font-size: 0.72rem;
+  font-size: 0.8rem;
 }
 
 .full-footer nav a:hover {
@@ -1389,7 +1400,7 @@
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
   color: #94a09c;
-  font-size: 0.62rem;
+  font-size: 0.72rem;
 }
 
 .full-footer__legal span {
@@ -1459,7 +1470,7 @@
   max-width: 38rem;
   margin: 1.5rem 0 0;
   color: #62574f;
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   line-height: 1.8;
 }
 
@@ -1501,7 +1512,7 @@
 .article-card > p:not(.article-card__meta) {
   margin: 1.5rem 0;
   color: #6f645c;
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   line-height: 1.7;
 }
 
@@ -1511,7 +1522,7 @@
   border-bottom: 1px solid var(--coral);
   padding-bottom: 0.25rem;
   color: var(--coral);
-  font-size: 0.68rem;
+  font-size: 0.76rem;
 }
 
 .empty-state {
@@ -1531,7 +1542,7 @@
   max-width: 31rem;
   margin-top: 2rem;
   color: #62574f;
-  font-size: 0.76rem;
+  font-size: 0.86rem;
   line-height: 1.8;
 }
 
@@ -1631,6 +1642,26 @@
   font-family: var(--font-display), Georgia, serif;
   font-size: 2rem;
   font-weight: 400;
+}
+
+@media (min-width: 100rem) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr) minmax(42rem, 60rem);
+  }
+
+  .hero__copy,
+  .page-hero__content {
+    padding-left: calc((100vw - 90rem) / 2 + 6.5rem);
+  }
+
+  .hero__copy {
+    width: 100%;
+  }
+
+  .hero__portrait,
+  .page-hero__media img {
+    object-position: center 18%;
+  }
 }
 
 .rich-text-placeholder {
