@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
 import type { PageSection } from "@/data/site-pages";
 
@@ -32,7 +33,8 @@ export function PageCta() {
           want to understand.
         </p>
         <Link className="button button--primary page-cta__link" href="/start">
-          Start Your Roadmap
+          <span>Start Your Roadmap</span>
+          <ArrowUpRight aria-hidden="true" />
         </Link>
       </div>
     </section>

@@ -1,124 +1,109 @@
-# Design QA — Wide-screen hero alignment
+# Design QA
 
-## Evidence
+**Source visual truth**
 
-- Source visual truth: `docs/visual-design/assets/wide-roadmap-user-report.png`
-- Reproduced pre-fix view: `docs/visual-design/assets/wide-roadmap-before.png`
-- Browser-rendered implementation: `docs/visual-design/assets/wide-roadmap-after.png`
-- Full-view comparison: `docs/visual-design/assets/wide-roadmap-comparison.png`
-- Homepage wide-screen check: `docs/visual-design/assets/wide-homepage-after.png`
-- Mobile regression check: `docs/visual-design/assets/wide-fix-roadmap-mobile.png`
+- `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-1ca2bbc8-7462-46ec-acb9-445d2a479a8f.png` — Roadmap hero issue reference, 567 × 416 px.
+- `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-34b8b143-1fe8-4b15-8254-2702a6e05ece.png` — fulfillment statement issue reference, 504 × 360 px.
+- Existing approved visual language and photography in `docs/visual-design/assets/` and `public/images/`.
 
-## Normalization
+**Implementation evidence**
 
-- User source: 2505 × 1020 pixels at DPR 1, including approximately 120 pixels of
-  browser chrome.
-- Reproduced and corrected implementation: 2505 × 900 CSS pixels at DPR 1 with
-  browser chrome excluded.
-- Comparison images: equal 2505 × 900 application viewports, scaled equally to
-  1252 × 450 panels in the side-by-side review.
-- State: `/roadmap`, navigation closed, page at the top.
+- `C:\dev\jackskeen.com\design-qa-home-desktop-final.png` — homepage full page, browser-rendered at a 1440 × 1000 CSS viewport; 1425 × 5660 px capture at device scale factor 1.
+- `C:\dev\jackskeen.com\design-qa-home-mobile-final.png` — homepage full page, browser-rendered at a 390 × 844 CSS viewport; 375 × 7245 px capture at device scale factor 1.
+- `C:\dev\jackskeen.com\design-qa-roadmap-desktop-final.png` — Roadmap above the fold, browser-rendered at a 1440 × 1000 CSS viewport; 1425 × 1000 px capture at device scale factor 1.
+- `C:\dev\jackskeen.com\design-qa-roadmap-mobile-final.png` — Roadmap above the fold, browser-rendered at a 390 × 844 CSS viewport; 375 × 844 px capture at device scale factor 1.
+- `C:\dev\jackskeen.com\design-qa-user-request-comparison.png` — combined focused comparison of both issue references and the revised implementation.
 
-## Findings
+**State and normalization**
 
-No actionable P0, P1, or P2 issue remains.
+- State: public, unauthenticated, default theme.
+- Desktop and mobile captures use the same content and route state.
+- Reference screenshots are issue-focused crops rather than complete viewport specifications. They were compared as focused regions for hierarchy, typography, contrast, and repetition; the approved existing site system remains the source for full-page composition.
+- Source and implementation captures use normal-density raster evidence; comparison crops were proportionally contained without stretching.
 
-- Fonts and typography: the approved Libre Caslon Display and Inter hierarchy is
-  unchanged. The wide hero heading retains its intended size and wrapping.
-- Spacing and layout rhythm: the pre-fix hero heading began at 112px while the body
-  grid began at 629px. The corrected hero begins at 637px, an 8px optical difference
-  from the body grid rather than a 517px alignment break.
-- Colors and visual tokens: the dark hero, ivory copy, paper body, and coral accent
-  tokens are unchanged.
-- Image quality and asset fidelity: the supplied Jack Skeen photograph remains the
-  source asset. Above 1600px, its focal position changes from center to 18% vertical,
-  keeping Jack's full face visible without stretching or replacing the image.
-- Copy and content: no copy changed.
-- Responsiveness: no horizontal overflow was found at 2505px, 1440px, or 390px.
-  Standard desktop and mobile retain their previous center crop and padding.
+**Full-view comparison evidence**
 
-## Focused review
+- Homepage: the editorial light/dark rhythm remains intact while the proof, About, Insights, and closing CTA sequence gains imagery and clearer conversion paths.
+- Roadmap: the hero retains the established split-photo composition and now exposes only one visible page title. The current breadcrumb is no longer repeated as a second title and the duplicate eyebrow is suppressed.
+- Mobile: content order, image crops, CTA hierarchy, and readable spacing remain intact at 390 px. The document client width and scroll width both measured 375 px, confirming no horizontal overflow.
 
-A separate cropped comparison was not needed because the full native-width captures
-make both affected surfaces legible: hero/body alignment and the portrait crop. DOM
-measurements verified the exact alignment values and computed image position.
+**Focused-region comparison evidence**
 
-## Interaction and browser checks
+- Roadmap hero: the reference showed “The Roadmap” in the breadcrumb, eyebrow, and H1. The revised hero shows it once as the H1, with “Home” retained as a lightweight orientation link.
+- Fulfillment statement: line height increased, the pale middle lines use a darker warm neutral, and the supporting copy at right increased from 11.2 px equivalent to 14.4 px equivalent with more leading.
+- Header and CTA: desktop navigation increased in size and weight. Primary CTAs now use a larger hit target, clearer padding, restrained lift, and a consistent directional icon.
+- Proof/About: the former compact placeholder treatment is now a large editorial proof panel followed by a photographic About and Insights composition.
 
-- Homepage and Roadmap rendered at 2505px without overflow.
-- Roadmap navigation worked from the homepage at 1440px.
-- Mobile navigation remained present at 390px.
-- Browser console error count: zero.
+**Findings**
 
-## Comparison history
+- No actionable P0, P1, or P2 visual differences remain for the requested changes.
+- P3: the embedded YouTube poster can appear blank in an automated full-page mobile capture before the lazy iframe enters the viewport. It loads normally when scrolled into view and is intentionally lazy for performance.
 
-1. The user capture showed the hero copy anchored to the viewport edge while the
-   header and body used the centered 90rem site grid. The square portrait was also
-   vertically centered inside an ultra-wide media slot, cropping Jack's forehead.
-2. The issue was reproduced locally at 2505 × 900: hero text 112px, body text 629px,
-   image position 50% 50%.
-3. A wide-screen breakpoint aligned homepage and internal-page hero copy to the
-   centered grid and moved the portrait focal point upward. Post-fix measurements:
-   hero text 637px, body text 629px, image position 50% 18%.
-4. Standard desktop and mobile regression checks found no new layout, crop, overflow,
-   navigation, or console issues.
+**Required fidelity surfaces**
 
-## Follow-up polish
+- Fonts and typography: Cormorant Garamond and Manrope remain consistent. Navigation, supporting copy, testimonial text, and CTA labels now have appropriate optical size and line height.
+- Spacing and layout rhythm: fulfillment lines have clearer separation; proof and lower editorial sections use larger intervals and deliberate column proportions; mobile collapses cleanly.
+- Colors and visual tokens: the existing night, paper, ink, faded neutral, and coral tokens are preserved. The light fulfillment lines were darkened enough to be visible without competing with the final word.
+- Image quality and asset fidelity: only approved local Jack photography and branded Circle Blueprint raster assets are used. Crops are responsive, preserve aspect ratio, and use `next/image`.
+- Copy and content: no claims, credentials, testimonials, prices, or outcomes were invented. Placeholder/permission language remains explicit.
+- Icons and interaction states: directional icons use the installed icon library and align consistently. Hover, focus, menu open, CTA navigation, and responsive states were checked.
+- Accessibility: semantic headings remain ordered, focus treatment is preserved, image alt behavior is meaningful or empty when decorative, the mobile menu is keyboard-operable, and primary controls exceed practical touch sizes.
 
-- P3: a purpose-cropped landscape photograph could replace the square source in a
-  future photography pass, but the current focal-point correction is production-safe.
+**Comparison history**
 
-final result: passed
+1. Earlier P1: page hero repeated the current page name up to three times. Fix: current breadcrumb items are removed from visual output and duplicate eyebrows are suppressed. Post-fix evidence: Roadmap desktop/mobile captures show one H1 and one visible “The Roadmap” title.
+2. Earlier P2: header navigation and right-side tension copy were undersized. Fix: increased navigation size/weight, tension copy size/leading, and related spacing. Post-fix evidence: homepage desktop/mobile captures.
+3. Earlier P2: fulfillment middle lines were too faint and vertically cramped. Fix: increased line height and raised the warm-neutral contrast. Post-fix evidence: focused comparison sheet.
+4. Earlier P2: proof and lower homepage sections lacked hierarchy and assets. Fix: introduced a larger photographic proof panel, editorial About image, real insight thumbnails, additional contextual CTAs, and a closing conversion section. Post-fix evidence: homepage full-page captures.
+5. Earlier P2: interior pages relied too heavily on text-only sections. Fix: added route-aware hero photography and reusable editorial media blocks to offer, About, Insights, and service-detail pages. Post-fix evidence: Roadmap desktop/mobile captures and browser inspection.
 
-## Full strategic-page audit — 2026-08-31
+**Primary interactions tested**
 
-A subsequent UI/UX and copy audit reviewed twelve strategic routes at 1440 × 900
-and five representative routes at 390 × 844. Visitor-facing placeholders, link
-labels, supporting-text legibility, form availability language, legal pending states,
-and image-less hero branding were improved. No broken images, horizontal overflow,
-or browser console errors remained.
+- Desktop primary navigation visible and correctly sized.
+- Mobile menu opens and exposes navigation.
+- Mobile Roadmap navigation completes successfully.
+- Homepage “Start Your Roadmap” CTA navigates to `/start`.
+- Console checked after homepage, Roadmap, mobile-menu, and CTA-path tests: no errors.
 
-Full report: `docs/visual-design/ui-ux-copy-audit.md`
+**Implementation checklist**
 
-final result: passed with documented content dependencies
+- [x] Consolidate repeated page titles.
+- [x] Increase navigation and supporting-copy legibility.
+- [x] Improve fulfillment statement rhythm and contrast.
+- [x] Strengthen primary CTA styling and interaction.
+- [x] Add imagery and contextual CTAs to the homepage.
+- [x] Add imagery to key interior templates.
+- [x] Redesign proof, About, and Insights sequence.
+- [x] Verify desktop and mobile behavior.
+- [x] Pass lint, type-check, and production build.
 
-## Wide homepage portrait correction — 2026-08-31
+**About and video refinement — 2026-09-01**
 
-### Evidence
+- Source references: `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-3ac07f42-280f-4926-9935-dd70300683df.png` (1121 × 847 px) and `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-299bf785-733a-49d5-9f64-ff1777530a0b.png` (1094 × 855 px).
+- Browser-rendered implementation evidence: `C:\dev\jackskeen.com\design-qa-refined-about-section.png`, `C:\dev\jackskeen.com\design-qa-refined-video-section.png`, `C:\dev\jackskeen.com\design-qa-refined-about-mobile.png`, `C:\dev\jackskeen.com\design-qa-refined-video-mobile.png`, and `C:\dev\jackskeen.com\design-qa-refined-video-frame-mobile.png`.
+- Combined focused comparison: `C:\dev\jackskeen.com\design-qa-refined-sections-comparison.png`.
+- Desktop CSS viewport requested at 1440 × 1000; browser content capture measured 1199 px wide at device scale factor 1 because of the visible Codex browser panel. Mobile CSS viewport requested at 390 × 844; rendered client width measured 375 px at device scale factor 1.
+- State: public, unauthenticated, default theme, YouTube poster loaded.
+- Earlier P2: the vertical office portrait was forced into a landscape crop, clipping Jack’s face and weakening the relationship between image and caption. Fix: created a portrait-specific two-column editorial treatment that preserves the complete seated portrait and moves the statement onto a dark companion panel. Post-fix evidence: refined About desktop/mobile captures.
+- Earlier P2: the video label, title, player, and outbound link occupied disconnected vertical zones with excessive whitespace. Fix: combined them into one dark editorial feature card with the title and action beside the 16:9 player, then stacked the same hierarchy on mobile. Post-fix evidence: refined video desktop/mobile captures.
+- Typography: display scale remains editorial and now wraps within intentional measures; small labels and viewing action maintain the established Manrope treatment.
+- Spacing/layout: both blocks now have a single visual container and clear internal alignment. No horizontal overflow at the mobile breakpoint.
+- Colors/tokens: existing paper, night, ivory, and coral tokens are preserved; the real Circle Blueprint raster supplies the restrained dark texture.
+- Image quality: the original 701 × 1024 office photograph is shown at its natural portrait proportion without facial cropping or stretching. The YouTube media remains the canonical embedded asset.
+- Copy/content: existing approved wording and video title are unchanged; no claims were added.
+- Interaction/accessibility: the iframe remains keyboard-accessible and titled; the external YouTube action has a visible focus treatment and consistent directional icon. Browser console checked after both routes: no errors.
+- No actionable P0, P1, or P2 differences remain in the refined blocks.
 
-- Source visual truth: user-supplied wide homepage capture
-  `C:/Users/ferna/AppData/Local/Temp/codex-clipboard-556a6fe2-7591-4c01-b796-444c080ffd2b.png`
-- Pre-fix implementation: `docs/visual-design/assets/wide-home-portrait-before.png`
-- Post-fix implementation: `docs/visual-design/assets/wide-home-portrait-after.png`
+**Container and spacing correction — 2026-09-01**
 
-### Normalization
-
-- Source: 2461 × 947 pixels including browser chrome.
-- Implementation: the homepage rendered inside a 2461 × 947 CSS-pixel QA frame,
-  scaled to the available browser surface for full-composition comparison.
-- State: homepage at the top, navigation closed.
-
-### Findings and resolution
-
-- P1 image crop: a 50/50 grid made the square source photograph 1223 pixels wide
-  against a 618-pixel hero height. `object-fit: cover` therefore enlarged Jack and
-  removed too much of the source composition.
-- Fix: above 1600 pixels, the image track now caps at 960 pixels while the dark copy
-  track absorbs the additional width. The photograph retains `cover`, the established
-  dark-edge blend, and an upward focal point.
-- Post-fix evidence: the wide grid measures 1486px / 960px. Jack's face and torso are
-  better balanced, the image remains full bleed, and the left-side content alignment
-  is unchanged.
-
-### Required fidelity surfaces
-
-- Typography: unchanged.
-- Spacing/layout: image width is constrained only at the wide breakpoint.
-- Colors/tokens: unchanged.
-- Image quality: the supplied source asset remains sharp and unstretched.
-- Copy/content: unchanged.
-
-No actionable P0, P1, or P2 mismatch remains. A purpose-shot landscape image would
-be a P3 future enhancement, not a requirement for this correction.
+- Source references: `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-29fdb324-1361-48c0-a3c8-c57edda33989.png` and `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-7f4c3c45-f311-4e79-87f2-52cf9f8e8c2e.png`.
+- Implementation evidence: `C:\dev\jackskeen.com\design-qa-final-video-section.png` and `C:\dev\jackskeen.com\design-qa-final-about-spacing.png`.
+- Combined comparison evidence: `C:\dev\jackskeen.com\design-qa-final-layout-comparison.png`.
+- Earlier P2: the iframe inherited the taller text-column row height, distorting its presentation and making the YouTube poster appear cropped at the container edge. Fix: added an inset media stage and forced the player frame to a measured 16:9 aspect ratio. Browser measurement after the fix: 279 × 156.9375 CSS px, ratio 1.7777777778.
+- Earlier P2: the portrait feature’s bottom margin and the following section’s top padding created a large empty band. Fix: removed the portrait block’s bottom margin and reduced the following section’s opening padding to one intentional interval. Browser measurement confirms the adjacent layout boxes now have a 0 px structural gap; visible separation comes only from the section’s 48–72 px responsive internal padding.
+- Mobile viewport check: client width 375 px and scroll width 375 px; no horizontal overflow.
+- Fonts, colors, image fidelity, and copy remain unchanged from the passed refinement. The canonical YouTube iframe and approved portrait asset are preserved.
+- Browser console checked after desktop and mobile route verification: no errors.
+- No actionable P0, P1, or P2 findings remain.
 
 final result: passed

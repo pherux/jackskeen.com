@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
 const navItems = [
   { label: "The Roadmap", href: "/roadmap" },
@@ -30,7 +31,8 @@ export function SiteHeader() {
           ))}
         </nav>
         <Link className="header-cta" href="/start">
-          Start Your Roadmap
+          <span>Start Your Roadmap</span>
+          <ArrowUpRight aria-hidden="true" />
         </Link>
         <details className="mobile-nav">
           <summary>Menu</summary>

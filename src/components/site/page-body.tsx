@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { topics, type PageSpec } from "@/data/site-pages";
@@ -70,6 +71,39 @@ function PlaceholderPanel({
         </ul>
       </div>
     </section>
+  );
+}
+
+function EditorialMedia({
+  src,
+  alt,
+  eyebrow,
+  caption,
+  variant = "wide",
+}: {
+  src: string;
+  alt: string;
+  eyebrow: string;
+  caption: string;
+  variant?: "wide" | "portrait";
+}) {
+  return (
+    <figure
+      className={`editorial-media editorial-media--${variant} section-shell`}
+    >
+      <div className="editorial-media__image">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          sizes="(max-width: 767px) 100vw, 86vw"
+        />
+      </div>
+      <figcaption>
+        <span className="page-eyebrow">{eyebrow}</span>
+        <p>{caption}</p>
+      </figcaption>
+    </figure>
   );
 }
 
@@ -282,6 +316,12 @@ function OfferHub() {
         />
         <LinkGrid items={offerPages} label="Ways to work with Jack" />
       </section>
+      <EditorialMedia
+        src="/images/jack-skeen-office.jpg"
+        alt="Jack Skeen seated in his office"
+        eyebrow="Outside perspective"
+        caption="The work begins with the real question in front of you—not a predetermined program or generic answer."
+      />
       <PlaceholderPanel
         eyebrow="Decision guide"
         title="Choose the depth and context that match the question."
@@ -338,6 +378,12 @@ function OfferDetail({ page }: { page: PageSpec }) {
         </div>
       </section>
       <PageSections sections={page.sections} />
+      <EditorialMedia
+        src="/images/jack-skeen-coaching.jpg"
+        alt="Jack Skeen in conversation with a group"
+        eyebrow="In conversation"
+        caption="The right starting point depends on the question, the context, and the depth of perspective that would be useful now."
+      />
       <PlaceholderPanel
         eyebrow="Content dependency"
         title="Details required to complete this page"
@@ -366,6 +412,13 @@ function AboutBody({ page }: { page: PageSpec }) {
           </p>
         </div>
       </section>
+      <EditorialMedia
+        src="/images/jack-skeen-office.jpg"
+        alt="Jack Skeen seated in his office"
+        eyebrow="The work"
+        caption="Careful attention, honest conversation, and evidence from beyond your own point of view."
+        variant="portrait"
+      />
       <PageSections sections={page.sections.slice(1, 5)} />
       <section className="route-directory section-shell">
         <SectionHeading
@@ -438,14 +491,22 @@ function InsightsLanding() {
   ];
 
   return (
-    <section className="route-directory section-shell">
-      <SectionHeading
-        eyebrow="Browse by format"
-        title="Writing, conversations, and ideas."
-        description="Start with the question that matters to you, then move between articles, conversations, videos, and the topic that connects them."
+    <>
+      <section className="route-directory section-shell">
+        <SectionHeading
+          eyebrow="Browse by format"
+          title="Writing, conversations, and ideas."
+          description="Start with the question that matters to you, then move between articles, conversations, videos, and the topic that connects them."
+        />
+        <LinkGrid items={formats} label="Insight formats" />
+      </section>
+      <EditorialMedia
+        src="/images/circle-blueprint-background.png"
+        alt="Circle Blueprint lines and intersecting points"
+        eyebrow="A connected body of work"
+        caption="Each idea belongs to a larger conversation about purpose, growth, relationships, leadership, and the life you are choosing."
       />
-      <LinkGrid items={formats} label="Insight formats" />
-    </section>
+    </>
   );
 }
 
