@@ -1,109 +1,65 @@
-# Design QA
+# Roadmap build design QA — 2026-09-23
 
-**Source visual truth**
+Final result: passed for the responsive design implementation. This is not production-launch acceptance; editorial and migration blockers remain below.
 
-- `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-1ca2bbc8-7462-46ec-acb9-445d2a479a8f.png` — Roadmap hero issue reference, 567 × 416 px.
-- `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-34b8b143-1fe8-4b15-8254-2702a6e05ece.png` — fulfillment statement issue reference, 504 × 360 px.
-- Existing approved visual language and photography in `docs/visual-design/assets/` and `public/images/`.
+## Target and evidence
 
-**Implementation evidence**
+- Source: `docs/visual-design/implementation/selected-option-3.png`, 750 × 2098. User-selected original-brand option 3.
+- Implementation: http://localhost:3000, production Next.js build.
+- Desktop: 1440 × 1000 CSS viewport, DPR 1; full capture 1425 × 4150 (scrollbar excluded).
+- Tablet: 834 × 1112 CSS viewport; capture 819 × 3549.
+- Mobile: 390 × 844 CSS viewport; capture 375 × 5344. Additional 320px viewport checked.
+- Evidence in `docs/visual-design/implementation`: desktop-final.png, tablet-final.png, mobile-final.png, hero-reference.png, hero-final.png, proof-reference.png, mobile-proof-detail.png.
+- Source and rendered images were reviewed together in the same comparison inputs, at normalized widths, both full-page and focused hero/testimonial crops. The source is an illustrative desktop mockup, not a CSS viewport specification; mobile is an adaptation.
 
-- `C:\dev\jackskeen.com\design-qa-home-desktop-final.png` — homepage full page, browser-rendered at a 1440 × 1000 CSS viewport; 1425 × 5660 px capture at device scale factor 1.
-- `C:\dev\jackskeen.com\design-qa-home-mobile-final.png` — homepage full page, browser-rendered at a 390 × 844 CSS viewport; 375 × 7245 px capture at device scale factor 1.
-- `C:\dev\jackskeen.com\design-qa-roadmap-desktop-final.png` — Roadmap above the fold, browser-rendered at a 1440 × 1000 CSS viewport; 1425 × 1000 px capture at device scale factor 1.
-- `C:\dev\jackskeen.com\design-qa-roadmap-mobile-final.png` — Roadmap above the fold, browser-rendered at a 390 × 844 CSS viewport; 375 × 844 px capture at device scale factor 1.
-- `C:\dev\jackskeen.com\design-qa-user-request-comparison.png` — combined focused comparison of both issue references and the revised implementation.
+## Findings and iterations
 
-**State and normalization**
+1. [P1, fixed] Featured testimonial lost its modifier class after formatting. Its panel was too short and caption typography fell back. Replaced interpolated class concatenation with complete conditional class strings. Recapture confirms large featured panel aligned with two supporting stories.
+2. [P2, fixed] Tablet supporting videos imposed an intrinsic minimum width that reversed the intended grid proportions. Used minmax(0, ...) grid tracks and explicit minimum/percentage widths. At 834px the featured column is 466px and supporting column 278px.
+3. [P2, fixed] Hiding line breaks on mobile joined a few labels. Added explicit spaces and separators. Final DOM and focused mobile capture confirm readable testimonial status and closing label.
+4. [P2, fixed] Early desktop hierarchy was too restrained relative to the reference. Increased display heading scale and logo width; full-page and hero comparison repeated after the change.
 
-- State: public, unauthenticated, default theme.
-- Desktop and mobile captures use the same content and route state.
-- Reference screenshots are issue-focused crops rather than complete viewport specifications. They were compared as focused regions for hierarchy, typography, contrast, and repetition; the approved existing site system remains the source for full-page composition.
-- Source and implementation captures use normal-density raster evidence; comparison crops were proportionally contained without stretching.
+No open P0/P1/P2 design implementation findings in the reviewed states.
 
-**Full-view comparison evidence**
+## Required fidelity surfaces
 
-- Homepage: the editorial light/dark rhythm remains intact while the proof, About, Insights, and closing CTA sequence gains imagery and clearer conversion paths.
-- Roadmap: the hero retains the established split-photo composition and now exposes only one visible page title. The current breadcrumb is no longer repeated as a second title and the duplicate eyebrow is suppressed.
-- Mobile: content order, image crops, CTA hierarchy, and readable spacing remain intact at 390 px. The document client width and scroll width both measured 375 px, confirming no horizontal overflow.
+- Typography: Libre Caslon Display and Inter through next/font. Serif hierarchy retained; body and controls consistently use Inter. Source mockup typography is not a precise type specification. Responsive wrapping verified; no clipped headings. Body is 15–18px, with smaller captions/status labels.
+- Spacing/layout: retained section order, paired hero, featured-plus-two video composition, three benefit columns, document split, three written testimonials, Meet Jack, FAQ, closing CTA. Mobile stacks major columns, keeps two supporting videos at 390px, stacks them at 320px. Moderate section spacing and 44px+ primary targets.
+- Colors: original-site #0058A0 blue, white, pale blue, dark ink; no gold or unrelated palette. White/blue buttons and dark body text maintain readable contrast. Source thumbnail gradients replaced with solid pending states intentionally.
+- Images: original compass logo and original diamond montage reused; original coaching photograph preserved. The report is a generated illustrative asset, visibly labeled. Original photography has limited source sharpness; no invented client faces. No custom SVG/CSS reconstruction of branded images.
+- Content: selected results/value emphasis retained, no process section. All proof remains explicitly pending. Nonfunctional transcript/play links removed because no approved videos or transcripts exist. This is an intentional usability correction, not missing functionality.
 
-**Focused-region comparison evidence**
+## Intentional differences
 
-- Roadmap hero: the reference showed “The Roadmap” in the breadcrumb, eyebrow, and H1. The revised hero shows it once as the H1, with “Home” retained as a lightweight orientation link.
-- Fulfillment statement: line height increased, the pale middle lines use a darker warm neutral, and the supporting copy at right increased from 11.2 px equivalent to 14.4 px equivalent with more leading.
-- Header and CTA: desktop navigation increased in size and weight. Primary CTAs now use a larger hit target, clearer padding, restrained lift, and a consistent directional icon.
-- Proof/About: the former compact placeholder treatment is now a large editorial proof panel followed by a photographic About and Insights composition.
+- Standard video icons identify pending media without implying playback is available.
+- New report still-life follows the reference direction, with abstract page contents and visible concept caption.
+- The subtle closing decorative compass was omitted; the actual compass brand remains in header/footer and report. This minor decorative difference does not change hierarchy.
+- Added legal/navigation links, direct contact routes, a functional scheduling destination, and mobile menu.
+- Original logo proportions and photography are authoritative; mockup-generated versions were not recreated.
 
-**Findings**
+## Functional / accessibility / SEO checks
 
-- No actionable P0, P1, or P2 visual differences remain for the requested changes.
-- P3: the embedded YouTube poster can appear blank in an automated full-page mobile capture before the lazy iframe enters the viewport. It loads normally when scrolled into view and is intentionally lazy for performance.
+- Production build succeeds: 145 generated pages. Lint and TypeScript pass.
+- Primary, contact, library and legal route smoke checks return 200; missing route returns 404.
+- Main routes have unique titles, canonical URLs and one h1.
+- Mobile menu opens by keyboard, closes on Escape, closes on selection. FAQ toggles with keyboard. Skip link focuses main-content.
+- No horizontal overflow at 320, 390, 834, or 1440px. All homepage images load after entering viewport.
+- No browser warning/error logs during inspected flows. External calendar has an explicit new-tab notice; email/phone use native links. No booking submitted.
+- Motion is minimal and respects reduced-motion preferences. Meaningful image alt text supplied; icons hidden from assistive technology.
+- Existing staging noindex retained. No unsupported testimonial/review schema added. No Lighthouse or field performance score claimed.
 
-**Required fidelity surfaces**
+## Before public launch
 
-- Fonts and typography: Cormorant Garamond and Manrope remain consistent. Navigation, supporting copy, testimonial text, and CTA labels now have appropriate optical size and line height.
-- Spacing and layout rhythm: fulfillment lines have clearer separation; proof and lower editorial sections use larger intervals and deliberate column proportions; mobile collapses cleanly.
-- Colors and visual tokens: the existing night, paper, ink, faded neutral, and coral tokens are preserved. The light fulfillment lines were darkened enough to be visible without competing with the final word.
-- Image quality and asset fidelity: only approved local Jack photography and branded Circle Blueprint raster assets are used. Crops are responsive, preserve aspect ratio, and use `next/image`.
-- Copy and content: no claims, credentials, testimonials, prices, or outcomes were invented. Placeholder/permission language remains explicit.
-- Icons and interaction states: directional icons use the installed icon library and align consistently. Hover, focus, menu open, CTA navigation, and responsive states were checked.
-- Accessibility: semantic headings remain ordered, focus treatment is preserved, image alt behavior is meaningful or empty when decorative, the mobile menu is keyboard-operable, and primary controls exceed practical touch sizes.
+- Replace six pending testimonial slots with approved client media, names, roles and exact quotes; add captions/transcripts for actual videos.
+- Approve final offer copy and report format.
+- Complete the existing CMS/content migration and legal-page editorial review. Existing legacy routes were preserved, not republished with invented article bodies.
+- Run production-domain performance and launch checks, including indexing configuration.
 
-**Comparison history**
+## Implementation checklist
 
-1. Earlier P1: page hero repeated the current page name up to three times. Fix: current breadcrumb items are removed from visual output and duplicate eyebrows are suppressed. Post-fix evidence: Roadmap desktop/mobile captures show one H1 and one visible “The Roadmap” title.
-2. Earlier P2: header navigation and right-side tension copy were undersized. Fix: increased navigation size/weight, tension copy size/leading, and related spacing. Post-fix evidence: homepage desktop/mobile captures.
-3. Earlier P2: fulfillment middle lines were too faint and vertically cramped. Fix: increased line height and raised the warm-neutral contrast. Post-fix evidence: focused comparison sheet.
-4. Earlier P2: proof and lower homepage sections lacked hierarchy and assets. Fix: introduced a larger photographic proof panel, editorial About image, real insight thumbnails, additional contextual CTAs, and a closing conversion section. Post-fix evidence: homepage full-page captures.
-5. Earlier P2: interior pages relied too heavily on text-only sections. Fix: added route-aware hero photography and reusable editorial media blocks to offer, About, Insights, and service-detail pages. Post-fix evidence: Roadmap desktop/mobile captures and browser inspection.
-
-**Primary interactions tested**
-
-- Desktop primary navigation visible and correctly sized.
-- Mobile menu opens and exposes navigation.
-- Mobile Roadmap navigation completes successfully.
-- Homepage “Start Your Roadmap” CTA navigates to `/start`.
-- Console checked after homepage, Roadmap, mobile-menu, and CTA-path tests: no errors.
-
-**Implementation checklist**
-
-- [x] Consolidate repeated page titles.
-- [x] Increase navigation and supporting-copy legibility.
-- [x] Improve fulfillment statement rhythm and contrast.
-- [x] Strengthen primary CTA styling and interaction.
-- [x] Add imagery and contextual CTAs to the homepage.
-- [x] Add imagery to key interior templates.
-- [x] Redesign proof, About, and Insights sequence.
-- [x] Verify desktop and mobile behavior.
-- [x] Pass lint, type-check, and production build.
-
-**About and video refinement — 2026-09-01**
-
-- Source references: `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-3ac07f42-280f-4926-9935-dd70300683df.png` (1121 × 847 px) and `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-299bf785-733a-49d5-9f64-ff1777530a0b.png` (1094 × 855 px).
-- Browser-rendered implementation evidence: `C:\dev\jackskeen.com\design-qa-refined-about-section.png`, `C:\dev\jackskeen.com\design-qa-refined-video-section.png`, `C:\dev\jackskeen.com\design-qa-refined-about-mobile.png`, `C:\dev\jackskeen.com\design-qa-refined-video-mobile.png`, and `C:\dev\jackskeen.com\design-qa-refined-video-frame-mobile.png`.
-- Combined focused comparison: `C:\dev\jackskeen.com\design-qa-refined-sections-comparison.png`.
-- Desktop CSS viewport requested at 1440 × 1000; browser content capture measured 1199 px wide at device scale factor 1 because of the visible Codex browser panel. Mobile CSS viewport requested at 390 × 844; rendered client width measured 375 px at device scale factor 1.
-- State: public, unauthenticated, default theme, YouTube poster loaded.
-- Earlier P2: the vertical office portrait was forced into a landscape crop, clipping Jack’s face and weakening the relationship between image and caption. Fix: created a portrait-specific two-column editorial treatment that preserves the complete seated portrait and moves the statement onto a dark companion panel. Post-fix evidence: refined About desktop/mobile captures.
-- Earlier P2: the video label, title, player, and outbound link occupied disconnected vertical zones with excessive whitespace. Fix: combined them into one dark editorial feature card with the title and action beside the 16:9 player, then stacked the same hierarchy on mobile. Post-fix evidence: refined video desktop/mobile captures.
-- Typography: display scale remains editorial and now wraps within intentional measures; small labels and viewing action maintain the established Manrope treatment.
-- Spacing/layout: both blocks now have a single visual container and clear internal alignment. No horizontal overflow at the mobile breakpoint.
-- Colors/tokens: existing paper, night, ivory, and coral tokens are preserved; the real Circle Blueprint raster supplies the restrained dark texture.
-- Image quality: the original 701 × 1024 office photograph is shown at its natural portrait proportion without facial cropping or stretching. The YouTube media remains the canonical embedded asset.
-- Copy/content: existing approved wording and video title are unchanged; no claims were added.
-- Interaction/accessibility: the iframe remains keyboard-accessible and titled; the external YouTube action has a visible focus treatment and consistent directional icon. Browser console checked after both routes: no errors.
-- No actionable P0, P1, or P2 differences remain in the refined blocks.
-
-**Container and spacing correction — 2026-09-01**
-
-- Source references: `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-29fdb324-1361-48c0-a3c8-c57edda33989.png` and `C:\Users\ferna\AppData\Local\Temp\codex-clipboard-7f4c3c45-f311-4e79-87f2-52cf9f8e8c2e.png`.
-- Implementation evidence: `C:\dev\jackskeen.com\design-qa-final-video-section.png` and `C:\dev\jackskeen.com\design-qa-final-about-spacing.png`.
-- Combined comparison evidence: `C:\dev\jackskeen.com\design-qa-final-layout-comparison.png`.
-- Earlier P2: the iframe inherited the taller text-column row height, distorting its presentation and making the YouTube poster appear cropped at the container edge. Fix: added an inset media stage and forced the player frame to a measured 16:9 aspect ratio. Browser measurement after the fix: 279 × 156.9375 CSS px, ratio 1.7777777778.
-- Earlier P2: the portrait feature’s bottom margin and the following section’s top padding created a large empty band. Fix: removed the portrait block’s bottom margin and reduced the following section’s opening padding to one intentional interval. Browser measurement confirms the adjacent layout boxes now have a 0 px structural gap; visible separation comes only from the section’s 48–72 px responsive internal padding.
-- Mobile viewport check: client width 375 px and scroll width 375 px; no horizontal overflow.
-- Fonts, colors, image fidelity, and copy remain unchanged from the passed refinement. The canonical YouTube iframe and approved portrait asset are preserved.
-- Browser console checked after desktop and mobile route verification: no errors.
-- No actionable P0, P1, or P2 findings remain.
-
-final result: passed
+- [x] Selected option implemented with responsive components and original assets.
+- [x] Visual comparison and fixes completed.
+- [x] Navigation, FAQ, scheduling path, keyboard basics verified.
+- [x] Typecheck, lint, production build pass.
+- [x] Preview available locally; no deployment performed.
+- [ ] Editorial/migration and final launch approval.

@@ -3,6 +3,9 @@ import { Inter, Libre_Caslon_Display } from "next/font/google";
 
 import { SanityPreviewRuntime } from "@/components/sanity/preview-runtime";
 import "./globals.css";
+import "./roadmap.css";
+import "./editorial-pages.css";
+import "./podcast.css";
 
 const display = Libre_Caslon_Display({
   subsets: ["latin"],

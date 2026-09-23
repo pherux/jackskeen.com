@@ -74,7 +74,7 @@ export const sitePages: PageSpec[] = [
     eyebrow: "The Roadmap",
     title: "The Roadmap",
     description:
-      "A clearer way to understand the gap between the life you have built and the life you want to choose next.",
+      "Discover your unique strengths and a more intentional direction with The Roadmap by Dr. Jack Skeen. Explore the value, client stories, and investment.",
     image: "/images/jack-skeen-coaching.jpg",
     sections: [
       {
@@ -259,7 +259,7 @@ export const sitePages: PageSpec[] = [
     eyebrow: "About Jack",
     title: "About Jack Skeen",
     description:
-      "Jack's work centers on helping accomplished people see their strengths, patterns, purpose, and possibilities with greater clarity.",
+      "Meet Dr. Jack Skeen, founder of Skeen Leadership. Explore his background in psychology and theology and his work helping leaders find clarity and purpose.",
     image: "/images/jack-skeen-portrait.jpg",
     kind: "about",
     sections: [
@@ -367,9 +367,9 @@ export const sitePages: PageSpec[] = [
   {
     path: "/success-stories",
     eyebrow: "Success stories",
-    title: "Success Stories",
+    title: "Client Stories",
     description:
-      "Client experiences will be presented here in their own words, with clear context, exact attribution, and publication permission.",
+      "Watch Roadmap client videos from Mohnish Pabrai, Rob Fraser, and Matt Clark, and read published reflections on strengths, purpose, and direction.",
     sections: [
       { eyebrow: "Featured story", title: "Approved client story required" },
       { eyebrow: "More perspectives", title: "Approved testimonials required" },

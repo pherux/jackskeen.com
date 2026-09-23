@@ -12,6 +12,12 @@ import { PageBody, TopicRelatedLinks } from "@/components/site/page-body";
 import { PageHero } from "@/components/site/page-hero";
 import { PageCta } from "@/components/site/page-sections";
 import {
+  RoadmapPage,
+  ClientStoriesPage,
+  AboutJackPage,
+} from "@/components/site/editorial-pages";
+import { StartRoadmapPage } from "@/components/site/roadmap-pages";
+import {
   findSitePage,
   sitePages,
   topics,
@@ -171,7 +177,7 @@ function StandardPage({ page }: { page: PageSpec }) {
   const isLegal = page.kind === "legal";
 
   return (
-    <main id="top">
+    <main id="main-content" tabIndex={-1}>
       <SiteHeader />
       <PageHero
         page={page}
@@ -206,7 +212,7 @@ function LegacyArticlePage({ path }: { path: string }) {
     .slice(0, 3);
 
   return (
-    <main id="top">
+    <main id="main-content" tabIndex={-1}>
       <SiteHeader />
       <article className="legacy-article">
         <header className="legacy-article__header section-shell">
@@ -295,6 +301,11 @@ function LegacyArticlePage({ path }: { path: string }) {
 export default async function CatchAllPage({ params }: Props) {
   const { slug } = await params;
   const path = toPath(slug);
+  if (path === "/roadmap") return <RoadmapPage />;
+  if (path === "/success-stories") return <ClientStoriesPage />;
+  if (path === "/about") return <AboutJackPage />;
+  if (path === "/start") return <StartRoadmapPage />;
+  if (path === "/contact") return <StartRoadmapPage contact />;
   const page = findSitePage(path) ?? topicPage(path);
 
   if (page) return <StandardPage page={page} />;
