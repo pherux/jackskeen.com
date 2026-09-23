@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
+import insightRedirects from "./src/data/insights/redirects.json";
 
 const nextConfig: NextConfig = {
   agentRules: false,
   devIndicators: false,
   reactStrictMode: true,
+  skipTrailingSlashRedirect: true,
   async redirects() {
-    return [
+    const routes = [
+      ...insightRedirects,
       {
         source: "/insights/podcast",
         destination: "/inside-the-circle",
@@ -24,6 +27,10 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
     ];
+    return routes.flatMap((route) => [
+      route,
+      { ...route, source: `${route.source}/` },
+    ]);
   },
 };
 

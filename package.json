@@ -17,7 +17,9 @@
     "sanity:schema": "sanity schema extract --path sanity/schema.json --enforce-required-fields --force",
     "sanity:typegen": "npm run sanity:schema && sanity typegen generate",
     "sanity:validate": "npm run sanity:typegen && sanity schemas validate --level error",
-    "check": "npm run format:check && npm run lint && npm run typecheck && npm run build"
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm run build",
+    "migrate:insights": "node scripts/migration/import-insights.mjs",
+    "verify:insights": "node scripts/migration/verify-insights.mjs"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",
@@ -46,6 +48,7 @@
     "eslint-config-next": "16.3.3",
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
+    "sharp": "0.35.4",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.0"
   },

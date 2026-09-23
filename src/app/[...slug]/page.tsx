@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { ArticleCard } from "@/components/content/article-card";
+import { InsightArticlePage } from "@/components/content/insight-article";
+import { articleMetadata } from "@/lib/insights-metadata";
 import { ArticleIndex } from "@/components/content/article-index";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
-import { Breadcrumbs } from "@/components/site/breadcrumbs";
 import { ContactForm } from "@/components/site/contact-form";
 import { PageBody, TopicRelatedLinks } from "@/components/site/page-body";
 import { PageHero } from "@/components/site/page-hero";
@@ -24,7 +24,6 @@ import {
   type PageSpec,
 } from "@/data/site-pages";
 import {
-  formatArticleDate,
   getArticlesByTopic,
   getLegacyArticle,
   getLegacyArticles,
@@ -43,10 +42,6 @@ function titleFromSegment(segment: string) {
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
-}
-
-function isDifferentCalendarDate(first: string, second: string) {
-  return first.slice(0, 10) !== second.slice(0, 10);
 }
 
 function breadcrumbsFor(path: string, currentTitle: string) {
@@ -91,17 +86,16 @@ function topicPage(path: string): PageSpec | undefined {
 }
 
 export async function generateStaticParams() {
-  const strategic = sitePages.map((page) => ({
-    slug: page.path.split("/").filter(Boolean),
-  }));
-  const topicParams = topics.map((topic) => ({
-    slug: ["insights", "topics", topic.slug],
-  }));
+  const strategic = sitePages
+    .filter((page) => !page.path.startsWith("/insights"))
+    .map((page) => ({
+      slug: page.path.split("/").filter(Boolean),
+    }));
   const legacy = getLegacyArticles().map((article) => ({
     slug: article.pathname.split("/").filter(Boolean),
   }));
 
-  return [...strategic, ...topicParams, ...legacy];
+  return [...strategic, ...legacy];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -126,21 +120,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  if (article) {
-    return {
-      title: article.title,
-      alternates: { canonical: article.pathname },
-      robots: { index: false, follow: true },
-      openGraph: {
-        title: article.title,
-        url: article.pathname,
-        type: "article",
-        publishedTime: article.publicationDate || undefined,
-        modifiedTime: article.updatedDate || undefined,
-        authors: [article.author],
-      },
-    };
-  }
+  if (article) return articleMetadata(article);
 
   return {};
 }
@@ -205,97 +185,9 @@ function StandardPage({ page }: { page: PageSpec }) {
 }
 
 function LegacyArticlePage({ path }: { path: string }) {
-  const article = getLegacyArticle(`${path}/`) ?? getLegacyArticle(path);
+  const article = getLegacyArticle(path);
   if (!article) notFound();
-  const relatedArticles = getArticlesByTopic(article.topic)
-    .filter((item) => item.pathname !== article.pathname)
-    .slice(0, 3);
-
-  return (
-    <main id="main-content" tabIndex={-1}>
-      <SiteHeader />
-      <article className="legacy-article">
-        <header className="legacy-article__header section-shell">
-          <Breadcrumbs
-            items={[
-              { label: "Insights", href: "/insights" },
-              {
-                label: article.topic,
-                href: `/insights/topics/${topics.find((topic) => topic.title === article.topic)?.slug ?? "reflections"}`,
-              },
-              { label: article.title },
-            ]}
-          />
-          <p className="page-eyebrow">{article.topic}</p>
-          <h1>{article.title}</h1>
-          <p className="legacy-article__deck">
-            Article introduction awaiting reviewed CMS migration.
-          </p>
-          <div className="legacy-article__byline">
-            <span>By {article.author}</span>
-            <time dateTime={article.publicationDate}>
-              {formatArticleDate(article.publicationDate)}
-            </time>
-            {article.updatedDate &&
-            isDifferentCalendarDate(
-              article.updatedDate,
-              article.publicationDate,
-            ) ? (
-              <span>Updated {formatArticleDate(article.updatedDate)}</span>
-            ) : null}
-          </div>
-        </header>
-        <div className="legacy-article__body section-shell">
-          <aside>
-            <p className="page-eyebrow">Migration status</p>
-            <strong>{article.action}</strong>
-            <p>Existing URL preserved.</p>
-          </aside>
-          <div className="rich-text-placeholder">
-            <p>Article body awaiting reviewed CMS migration.</p>
-            <p>
-              The migration audit preserves this article’s title, author,
-              publication date, canonical URL, topic mapping, and root-level
-              URL. The body will not be republished until the WordPress export
-              has been transformed and reviewed.
-            </p>
-          </div>
-        </div>
-        <section className="author-block section-shell">
-          <div>
-            <p className="page-eyebrow">About the author</p>
-            <h2>{article.author}</h2>
-          </div>
-          <div>
-            <p>Verified author biography and credentials are pending.</p>
-            <Link href="/about">About Jack</Link>
-          </div>
-        </section>
-        <section
-          className="article-related section-shell"
-          aria-labelledby="related-articles-heading"
-        >
-          <div className="article-related__heading">
-            <p className="page-eyebrow">Continue exploring</p>
-            <h2 id="related-articles-heading">Related articles</h2>
-          </div>
-          {relatedArticles.length > 0 ? (
-            <div className="article-index__grid">
-              {relatedArticles.map((item) => (
-                <ArticleCard article={item} key={item.pathname} />
-              ))}
-            </div>
-          ) : (
-            <p className="empty-state">
-              Related reading will appear here after editorial review.
-            </p>
-          )}
-        </section>
-      </article>
-      <PageCta />
-      <SiteFooter />
-    </main>
-  );
+  return <InsightArticlePage article={article} />;
 }
 
 export default async function CatchAllPage({ params }: Props) {

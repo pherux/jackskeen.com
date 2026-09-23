@@ -10,6 +10,7 @@ const links = [
   ["The Roadmap", "/roadmap"],
   ["Client Stories", "/success-stories"],
   ["Inside the Circle", "/inside-the-circle"],
+  ["Insights", "/insights"],
   ["Meet Jack", "/about"],
 ] as const;
 
@@ -77,7 +78,6 @@ export function SiteHeader() {
                 {label}
               </Link>
             ))}
-            <Link href="/insights">Insights</Link>
             <Link className="rm-button" href="/start">
               Start Your Roadmap
             </Link>

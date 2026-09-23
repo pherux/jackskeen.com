@@ -1,0 +1,47 @@
+[
+  {
+    "source": "/loner-or-lover",
+    "destination": "/civility-loner-of-lover",
+    "statusCode": 301
+  },
+  {
+    "source": "/learning-to-play-a-friendly-game-of-tennis",
+    "destination": "/civility-listening",
+    "statusCode": 301
+  },
+  {
+    "source": "/blog",
+    "destination": "/insights",
+    "statusCode": 301
+  },
+  {
+    "source": "/category/blog",
+    "destination": "/insights",
+    "statusCode": 301
+  },
+  {
+    "source": "/author/jack",
+    "destination": "/insights",
+    "statusCode": 301
+  },
+  {
+    "source": "/insights/articles",
+    "destination": "/insights",
+    "statusCode": 301
+  },
+  {
+    "source": "/insights/videos",
+    "destination": "/insights?format=video",
+    "statusCode": 301
+  },
+  {
+    "source": "/category/video",
+    "destination": "/insights?format=video",
+    "statusCode": 301
+  },
+  {
+    "source": "/type/video",
+    "destination": "/insights?format=video",
+    "statusCode": 301
+  }
+]

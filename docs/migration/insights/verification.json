@@ -1,0 +1,689 @@
+{
+  "checkedAt": "2026-09-23T18:00:59.444Z",
+  "base": "http://localhost:3000",
+  "pages": 113,
+  "sourceTextCompared": true,
+  "internalLinks": 4,
+  "redirectVariants": 18,
+  "paginatedDiscovery": 113,
+  "results": [
+    {
+      "path": "/being-a-plow-horse-or-a-reservoir",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/allies-or-enemies",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/its-a-wonderful-day-in-the-neighborhood",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/civility-the-power-of-seeing-others",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/authenticity-the-new-currency-in-a-world-of-illusions",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/drama-triangle",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/shedding-your-shell-embracing-change-and-growth-in-2025",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/100-percent-love-is-it-possible",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/discovering-your-unique-gift-to-the-world",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/what-the-dying-can-teach-us-about-living",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-small-part-of-who-we-are",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/escaping-the-drama-trap-battling-the-imaginary-bear",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/are-you-crisis-prone",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-power-of-preference",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/embracing-stillness-a-path-to-inner-transformation",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/overcoming-the-illusion-of-fear",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-power-of-fierce-conversations",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/what-gets-you-out-of-bed-in-the-morning",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/outgrowing-your-shell-the-courage-to-become-a-bigger-you",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/wear-your-life-scars-with-honor",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-power-of-being-seen-and-embracing-vulnerability",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/making-real-connections-in-a-self-centered-world",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/finding-your-path",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/feeding-the-fire-within",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/rediscovering-your-inner-greatness",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-power-of-dreams-igniting-your-path-to-fulfillment",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/what-is-your-happiness-strategy",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-universal-truth-of-happiness-a-journey-within",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-art-of-mind-management-being-your-mind-vs-having-a-mind",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/mastering-the-self-taming-the-ego-for-lasting-fulfillment",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/embracing-gratitude-a-thanksgiving-reflection",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-thriving-scale-a-first-step-to-greatness",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/leadership-lessons-from-iron-john",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/what-do-you-want",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/the-path-to-true-humility",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/how-to-identify-your-true-power",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/finding-your-power",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/humility-and-the-christmas-story",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/giving-thanks-at-thanksgiving",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/growing-your-independence",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/expanding-your-circle",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/whats-in-your-circle-2",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/letting-go-to-grow",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/what-really-matters-to-you",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/are-you-thriving-2",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/finding-your-greatness",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/are-you-as-happy-as-you-want-to-be",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/wowthe-christmas-story",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/thanksgiving-and-giving-thanks",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/the-three-faces-of-drama",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/facts-versus-stories",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/drama-the-great-energy-waster",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/entitlements-we-all-have-them",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/shifting-from-below-to-above-the-line",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/are-you-living-below-the-line",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/what-is-the-line",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/your-personal-development-plan",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/taking-radical-responsibility-for-your-life",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/are-you-thriving",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/messing-with-your-operating-system",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/what-kind-of-coach-do-you-need",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/how-can-you-be-so-dumb",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/breaking-through-upper-limits",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/do-i-need-a-coach",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/your-free-coach",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/civility-and-identity",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-and-grace",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-and-taking-radical-responsibility",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-and-getting-past-the-need-to-be-right",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/individuality-and-civility",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/creating-community-fun",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/control-in-difficult-times",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/north-star",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/meet-gladys-the-turtle",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/what-is-civility",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/community-lets-get-creative",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/community-2",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/community-intentionality",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-loner-of-lover",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/civility-being-a-plow-horse-or-a-reservoir",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-allies-or-enemies",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-christmas-civility-on-steroids",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/wont-you-be-my-neighbor",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-listening",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/civility-who-are-you-being",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/civility-lesson",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/autonomy",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/the-sub-factors-of-independence",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/the-circle-blueprint-assessment",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/big-and-little-self",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/accountability",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/independence",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/gas-pedals-and-brakes",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/the-change-formula",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/taking-100-responsibility",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/the-four-developmental-tasks",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/story-of-ghandi",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/choosing-to-expand-your-circle",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/living-within-your-passion",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/what-is-your-circle",
+      "status": 200,
+      "kind": "article",
+      "image": true
+    },
+    {
+      "path": "/thriving-scale-2",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/money-and-happiness",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/happiness",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/jacks-purpose",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/why-i-wrote-the-circle-blueprint",
+      "status": 200,
+      "kind": "article",
+      "image": false
+    },
+    {
+      "path": "/the-circle-blueprint-system",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/boiled-frog",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/corporate-solutions",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/gratitude",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/cost-of-pleasing",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    },
+    {
+      "path": "/whats-in-your-circle",
+      "status": 200,
+      "kind": "video",
+      "image": true
+    }
+  ]
+}

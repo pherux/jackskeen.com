@@ -6,6 +6,7 @@ import "./globals.css";
 import "./roadmap.css";
 import "./editorial-pages.css";
 import "./podcast.css";
+import "./insights.css";
 
 const display = Libre_Caslon_Display({
   subsets: ["latin"],

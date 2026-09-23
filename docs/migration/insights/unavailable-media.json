@@ -1,0 +1,115 @@
+[
+  {
+    "mediaId": 7981,
+    "status": 404,
+    "affectedPosts": [
+      "civility-and-identity"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7660,
+    "status": 404,
+    "affectedPosts": [
+      "meet-gladys-the-turtle"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7115,
+    "status": 404,
+    "affectedPosts": [
+      "autonomy"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7120,
+    "status": 404,
+    "affectedPosts": [
+      "the-sub-factors-of-independence"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7124,
+    "status": 404,
+    "affectedPosts": [
+      "the-circle-blueprint-assessment",
+      "why-i-wrote-the-circle-blueprint"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7116,
+    "status": 404,
+    "affectedPosts": [
+      "big-and-little-self"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7114,
+    "status": 404,
+    "affectedPosts": [
+      "accountability"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7118,
+    "status": 404,
+    "affectedPosts": [
+      "gas-pedals-and-brakes"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7123,
+    "status": 404,
+    "affectedPosts": [
+      "the-change-formula"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7122,
+    "status": 404,
+    "affectedPosts": [
+      "taking-100-responsibility"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7125,
+    "status": 404,
+    "affectedPosts": [
+      "the-four-developmental-tasks"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7117,
+    "status": 404,
+    "affectedPosts": [
+      "choosing-to-expand-your-circle"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7121,
+    "status": 404,
+    "affectedPosts": [
+      "money-and-happiness"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  },
+  {
+    "mediaId": 7119,
+    "status": 404,
+    "affectedPosts": [
+      "happiness"
+    ],
+    "decision": "Omit unavailable image; preserve the article as text. No replacement image invented."
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "being-a-plow-horse-or-a-reservoir",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "allies-or-enemies",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "its-a-wonderful-day-in-the-neighborhood",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "civility-the-power-of-seeing-others",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "authenticity-the-new-currency-in-a-world-of-illusions",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "drama-triangle",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "shedding-your-shell-embracing-change-and-growth-in-2025",
+    "change": "Removed executable/embedded markup",
+    "tag": "script"
+  },
+  {
+    "slug": "pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "what-gets-you-out-of-bed-in-the-morning",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "outgrowing-your-shell-the-courage-to-become-a-bigger-you",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "wear-your-life-scars-with-honor",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "the-power-of-being-seen-and-embracing-vulnerability",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "mastering-the-self-taming-the-ego-for-lasting-fulfillment",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "the-path-to-true-humility",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  },
+  {
+    "slug": "the-path-to-true-humility",
+    "change": "Normalized heading level without changing text",
+    "from": "h4",
+    "to": "h3"
+  },
+  {
+    "slug": "independence",
+    "change": "Removed executable/embedded markup",
+    "tag": "iframe"
+  },
+  {
+    "slug": "independence",
+    "change": "Normalized heading level without changing text",
+    "from": "h3",
+    "to": "h2"
+  }
+]
