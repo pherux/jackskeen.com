@@ -10,9 +10,14 @@ import {
 import { ArticleCard } from "./article-card";
 import { ArchiveVideoPlayer } from "./archive-video";
 import { InsightSchema } from "./insights-pages";
+import { CmsBody } from "./cms-body";
 const origin = "https://jackskeen.com";
 
-export function InsightArticlePage({ article }: { article: LegacyArticle }) {
+export async function InsightArticlePage({
+  article,
+}: {
+  article: LegacyArticle;
+}) {
   const topic = getArticleTopic(article);
   const video = article.video;
   const schema: Record<string, unknown>[] = [
@@ -34,7 +39,9 @@ export function InsightArticlePage({ article }: { article: LegacyArticle }) {
       publisher: { "@type": "Organization", name: "Jack Skeen", url: origin },
       mainEntityOfPage: article.canonicalUrl,
       articleSection: article.kind === "article" ? article.topic : undefined,
-      image: article.image ? origin + article.image.src : undefined,
+      image: article.image
+        ? new URL(article.image.src, origin).toString()
+        : undefined,
       video: video ? { "@id": `${article.canonicalUrl}#video` } : undefined,
     },
     {
@@ -68,7 +75,7 @@ export function InsightArticlePage({ article }: { article: LegacyArticle }) {
       "@id": `${article.canonicalUrl}#video`,
       name: video.title,
       description: article.excerpt,
-      thumbnailUrl: origin + article.image.src,
+      thumbnailUrl: new URL(article.image.src, origin).toString(),
       uploadDate: video.publishedAt,
       duration: `PT${video.duration}S`,
       embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
@@ -141,10 +148,16 @@ export function InsightArticlePage({ article }: { article: LegacyArticle }) {
             </Link>
           </aside>
           <div className="insight-reading">
-            <div
-              className="insight-prose"
-              dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
-            />
+            {article.body ? (
+              <div className="insight-prose">
+                <CmsBody body={article.body} />
+              </div>
+            ) : (
+              <div
+                className="insight-prose"
+                dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
+              />
+            )}
             {article.kind === "video" && (
               <p className="insight-video-intro">{article.excerpt}</p>
             )}
@@ -156,7 +169,9 @@ export function InsightArticlePage({ article }: { article: LegacyArticle }) {
                 article.publicationDate.slice(0, 10)
                   ? ` Source last updated ${formatArticleDate(article.updatedDate)}.`
                   : ""}{" "}
-                Preserved from Jack’s original archive.
+                {article.migrated !== false
+                  ? "Preserved from Jack’s original archive."
+                  : ""}
               </p>
             </div>
             <section className="insight-author">
@@ -204,7 +219,7 @@ export function InsightArticlePage({ article }: { article: LegacyArticle }) {
           </Link>
         </div>
         <div className="insight-grid">
-          {getRelatedArticles(article).map((other) => (
+          {(await getRelatedArticles(article)).map((other) => (
             <ArticleCard key={other.pathname} article={other} />
           ))}
         </div>

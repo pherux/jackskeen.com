@@ -170,9 +170,12 @@ const empty = cheerio.load(
 );
 assert.equal(empty(".insight-empty").length, 1);
 const sitemap = await (await fetch(base + "/sitemap.xml")).text();
+const indexable = !(await (await fetch(base + "/robots.txt")).text()).includes(
+  "Disallow: /\n",
+);
 for (const article of articles)
   assert(
-    sitemap.includes(`<loc>${article.canonicalUrl}</loc>`),
+    sitemap.includes(`<loc>${article.canonicalUrl}</loc>`) === indexable,
     `Sitemap: ${article.pathname}`,
   );
 for (const redirect of redirects)
@@ -180,11 +183,11 @@ for (const redirect of redirects)
     !sitemap.includes(`<loc>https://jackskeen.com${redirect.source}</loc>`),
     `Redirect in sitemap: ${redirect.source}`,
   );
-// Next.js may already have streamed the loading shell before a query-dependent
-// notFound(). Require the actual not-found content and noindex, not a guessed status.
-const invalidHtml = await (await fetch(base + "/insights?page=9999")).text();
+// Missing content must return a real 404, not a streamed 200 loading shell.
+const invalidResponse = await fetch(base + "/insights?page=9999");
+assert.equal(invalidResponse.status, 404);
+const invalidHtml = await invalidResponse.text();
 const invalidPage = cheerio.load(invalidHtml);
-assert(invalidHtml.includes("NEXT_HTTP_ERROR_FALLBACK;404"));
 assert(invalidHtml.includes("Page not found"));
 assert(
   invalidPage("meta[name=robots]")
@@ -193,10 +196,16 @@ assert(
       invalidPage(element).attr("content").includes("noindex"),
     ),
 );
-const unknownTopic = await (await fetch(base + "/insights/topics/not-a-topic")).text();
-assert(unknownTopic.includes("NEXT_HTTP_ERROR_FALLBACK;404"));
+const unknownResponse = await fetch(base + "/insights/topics/not-a-topic");
+assert.equal(unknownResponse.status, 404);
+const unknownTopic = await unknownResponse.text();
 assert(unknownTopic.includes("Page not found"));
-assert(cheerio.load(unknownTopic)("meta[name=robots]").attr("content").includes("noindex"));
+assert(
+  cheerio
+    .load(unknownTopic)("meta[name=robots]")
+    .attr("content")
+    .includes("noindex"),
+);
 await writeFile(
   "docs/migration/insights/verification.json",
   JSON.stringify(

@@ -14,7 +14,7 @@ type Props = {
   params: Promise<{ topic: string }>;
   searchParams: Promise<ArchiveSearch>;
 };
-export const dynamicParams = false;
+export const dynamicParams = true;
 export function generateStaticParams() {
   return topics.map((topic) => ({ topic: topic.slug }));
 }
@@ -28,7 +28,10 @@ export default async function Page({ params, searchParams }: Props) {
   const query = archiveQuery(await searchParams);
   if (
     (Number.parseInt(query.page, 10) || 1) >
-    Math.max(1, Math.ceil(selectInsights(query, topic.title).length / pageSize))
+    Math.max(
+      1,
+      Math.ceil((await selectInsights(query, topic.title)).length / pageSize),
+    )
   )
     notFound();
   return <InsightsPage query={query} topicSlug={slug} />;

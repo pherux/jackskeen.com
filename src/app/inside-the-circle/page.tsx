@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
 import { PodcastHub } from "@/components/podcast/podcast-pages";
+import { pageRobots } from "@/lib/indexing";
 export const metadata: Metadata = {
   title: "Inside the Circle | Roadmap Graduate Stories",
   description:
     "Meet 16 Roadmap graduates in conversation with Dr. Jack Skeen. Explore their perspectives on purpose, natural strengths, leadership, and life after achievement.",
   alternates: { canonical: "/inside-the-circle" },
-  robots: {
-    index: process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true",
-    follow: true,
-  },
+  robots: pageRobots(),
   openGraph: {
     title: "Inside the Circle — A fuller picture of success",
     description:

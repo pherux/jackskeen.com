@@ -1,0 +1,57 @@
+[
+  {
+    "source": "/executive-coaching",
+    "destination": "/work-with-jack/executive-coaching",
+    "statusCode": 301
+  },
+  {
+    "source": "/roadmap-essentials",
+    "destination": "/work-with-jack/roadmap-essentials",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/civility",
+    "destination": "/insights/topics/relationships",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/community",
+    "destination": "/insights/topics/relationships",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/family",
+    "destination": "/insights/topics/relationships",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/happiness",
+    "destination": "/insights/topics/success-fulfillment",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/leadership",
+    "destination": "/insights/topics/leadership",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/listening",
+    "destination": "/insights/topics/relationships",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/personal-growth-coach",
+    "destination": "/insights/topics/personal-growth",
+    "statusCode": 301
+  },
+  {
+    "source": "/tag/spiritual-growth",
+    "destination": "/insights/topics/personal-growth",
+    "statusCode": 301
+  },
+  {
+    "source": "/testimonials/page/2",
+    "destination": "/testimonials",
+    "statusCode": 301
+  }
+]

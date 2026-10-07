@@ -319,7 +319,7 @@ export type Article = {
   title: string;
   slug: Slug;
   excerpt: string;
-  body: RichText;
+  body?: RichText;
   author: PersonReference;
   publishedAt: string;
   updatedAt?: string;
@@ -675,6 +675,99 @@ export type AllSanitySchemaTypes =
   | SanityImageAsset
   | Geopoint;
 
+// Source: sanity/queries/archive.ts
+// Variable: ARCHIVE_QUERY
+// Query: *[_type == "article"] | order(publishedAt desc){  _id, title, "slug": slug.current, excerpt, body[]{...,    markDefs[]{..., "href": select(      _type != "internalLink" => href,      reference->_type == "topic" => "/insights/topics/" + reference->slug.current,      reference->_type == "book" => "/books/" + reference->slug.current,      reference->_type == "podcastEpisode" => "/inside-the-circle/" + reference->slug.current,      reference->_type in ["article", "page"] => "/" + reference->slug.current    )}  }, publishedAt, updatedAt,  "author": author->name, "topic": primaryTopic->title, seo,  "wordpressId": migration.wordpressId,  "image": featuredImage {alt, caption, "src": asset->url,    "width": asset->metadata.dimensions.width, "height": asset->metadata.dimensions.height}}
+export type ARCHIVE_QUERY_RESULT = Array<{
+  _id: string;
+  title: string;
+  slug: string;
+  excerpt: string;
+  body: Array<
+    | {
+        children?: Array<{
+          marks?: Array<string>;
+          text?: string;
+          _type: "span";
+          _key: string;
+        }>;
+        style?: "blockquote" | "h2" | "h3" | "h4" | "normal";
+        listItem?: "bullet" | "number";
+        markDefs: Array<
+          | {
+              href: string;
+              openInNewTab?: boolean;
+              _type: "externalLink";
+              _key: string;
+            }
+          | {
+              reference:
+                | ArticleReference
+                | BookReference
+                | PageReference
+                | PodcastEpisodeReference
+                | TopicReference
+                | VideoReference;
+              _type: "internalLink";
+              _key: string;
+              href: string;
+            }
+        > | null;
+        level?: number;
+        _type: "block";
+        _key: string;
+      }
+    | {
+        _key: string;
+        _type: "callout";
+        tone?: "important" | "note";
+        content: RichText;
+        markDefs: null;
+      }
+    | {
+        _key: string;
+        _type: "editorialImage";
+        asset?: SanityImageAssetReference;
+        media?: unknown;
+        hotspot?: SanityImageHotspot;
+        crop?: SanityImageCrop;
+        decorative?: boolean;
+        alt?: string;
+        caption?: string;
+        credit?: string;
+        markDefs: null;
+      }
+    | {
+        _key: string;
+        _type: "pullQuote";
+        quote: string;
+        attribution?: string;
+        markDefs: null;
+      }
+    | {
+        _key: string;
+        _type: "videoEmbed";
+        provider: "vimeo" | "youtube";
+        url: string;
+        title: string;
+        markDefs: null;
+      }
+  > | null;
+  publishedAt: string;
+  updatedAt: string | null;
+  author: string;
+  topic: string;
+  seo: Seo | null;
+  wordpressId: number | null;
+  image: {
+    alt: string | null;
+    caption: string | null;
+    src: string | null;
+    width: number | null;
+    height: number | null;
+  };
+}>;
+
 // Source: sanity/queries/content.ts
 // Variable: SITE_SETTINGS_QUERY
 // Query: *[_type == "siteSettings" && _id == "siteSettings"][0]{  ..., founder->{name, "slug": slug.current, professionalTitle, portrait, sameAs}}
@@ -800,7 +893,7 @@ export type ARTICLE_BY_SLUG_QUERY_RESULT = {
   title: string;
   slug: string;
   excerpt: string;
-  body: RichText;
+  body?: RichText;
   author: {
     name: string;
     slug: string;
@@ -1315,6 +1408,7 @@ export type PAGE_BY_SLUG_QUERY_RESULT = {
 import "@sanity/client";
 declare module "@sanity/client" {
   interface SanityQueries {
+    '*[_type == "article"] | order(publishedAt desc){\n  _id, title, "slug": slug.current, excerpt, body[]{...,\n    markDefs[]{..., "href": select(\n      _type != "internalLink" => href,\n      reference->_type == "topic" => "/insights/topics/" + reference->slug.current,\n      reference->_type == "book" => "/books/" + reference->slug.current,\n      reference->_type == "podcastEpisode" => "/inside-the-circle/" + reference->slug.current,\n      reference->_type in ["article", "page"] => "/" + reference->slug.current\n    )}\n  }, publishedAt, updatedAt,\n  "author": author->name, "topic": primaryTopic->title, seo,\n  "wordpressId": migration.wordpressId,\n  "image": featuredImage {alt, caption, "src": asset->url,\n    "width": asset->metadata.dimensions.width, "height": asset->metadata.dimensions.height}\n}': ARCHIVE_QUERY_RESULT;
     '*[_type == "siteSettings" && _id == "siteSettings"][0]{\n  ..., founder->{name, "slug": slug.current, professionalTitle, portrait, sameAs}\n}': SITE_SETTINGS_QUERY_RESULT;
     '*[_type == "person" && slug.current == $slug][0]{\n  ..., "slug": slug.current\n}': PERSON_BY_SLUG_QUERY_RESULT;
     '*[_type == "person" && slug.current == "jack-skeen"][0]{\n  ..., "slug": slug.current\n}': JACK_PROFILE_QUERY_RESULT;

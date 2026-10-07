@@ -35,6 +35,8 @@ This repository is intended to be built with Codex using the requirements and ta
 
 ## Documentation
 
+Migration preparation, verification commands, launch settings, and deferred platform setup are documented in [the prelaunch implementation report](docs/migration/prelaunch-implementation-2026-10-07.md).
+
 Read these files before implementation:
 
 1. `AGENTS.md`

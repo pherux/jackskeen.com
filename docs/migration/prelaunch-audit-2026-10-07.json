@@ -1,0 +1,4593 @@
+{
+  "checkedAt": "2026-10-07T15:53:44.668Z",
+  "base": "http://127.0.0.1:3107",
+  "scope": "Local production build with current local configuration; historical inventory is not an approved final redirect plan; no live-host validation.",
+  "sitemapEntries": 156,
+  "duplicates": [],
+  "robotsTxt": "User-Agent: *\nDisallow: /\n\n",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Roadmap | Clarity for Your Next Chapter | Jack Skeen"
+    },
+    {
+      "path": "/100-percent-love-is-it-possible/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/100-percent-love-is-it-possible",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "100 Percent Love. Is it Possible? | Jack Skeen"
+    },
+    {
+      "path": "/about-jack-skeen/",
+      "status": 301,
+      "location": "/about",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/about-tcb/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/accountability/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/accountability",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Accountability | Jack Skeen"
+    },
+    {
+      "path": "/all-testimonials/",
+      "status": 301,
+      "location": "/success-stories",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/allies-or-enemies/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/allies-or-enemies",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Allies or Enemies? | Jack Skeen"
+    },
+    {
+      "path": "/are-you-as-happy-as-you-want-to-be/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-as-happy-as-you-want-to-be",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Are You as Happy as You Want to be? | Jack Skeen"
+    },
+    {
+      "path": "/are-you-crisis-prone/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-crisis-prone",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Are You Crisis-Prone? | Jack Skeen"
+    },
+    {
+      "path": "/are-you-living-below-the-line/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-living-below-the-line",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Are you living “below the line”? | Jack Skeen"
+    },
+    {
+      "path": "/are-you-thriving-2/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-thriving-2",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Are You Thriving? (2022) | Jack Skeen"
+    },
+    {
+      "path": "/are-you-thriving/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-thriving",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Are You Thriving? (2021) | Jack Skeen"
+    },
+    {
+      "path": "/authenticity-the-new-currency-in-a-world-of-illusions/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/authenticity-the-new-currency-in-a-world-of-illusions",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Authenticity: The New Currency in a World of Illusions | Jack Skeen"
+    },
+    {
+      "path": "/author/fernando/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/author/jack/",
+      "status": 301,
+      "location": "/insights",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/autonomy/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/autonomy",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Autonomy | Jack Skeen"
+    },
+    {
+      "path": "/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Becoming Aware of Yourself: Independence is the First Step Toward Greatness | Jack Skeen"
+    },
+    {
+      "path": "/being-a-plow-horse-or-a-reservoir/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/being-a-plow-horse-or-a-reservoir",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Being a Plow Horse or a Reservoir | Jack Skeen"
+    },
+    {
+      "path": "/big-and-little-self/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/big-and-little-self",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Big and Little Self | Jack Skeen"
+    },
+    {
+      "path": "/blog/",
+      "status": 301,
+      "location": "/insights",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/boiled-frog/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/boiled-frog",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Boiled Frog — Video | Jack Skeen"
+    },
+    {
+      "path": "/breaking-through-upper-limits/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/breaking-through-upper-limits",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Breaking Through Upper Limits | Jack Skeen"
+    },
+    {
+      "path": "/category/blog/",
+      "status": 301,
+      "location": "/insights",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/category/video/",
+      "status": 301,
+      "location": "/insights?format=video",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/choosing-to-expand-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/choosing-to-expand-your-circle",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Choosing to Expand Your Circle | Jack Skeen"
+    },
+    {
+      "path": "/civility-allies-or-enemies/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-allies-or-enemies",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility: Allies or Enemies? | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-getting-past-the-need-to-be-right/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-getting-past-the-need-to-be-right",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility and Getting Past the Need to be Right | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-grace/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-grace",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility and Grace | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-identity/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-identity",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility and Identity | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-taking-radical-responsibility/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-taking-radical-responsibility",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility and Taking Radical Responsibility | Jack Skeen"
+    },
+    {
+      "path": "/civility-being-a-plow-horse-or-a-reservoir/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-being-a-plow-horse-or-a-reservoir",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility: Being a Plow Horse or a Reservoir | Jack Skeen"
+    },
+    {
+      "path": "/civility-christmas-civility-on-steroids/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-christmas-civility-on-steroids",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility Christmas: Civility on Steroids | Jack Skeen"
+    },
+    {
+      "path": "/civility-lesson/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-lesson",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility Lesson | Jack Skeen"
+    },
+    {
+      "path": "/civility-listening/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-listening",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility: Listening | Jack Skeen"
+    },
+    {
+      "path": "/civility-loner-of-lover/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-loner-of-lover",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility: Loner of Lover | Jack Skeen"
+    },
+    {
+      "path": "/civility-the-power-of-seeing-others/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-the-power-of-seeing-others",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility: The Power of Seeing Others | Jack Skeen"
+    },
+    {
+      "path": "/civility-who-are-you-being/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-who-are-you-being",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility: Who Are You BEING? | Jack Skeen"
+    },
+    {
+      "path": "/community-2/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/community-2",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Community: The Value of Ritual | Jack Skeen"
+    },
+    {
+      "path": "/community-intentionality/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/community-intentionality",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Community: Intentionality | Jack Skeen"
+    },
+    {
+      "path": "/community-lets-get-creative/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/community-lets-get-creative",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Community: Let’s Get Creative | Jack Skeen"
+    },
+    {
+      "path": "/community/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/contact",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Contact Jack Skeen | Jack Skeen"
+    },
+    {
+      "path": "/control-in-difficult-times/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/control-in-difficult-times",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What Can You Control? | Jack Skeen"
+    },
+    {
+      "path": "/corporate-solutions/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/corporate-solutions",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Corporate Solutions — Video | Jack Skeen"
+    },
+    {
+      "path": "/cost-of-pleasing/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/cost-of-pleasing",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Cost of Pleasing — Video | Jack Skeen"
+    },
+    {
+      "path": "/courses-2/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/discovering-your-unique-gift-to-the-world/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/discovering-your-unique-gift-to-the-world",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Discovering Your Unique Gift to the World | Jack Skeen"
+    },
+    {
+      "path": "/do-i-need-a-coach/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/do-i-need-a-coach",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Do I need a coach? | Jack Skeen"
+    },
+    {
+      "path": "/drama-the-great-energy-waster/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/drama-the-great-energy-waster",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Drama: The Great Energy Waster | Jack Skeen"
+    },
+    {
+      "path": "/drama-triangle/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/drama-triangle",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Understanding the Drama Triangle | Jack Skeen"
+    },
+    {
+      "path": "/embracing-gratitude-a-thanksgiving-reflection/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/embracing-gratitude-a-thanksgiving-reflection",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Embracing Gratitude: A Thanksgiving Reflection | Jack Skeen"
+    },
+    {
+      "path": "/embracing-stillness-a-path-to-inner-transformation/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/embracing-stillness-a-path-to-inner-transformation",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Embracing Stillness: A Path to Inner Transformation | Jack Skeen"
+    },
+    {
+      "path": "/entitlements-we-all-have-them/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/entitlements-we-all-have-them",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Entitlements: We All Have Them! | Jack Skeen"
+    },
+    {
+      "path": "/escaping-the-drama-trap-battling-the-imaginary-bear/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/escaping-the-drama-trap-battling-the-imaginary-bear",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Escaping the Drama Trap: Battling the Imaginary Bear | Jack Skeen"
+    },
+    {
+      "path": "/events/annual-executive-coaching-conference/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/events/capital-coaches-conference/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/events/global-mentoring-coaching-and-supervision-conference/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/events/spring-summit-rising-awareness/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/executive-coaching/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/expanding-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/expanding-your-circle",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Expanding Your Circle | Jack Skeen"
+    },
+    {
+      "path": "/facts-versus-stories/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/facts-versus-stories",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Facts versus Stories | Jack Skeen"
+    },
+    {
+      "path": "/faqs/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/feeding-the-fire-within/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/feeding-the-fire-within",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Feeding the Fire Within | Jack Skeen"
+    },
+    {
+      "path": "/finding-your-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/finding-your-greatness",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Finding Your Greatness | Jack Skeen"
+    },
+    {
+      "path": "/finding-your-path/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/finding-your-path",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Finding Your Path | Jack Skeen"
+    },
+    {
+      "path": "/finding-your-power/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/finding-your-power",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Finding Your Power!!! | Jack Skeen"
+    },
+    {
+      "path": "/free-books/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/free-ebook/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/gas-pedals-and-brakes/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/gas-pedals-and-brakes",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Gas Pedals and Brakes | Jack Skeen"
+    },
+    {
+      "path": "/giving-thanks-at-thanksgiving/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/giving-thanks-at-thanksgiving",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Giving Thanks at Thanksgiving | Jack Skeen"
+    },
+    {
+      "path": "/gladys-turtle/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/gratitude/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/gratitude",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Gratitude — Video | Jack Skeen"
+    },
+    {
+      "path": "/growing-your-independence/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/growing-your-independence",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Growing your “Independence” | Jack Skeen"
+    },
+    {
+      "path": "/happiness/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/happiness",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Happiness | Jack Skeen"
+    },
+    {
+      "path": "/how-can-you-be-so-dumb/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/how-can-you-be-so-dumb",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "How Can You Be so Dumb? | Jack Skeen"
+    },
+    {
+      "path": "/how-to-identify-your-true-power/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/how-to-identify-your-true-power",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "How to Identify Your True Power | Jack Skeen"
+    },
+    {
+      "path": "/humility-and-the-christmas-story/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/humility-and-the-christmas-story",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Humility and the Christmas Story | Jack Skeen"
+    },
+    {
+      "path": "/humility/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/independence/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/independence",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Independence | Jack Skeen"
+    },
+    {
+      "path": "/individuality-and-civility/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/individuality-and-civility",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Individuality and Civility | Jack Skeen"
+    },
+    {
+      "path": "/instructors-7/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/its-a-wonderful-day-in-the-neighborhood/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/its-a-wonderful-day-in-the-neighborhood",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "It’s a Wonderful Day in the Neighborhood | Jack Skeen"
+    },
+    {
+      "path": "/jacks-purpose/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/jacks-purpose",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack’s Purpose — Video | Jack Skeen"
+    },
+    {
+      "path": "/leadership-lessons-from-iron-john/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/leadership-lessons-from-iron-john",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Leadership Lessons from “Iron John” | Jack Skeen"
+    },
+    {
+      "path": "/learning-to-play-a-friendly-game-of-tennis/",
+      "status": 301,
+      "location": "/civility-listening",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/letting-go-to-grow/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/letting-go-to-grow",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Letting Go…to Grow | Jack Skeen"
+    },
+    {
+      "path": "/living-within-your-passion/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/living-within-your-passion",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Living Within Your Passion — Video | Jack Skeen"
+    },
+    {
+      "path": "/loner-or-lover/",
+      "status": 301,
+      "location": "/civility-loner-of-lover",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/lp-profile-6/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/lp-term-conditions-5/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/maintenance/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/making-real-connections-in-a-self-centered-world/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/making-real-connections-in-a-self-centered-world",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Making Real Connections in a Self-Centered World | Jack Skeen"
+    },
+    {
+      "path": "/mastering-the-self-taming-the-ego-for-lasting-fulfillment/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/mastering-the-self-taming-the-ego-for-lasting-fulfillment",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Mastering the Self: Taming the Ego for Lasting Fulfillment | Jack Skeen"
+    },
+    {
+      "path": "/meet-gladys-the-turtle/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/meet-gladys-the-turtle",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Meet Gladys the Turtle | Jack Skeen"
+    },
+    {
+      "path": "/messing-with-your-operating-system/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/messing-with-your-operating-system",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Messing with your Operating System | Jack Skeen"
+    },
+    {
+      "path": "/money-and-happiness/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/money-and-happiness",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Money and Happiness | Jack Skeen"
+    },
+    {
+      "path": "/north-star/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/north-star",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Growing in Difficult Times | Jack Skeen"
+    },
+    {
+      "path": "/our_team_category/our-team/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/belinda/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/christian/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/jane-nguyen/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/john-doe/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/jonathan/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/robert/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/ryze-faker/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/our_team/tony-teo/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/outgrowing-your-shell-the-courage-to-become-a-bigger-you/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/outgrowing-your-shell-the-courage-to-become-a-bigger-you",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Outgrowing Your Shell: The Courage to Become a Bigger You | Jack Skeen"
+    },
+    {
+      "path": "/overcoming-the-illusion-of-fear/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/overcoming-the-illusion-of-fear",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Overcoming the Illusion of Fear | Jack Skeen"
+    },
+    {
+      "path": "/portfolio-category/books/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio-category/courses/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio-category/presentations/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/about-soft-skills/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/design-cover/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/electronic-book/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/fighting/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/home-work/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/keeping-smile/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/library/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/opened-book/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/reading-book/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/reading-glasses/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/startup-team/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/portfolio/up-your-skill/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/power/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/purpose/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Pushing the Boundaries of Your Comfort Zone: Achieving a Big Dream | Jack Skeen"
+    },
+    {
+      "path": "/rediscovering-your-inner-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/rediscovering-your-inner-greatness",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Rediscovering Your Inner Greatness | Jack Skeen"
+    },
+    {
+      "path": "/roadmap-essentials/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/roadmap-vault/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/shedding-your-shell-embracing-change-and-growth-in-2025/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/shedding-your-shell-embracing-change-and-growth-in-2025",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Shedding Your Shell: Embracing Change and Growth in 2025 | Jack Skeen"
+    },
+    {
+      "path": "/shifting-from-below-to-above-the-line/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/shifting-from-below-to-above-the-line",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Shifting from Below to Above “The Line” | Jack Skeen"
+    },
+    {
+      "path": "/skeen-stronghold/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/story-of-ghandi/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/story-of-ghandi",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Story of Ghandi — Video | Jack Skeen"
+    },
+    {
+      "path": "/tag/being/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/christmas/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/civility/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/coaching/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/community/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/company-improvement/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/control/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/creativity/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/development-reducing-turnover-within-my-company/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/ego/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/executive-leadership-development/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/family/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/fun/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/happiness/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/human-resource-professional-development/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/human-resource-professional/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/improving-employee-satisfaction/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/increasing-return-on-employee-investment/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/intentionality/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/leadership-coaching/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/leadership/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/life-coach/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/listening/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/neighbor-fred-rogers/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/personal-growth-coach/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/professional-development/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/reducing-turnover-within-my-company/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/responsibility/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/ritual/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/self-help/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/tag/spiritual-growth/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/taking-100-responsibility/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/taking-100-responsibility",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Taking 100% Responsibility | Jack Skeen"
+    },
+    {
+      "path": "/taking-radical-responsibility-for-your-life/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/taking-radical-responsibility-for-your-life",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Taking Radical Responsibility for Your Life | Jack Skeen"
+    },
+    {
+      "path": "/testimonials/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/alexander-koff/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/bob-moss/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/dr-laura-berman/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/jean-moran/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/kathleen-mccormick/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/marie-hartman/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/mark-few/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/mark-mitchell/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/michael-stewart/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/pat-mcmahon/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/rodrigo-leonardo-anunciato/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/samuel-p-chapman/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/testimonials/shane-goodwin-phd/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/thanksgiving-and-giving-thanks/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/thanksgiving-and-giving-thanks",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Thanksgiving and Giving Thanks | Jack Skeen"
+    },
+    {
+      "path": "/the-art-of-mind-management-being-your-mind-vs-having-a-mind/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-art-of-mind-management-being-your-mind-vs-having-a-mind",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Art of Mind Management: Being Your Mind vs. Having a Mind | Jack Skeen"
+    },
+    {
+      "path": "/the-change-formula/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-change-formula",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Change Formula | Jack Skeen"
+    },
+    {
+      "path": "/the-circle-blueprint-assessment/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-circle-blueprint-assessment",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Circle Blueprint Assessment | Jack Skeen"
+    },
+    {
+      "path": "/the-circle-blueprint-system/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-circle-blueprint-system",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Circle Blueprint System — Video | Jack Skeen"
+    },
+    {
+      "path": "/the-civility-essays/",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/the-four-developmental-tasks/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-four-developmental-tasks",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Four Developmental Tasks | Jack Skeen"
+    },
+    {
+      "path": "/the-path-to-true-humility/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-path-to-true-humility",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Path to True Humility | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-being-seen-and-embracing-vulnerability/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-being-seen-and-embracing-vulnerability",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Power of “Being Seen” and Embracing Vulnerability | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-dreams-igniting-your-path-to-fulfillment/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-dreams-igniting-your-path-to-fulfillment",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Power of Dreams: Igniting Your Path to Fulfillment | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-fierce-conversations/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-fierce-conversations",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Power of Fierce Conversations | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-preference/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-preference",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Power of Preference | Jack Skeen"
+    },
+    {
+      "path": "/the-roadmap/",
+      "status": 301,
+      "location": "/roadmap",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/the-small-part-of-who-we-are/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-small-part-of-who-we-are",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Small Part of Who We Are | Jack Skeen"
+    },
+    {
+      "path": "/the-sub-factors-of-independence/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-sub-factors-of-independence",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Sub-Factors of Independence | Jack Skeen"
+    },
+    {
+      "path": "/the-three-faces-of-drama/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-three-faces-of-drama",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Three Faces of Drama | Jack Skeen"
+    },
+    {
+      "path": "/the-thriving-scale-a-first-step-to-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-thriving-scale-a-first-step-to-greatness",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Thriving Scale: A First Step to Greatness | Jack Skeen"
+    },
+    {
+      "path": "/the-universal-truth-of-happiness-a-journey-within/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-universal-truth-of-happiness-a-journey-within",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "The Universal Truth of Happiness: A Journey Within | Jack Skeen"
+    },
+    {
+      "path": "/thriving-scale-2/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/thriving-scale-2",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Thriving Scale — Video | Jack Skeen"
+    },
+    {
+      "path": "/type/video/",
+      "status": 301,
+      "location": "/insights?format=video",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/wear-your-life-scars-with-honor/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/wear-your-life-scars-with-honor",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Wear Your Life Scars With Honor | Jack Skeen"
+    },
+    {
+      "path": "/what-do-you-want/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-do-you-want",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What Do You Want? | Jack Skeen"
+    },
+    {
+      "path": "/what-gets-you-out-of-bed-in-the-morning/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-gets-you-out-of-bed-in-the-morning",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What gets you out of bed in the morning? | Jack Skeen"
+    },
+    {
+      "path": "/what-is-civility/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-civility",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Civility in Chaos | Jack Skeen"
+    },
+    {
+      "path": "/what-is-the-line/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-the-line",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What is “The Line”? | Jack Skeen"
+    },
+    {
+      "path": "/what-is-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-your-circle",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What is Your Circle | Jack Skeen"
+    },
+    {
+      "path": "/what-is-your-happiness-strategy/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-your-happiness-strategy",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What is Your Happiness Strategy? | Jack Skeen"
+    },
+    {
+      "path": "/what-kind-of-coach-do-you-need/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-kind-of-coach-do-you-need",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What Kind of Coach Do You Need? | Jack Skeen"
+    },
+    {
+      "path": "/what-really-matters-to-you/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-really-matters-to-you",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What Really Matters to You? | Jack Skeen"
+    },
+    {
+      "path": "/what-the-dying-can-teach-us-about-living/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-the-dying-can-teach-us-about-living",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What the Dying Can Teach Us About Living | Jack Skeen"
+    },
+    {
+      "path": "/whats-in-your-circle-2/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/whats-in-your-circle-2",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What’s in Your Circle? | Jack Skeen"
+    },
+    {
+      "path": "/whats-in-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/whats-in-your-circle",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "What’s in Your Circle? — Video | Jack Skeen"
+    },
+    {
+      "path": "/why-i-wrote-the-circle-blueprint/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/why-i-wrote-the-circle-blueprint",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Why I wrote The Circle Blueprint | Jack Skeen"
+    },
+    {
+      "path": "/wont-you-be-my-neighbor/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/wont-you-be-my-neighbor",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Won’t You Be My Neighbor? | Jack Skeen"
+    },
+    {
+      "path": "/wowthe-christmas-story/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/wowthe-christmas-story",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Wow…The Christmas Story! | Jack Skeen"
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/JSkeen-Speaker-One-Sheet.pdf",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    },
+    {
+      "path": "/your-free-coach/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/your-free-coach",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Your Free Coach | Jack Skeen"
+    },
+    {
+      "path": "/your-personal-development-plan/",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/your-personal-development-plan",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Your Personal Development Plan | Jack Skeen"
+    },
+    {
+      "path": "/roadmap",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/roadmap",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Roadmap | Jack Skeen"
+    },
+    {
+      "path": "/roadmap/results",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/roadmap/results",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Results | Jack Skeen"
+    },
+    {
+      "path": "/roadmap/faq",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/roadmap/faq",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Frequently asked questions | Jack Skeen"
+    },
+    {
+      "path": "/work-with-jack",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/work-with-jack",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Work With Jack | Jack Skeen"
+    },
+    {
+      "path": "/work-with-jack/executive-coaching",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/work-with-jack/executive-coaching",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Executive coaching | Jack Skeen"
+    },
+    {
+      "path": "/work-with-jack/roadmap-essentials",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/work-with-jack/roadmap-essentials",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Roadmap Essentials | Jack Skeen"
+    },
+    {
+      "path": "/work-with-jack/roadmap-discovery-group",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/work-with-jack/roadmap-discovery-group",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Roadmap Discovery Group | Jack Skeen"
+    },
+    {
+      "path": "/work-with-jack/corporate",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/work-with-jack/corporate",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Corporate advisory | Jack Skeen"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/about",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "About Jack Skeen | Jack Skeen"
+    },
+    {
+      "path": "/insights",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Insights | Jack Skeen"
+    },
+    {
+      "path": "/books",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/books",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Books | Jack Skeen"
+    },
+    {
+      "path": "/books/circle-blueprint",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/books/circle-blueprint",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Circle Blueprint | Jack Skeen"
+    },
+    {
+      "path": "/success-stories",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/success-stories",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Client Stories | Jack Skeen"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/contact",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Contact Jack Skeen | Jack Skeen",
+      "contactLinks": [
+        "https://calendly.com/jackskeen/roadmap-discovery",
+        "mailto:jskeen@skeengroup.net",
+        "tel:+14436108772"
+      ]
+    },
+    {
+      "path": "/start",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/start",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Start Your Roadmap | Jack Skeen",
+      "contactLinks": [
+        "https://calendly.com/jackskeen/roadmap-discovery",
+        "mailto:jskeen@skeengroup.net",
+        "tel:+14436108772"
+      ]
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/privacy",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Privacy | Jack Skeen"
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/terms",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Terms | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Inside the Circle | Roadmap Graduate Stories | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/reshma-nichani",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/reshma-nichani",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Reshma Nichani | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/rodrigo-herrera-aspra",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/rodrigo-herrera-aspra",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Rodrigo Herrera Aspra | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/allegra-poschmann",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/allegra-poschmann",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Allegra Poschmann | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/david-riggs",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/david-riggs",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "David Riggs | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/josh-williamson",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/josh-williamson",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Josh Williamson | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/joel-hakala",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/joel-hakala",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Joel Hakala | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/zach-kosturos",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/zach-kosturos",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Zach Kosturos | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/juan-aviles",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/juan-aviles",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Juan Avilés | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/rodrigo-herrera",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/rodrigo-herrera",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Rodrigo Herrera | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/raghav-taparia",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/raghav-taparia",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Raghav Taparia | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/rob-fraser",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/rob-fraser",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Rob Fraser | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/terry-moss",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/terry-moss",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Terry Moss | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/anton-marano",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/anton-marano",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Anton Marano | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/conor-kearney",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/conor-kearney",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Conor Kearney | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/jean-moran",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/jean-moran",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Jean Moran | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/inside-the-circle/jeff-durkee",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/inside-the-circle/jeff-durkee",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Jeff Durkee | Roadmap Graduate Story | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/purpose",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/purpose",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Purpose | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/success-fulfillment",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/success-fulfillment",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Success & Fulfillment | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/leadership",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/leadership",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Leadership | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/personal-growth",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/personal-growth",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Personal Growth | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/relationships",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/relationships",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Relationships | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/your-genius",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/your-genius",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Your Genius | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/circle-blueprint",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/circle-blueprint",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Circle Blueprint | Jack Skeen"
+    },
+    {
+      "path": "/insights/topics/reflections",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/insights/topics/reflections",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Reflections | Jack Skeen"
+    },
+    {
+      "path": "/being-a-plow-horse-or-a-reservoir",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/being-a-plow-horse-or-a-reservoir",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Being a Plow Horse or a Reservoir | Jack Skeen"
+    },
+    {
+      "path": "/allies-or-enemies",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/allies-or-enemies",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Allies or Enemies? | Jack Skeen"
+    },
+    {
+      "path": "/its-a-wonderful-day-in-the-neighborhood",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/its-a-wonderful-day-in-the-neighborhood",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "It’s a Wonderful Day in the Neighborhood | Jack Skeen"
+    },
+    {
+      "path": "/civility-the-power-of-seeing-others",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-the-power-of-seeing-others",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility: The Power of Seeing Others | Jack Skeen"
+    },
+    {
+      "path": "/authenticity-the-new-currency-in-a-world-of-illusions",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/authenticity-the-new-currency-in-a-world-of-illusions",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Authenticity: The New Currency in a World of Illusions | Jack Skeen"
+    },
+    {
+      "path": "/drama-triangle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/drama-triangle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Understanding the Drama Triangle | Jack Skeen"
+    },
+    {
+      "path": "/shedding-your-shell-embracing-change-and-growth-in-2025",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/shedding-your-shell-embracing-change-and-growth-in-2025",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Shedding Your Shell: Embracing Change and Growth in 2025 | Jack Skeen"
+    },
+    {
+      "path": "/100-percent-love-is-it-possible",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/100-percent-love-is-it-possible",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "100 Percent Love. Is it Possible? | Jack Skeen"
+    },
+    {
+      "path": "/discovering-your-unique-gift-to-the-world",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/discovering-your-unique-gift-to-the-world",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Discovering Your Unique Gift to the World | Jack Skeen"
+    },
+    {
+      "path": "/what-the-dying-can-teach-us-about-living",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-the-dying-can-teach-us-about-living",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What the Dying Can Teach Us About Living | Jack Skeen"
+    },
+    {
+      "path": "/the-small-part-of-who-we-are",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-small-part-of-who-we-are",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Small Part of Who We Are | Jack Skeen"
+    },
+    {
+      "path": "/escaping-the-drama-trap-battling-the-imaginary-bear",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/escaping-the-drama-trap-battling-the-imaginary-bear",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Escaping the Drama Trap: Battling the Imaginary Bear | Jack Skeen"
+    },
+    {
+      "path": "/are-you-crisis-prone",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-crisis-prone",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Are You Crisis-Prone? | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-preference",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-preference",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Power of Preference | Jack Skeen"
+    },
+    {
+      "path": "/embracing-stillness-a-path-to-inner-transformation",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/embracing-stillness-a-path-to-inner-transformation",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Embracing Stillness: A Path to Inner Transformation | Jack Skeen"
+    },
+    {
+      "path": "/overcoming-the-illusion-of-fear",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/overcoming-the-illusion-of-fear",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Overcoming the Illusion of Fear | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-fierce-conversations",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-fierce-conversations",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Power of Fierce Conversations | Jack Skeen"
+    },
+    {
+      "path": "/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Pushing the Boundaries of Your Comfort Zone: Achieving a Big Dream | Jack Skeen"
+    },
+    {
+      "path": "/what-gets-you-out-of-bed-in-the-morning",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-gets-you-out-of-bed-in-the-morning",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What gets you out of bed in the morning? | Jack Skeen"
+    },
+    {
+      "path": "/outgrowing-your-shell-the-courage-to-become-a-bigger-you",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/outgrowing-your-shell-the-courage-to-become-a-bigger-you",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Outgrowing Your Shell: The Courage to Become a Bigger You | Jack Skeen"
+    },
+    {
+      "path": "/wear-your-life-scars-with-honor",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/wear-your-life-scars-with-honor",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Wear Your Life Scars With Honor | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-being-seen-and-embracing-vulnerability",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-being-seen-and-embracing-vulnerability",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Power of “Being Seen” and Embracing Vulnerability | Jack Skeen"
+    },
+    {
+      "path": "/making-real-connections-in-a-self-centered-world",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/making-real-connections-in-a-self-centered-world",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Making Real Connections in a Self-Centered World | Jack Skeen"
+    },
+    {
+      "path": "/finding-your-path",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/finding-your-path",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Finding Your Path | Jack Skeen"
+    },
+    {
+      "path": "/feeding-the-fire-within",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/feeding-the-fire-within",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Feeding the Fire Within | Jack Skeen"
+    },
+    {
+      "path": "/rediscovering-your-inner-greatness",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/rediscovering-your-inner-greatness",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Rediscovering Your Inner Greatness | Jack Skeen"
+    },
+    {
+      "path": "/the-power-of-dreams-igniting-your-path-to-fulfillment",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-power-of-dreams-igniting-your-path-to-fulfillment",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Power of Dreams: Igniting Your Path to Fulfillment | Jack Skeen"
+    },
+    {
+      "path": "/what-is-your-happiness-strategy",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-your-happiness-strategy",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What is Your Happiness Strategy? | Jack Skeen"
+    },
+    {
+      "path": "/the-universal-truth-of-happiness-a-journey-within",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-universal-truth-of-happiness-a-journey-within",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Universal Truth of Happiness: A Journey Within | Jack Skeen"
+    },
+    {
+      "path": "/the-art-of-mind-management-being-your-mind-vs-having-a-mind",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-art-of-mind-management-being-your-mind-vs-having-a-mind",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Art of Mind Management: Being Your Mind vs. Having a Mind | Jack Skeen"
+    },
+    {
+      "path": "/mastering-the-self-taming-the-ego-for-lasting-fulfillment",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/mastering-the-self-taming-the-ego-for-lasting-fulfillment",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Mastering the Self: Taming the Ego for Lasting Fulfillment | Jack Skeen"
+    },
+    {
+      "path": "/embracing-gratitude-a-thanksgiving-reflection",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/embracing-gratitude-a-thanksgiving-reflection",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Embracing Gratitude: A Thanksgiving Reflection | Jack Skeen"
+    },
+    {
+      "path": "/the-thriving-scale-a-first-step-to-greatness",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-thriving-scale-a-first-step-to-greatness",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Thriving Scale: A First Step to Greatness | Jack Skeen"
+    },
+    {
+      "path": "/leadership-lessons-from-iron-john",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/leadership-lessons-from-iron-john",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Leadership Lessons from “Iron John” | Jack Skeen"
+    },
+    {
+      "path": "/what-do-you-want",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-do-you-want",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What Do You Want? | Jack Skeen"
+    },
+    {
+      "path": "/the-path-to-true-humility",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-path-to-true-humility",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Path to True Humility | Jack Skeen"
+    },
+    {
+      "path": "/how-to-identify-your-true-power",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/how-to-identify-your-true-power",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "How to Identify Your True Power | Jack Skeen"
+    },
+    {
+      "path": "/finding-your-power",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/finding-your-power",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Finding Your Power!!! | Jack Skeen"
+    },
+    {
+      "path": "/humility-and-the-christmas-story",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/humility-and-the-christmas-story",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Humility and the Christmas Story | Jack Skeen"
+    },
+    {
+      "path": "/giving-thanks-at-thanksgiving",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/giving-thanks-at-thanksgiving",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Giving Thanks at Thanksgiving | Jack Skeen"
+    },
+    {
+      "path": "/growing-your-independence",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/growing-your-independence",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Growing your “Independence” | Jack Skeen"
+    },
+    {
+      "path": "/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Becoming Aware of Yourself: Independence is the First Step Toward Greatness | Jack Skeen"
+    },
+    {
+      "path": "/expanding-your-circle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/expanding-your-circle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Expanding Your Circle | Jack Skeen"
+    },
+    {
+      "path": "/whats-in-your-circle-2",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/whats-in-your-circle-2",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What’s in Your Circle? | Jack Skeen"
+    },
+    {
+      "path": "/letting-go-to-grow",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/letting-go-to-grow",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Letting Go…to Grow | Jack Skeen"
+    },
+    {
+      "path": "/what-really-matters-to-you",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-really-matters-to-you",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What Really Matters to You? | Jack Skeen"
+    },
+    {
+      "path": "/are-you-thriving-2",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-thriving-2",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Are You Thriving? (2022) | Jack Skeen"
+    },
+    {
+      "path": "/finding-your-greatness",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/finding-your-greatness",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Finding Your Greatness | Jack Skeen"
+    },
+    {
+      "path": "/are-you-as-happy-as-you-want-to-be",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-as-happy-as-you-want-to-be",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Are You as Happy as You Want to be? | Jack Skeen"
+    },
+    {
+      "path": "/wowthe-christmas-story",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/wowthe-christmas-story",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Wow…The Christmas Story! | Jack Skeen"
+    },
+    {
+      "path": "/thanksgiving-and-giving-thanks",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/thanksgiving-and-giving-thanks",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Thanksgiving and Giving Thanks | Jack Skeen"
+    },
+    {
+      "path": "/the-three-faces-of-drama",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-three-faces-of-drama",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Three Faces of Drama | Jack Skeen"
+    },
+    {
+      "path": "/facts-versus-stories",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/facts-versus-stories",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Facts versus Stories | Jack Skeen"
+    },
+    {
+      "path": "/drama-the-great-energy-waster",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/drama-the-great-energy-waster",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Drama: The Great Energy Waster | Jack Skeen"
+    },
+    {
+      "path": "/entitlements-we-all-have-them",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/entitlements-we-all-have-them",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Entitlements: We All Have Them! | Jack Skeen"
+    },
+    {
+      "path": "/shifting-from-below-to-above-the-line",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/shifting-from-below-to-above-the-line",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Shifting from Below to Above “The Line” | Jack Skeen"
+    },
+    {
+      "path": "/are-you-living-below-the-line",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-living-below-the-line",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Are you living “below the line”? | Jack Skeen"
+    },
+    {
+      "path": "/what-is-the-line",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-the-line",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What is “The Line”? | Jack Skeen"
+    },
+    {
+      "path": "/your-personal-development-plan",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/your-personal-development-plan",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Your Personal Development Plan | Jack Skeen"
+    },
+    {
+      "path": "/taking-radical-responsibility-for-your-life",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/taking-radical-responsibility-for-your-life",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Taking Radical Responsibility for Your Life | Jack Skeen"
+    },
+    {
+      "path": "/are-you-thriving",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/are-you-thriving",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Are You Thriving? (2021) | Jack Skeen"
+    },
+    {
+      "path": "/messing-with-your-operating-system",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/messing-with-your-operating-system",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Messing with your Operating System | Jack Skeen"
+    },
+    {
+      "path": "/what-kind-of-coach-do-you-need",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-kind-of-coach-do-you-need",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What Kind of Coach Do You Need? | Jack Skeen"
+    },
+    {
+      "path": "/how-can-you-be-so-dumb",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/how-can-you-be-so-dumb",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "How Can You Be so Dumb? | Jack Skeen"
+    },
+    {
+      "path": "/breaking-through-upper-limits",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/breaking-through-upper-limits",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Breaking Through Upper Limits | Jack Skeen"
+    },
+    {
+      "path": "/do-i-need-a-coach",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/do-i-need-a-coach",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Do I need a coach? | Jack Skeen"
+    },
+    {
+      "path": "/your-free-coach",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/your-free-coach",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Your Free Coach | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-identity",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-identity",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility and Identity | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-grace",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-grace",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility and Grace | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-taking-radical-responsibility",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-taking-radical-responsibility",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility and Taking Radical Responsibility | Jack Skeen"
+    },
+    {
+      "path": "/civility-and-getting-past-the-need-to-be-right",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-and-getting-past-the-need-to-be-right",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility and Getting Past the Need to be Right | Jack Skeen"
+    },
+    {
+      "path": "/individuality-and-civility",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/individuality-and-civility",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Individuality and Civility | Jack Skeen"
+    },
+    {
+      "path": "/creating-community-fun",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/creating-community-fun",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Creating Community Fun | Jack Skeen"
+    },
+    {
+      "path": "/control-in-difficult-times",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/control-in-difficult-times",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What Can You Control? | Jack Skeen"
+    },
+    {
+      "path": "/north-star",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/north-star",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Growing in Difficult Times | Jack Skeen"
+    },
+    {
+      "path": "/meet-gladys-the-turtle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/meet-gladys-the-turtle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Meet Gladys the Turtle | Jack Skeen"
+    },
+    {
+      "path": "/what-is-civility",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-civility",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility in Chaos | Jack Skeen"
+    },
+    {
+      "path": "/community-lets-get-creative",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/community-lets-get-creative",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Community: Let’s Get Creative | Jack Skeen"
+    },
+    {
+      "path": "/community-2",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/community-2",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Community: The Value of Ritual | Jack Skeen"
+    },
+    {
+      "path": "/community-intentionality",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/community-intentionality",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Community: Intentionality | Jack Skeen"
+    },
+    {
+      "path": "/civility-loner-of-lover",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-loner-of-lover",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility: Loner of Lover | Jack Skeen"
+    },
+    {
+      "path": "/civility-being-a-plow-horse-or-a-reservoir",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-being-a-plow-horse-or-a-reservoir",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility: Being a Plow Horse or a Reservoir | Jack Skeen"
+    },
+    {
+      "path": "/civility-allies-or-enemies",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-allies-or-enemies",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility: Allies or Enemies? | Jack Skeen"
+    },
+    {
+      "path": "/civility-christmas-civility-on-steroids",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-christmas-civility-on-steroids",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility Christmas: Civility on Steroids | Jack Skeen"
+    },
+    {
+      "path": "/wont-you-be-my-neighbor",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/wont-you-be-my-neighbor",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Won’t You Be My Neighbor? | Jack Skeen"
+    },
+    {
+      "path": "/civility-listening",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-listening",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility: Listening | Jack Skeen"
+    },
+    {
+      "path": "/civility-who-are-you-being",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-who-are-you-being",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility: Who Are You BEING? | Jack Skeen"
+    },
+    {
+      "path": "/civility-lesson",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/civility-lesson",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Civility Lesson | Jack Skeen"
+    },
+    {
+      "path": "/autonomy",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/autonomy",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Autonomy | Jack Skeen"
+    },
+    {
+      "path": "/the-sub-factors-of-independence",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-sub-factors-of-independence",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Sub-Factors of Independence | Jack Skeen"
+    },
+    {
+      "path": "/the-circle-blueprint-assessment",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-circle-blueprint-assessment",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Circle Blueprint Assessment | Jack Skeen"
+    },
+    {
+      "path": "/big-and-little-self",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/big-and-little-self",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Big and Little Self | Jack Skeen"
+    },
+    {
+      "path": "/accountability",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/accountability",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Accountability | Jack Skeen"
+    },
+    {
+      "path": "/independence",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/independence",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Independence | Jack Skeen"
+    },
+    {
+      "path": "/gas-pedals-and-brakes",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/gas-pedals-and-brakes",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Gas Pedals and Brakes | Jack Skeen"
+    },
+    {
+      "path": "/the-change-formula",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-change-formula",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Change Formula | Jack Skeen"
+    },
+    {
+      "path": "/taking-100-responsibility",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/taking-100-responsibility",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Taking 100% Responsibility | Jack Skeen"
+    },
+    {
+      "path": "/the-four-developmental-tasks",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-four-developmental-tasks",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Four Developmental Tasks | Jack Skeen"
+    },
+    {
+      "path": "/story-of-ghandi",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/story-of-ghandi",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Story of Ghandi — Video | Jack Skeen"
+    },
+    {
+      "path": "/choosing-to-expand-your-circle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/choosing-to-expand-your-circle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Choosing to Expand Your Circle | Jack Skeen"
+    },
+    {
+      "path": "/living-within-your-passion",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/living-within-your-passion",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Living Within Your Passion — Video | Jack Skeen"
+    },
+    {
+      "path": "/what-is-your-circle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/what-is-your-circle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What is Your Circle | Jack Skeen"
+    },
+    {
+      "path": "/thriving-scale-2",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/thriving-scale-2",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Thriving Scale — Video | Jack Skeen"
+    },
+    {
+      "path": "/money-and-happiness",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/money-and-happiness",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Money and Happiness | Jack Skeen"
+    },
+    {
+      "path": "/happiness",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/happiness",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Happiness | Jack Skeen"
+    },
+    {
+      "path": "/jacks-purpose",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/jacks-purpose",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Jack’s Purpose — Video | Jack Skeen"
+    },
+    {
+      "path": "/why-i-wrote-the-circle-blueprint",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/why-i-wrote-the-circle-blueprint",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Why I wrote The Circle Blueprint | Jack Skeen"
+    },
+    {
+      "path": "/the-circle-blueprint-system",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/the-circle-blueprint-system",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "The Circle Blueprint System — Video | Jack Skeen"
+    },
+    {
+      "path": "/boiled-frog",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/boiled-frog",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Boiled Frog — Video | Jack Skeen"
+    },
+    {
+      "path": "/corporate-solutions",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/corporate-solutions",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Corporate Solutions — Video | Jack Skeen"
+    },
+    {
+      "path": "/gratitude",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/gratitude",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Gratitude — Video | Jack Skeen"
+    },
+    {
+      "path": "/cost-of-pleasing",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/cost-of-pleasing",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "Cost of Pleasing — Video | Jack Skeen"
+    },
+    {
+      "path": "/whats-in-your-circle",
+      "status": 200,
+      "location": null,
+      "robots": [
+        "noindex, follow"
+      ],
+      "canonical": "https://jackskeen.com/whats-in-your-circle",
+      "inSitemap": true,
+      "notFoundPayload": false,
+      "title": "What’s in Your Circle? — Video | Jack Skeen"
+    },
+    {
+      "path": "/roadmap/how-it-works",
+      "status": 308,
+      "location": "/roadmap",
+      "robots": [],
+      "canonical": null,
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": ""
+    },
+    {
+      "path": "/not-a-real-launch-audit-page",
+      "status": 404,
+      "location": null,
+      "robots": [
+        "noindex",
+        "noindex, nofollow"
+      ],
+      "canonical": "https://jackskeen.com",
+      "inSitemap": false,
+      "notFoundPayload": false,
+      "title": "Jack Skeen | Executive Coaching"
+    }
+  ]
+}

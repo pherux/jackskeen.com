@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
+import { canonicalOrigin, siteIsIndexable } from "@/lib/indexing";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jackskeen.com";
-const isIndexable = process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true";
+const siteUrl = canonicalOrigin;
 
 export default function robots(): MetadataRoute.Robots {
-  if (!isIndexable) {
+  if (!siteIsIndexable()) {
     return {
       rules: { userAgent: "*", disallow: "/" },
     };

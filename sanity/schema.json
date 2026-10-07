@@ -1780,7 +1780,7 @@
           "type": "inline",
           "name": "richText"
         },
-        "optional": false
+        "optional": true
       },
       "author": {
         "type": "objectAttribute",

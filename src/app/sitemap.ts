@@ -1,35 +1,28 @@
 import type { MetadataRoute } from "next";
-
-import { sitePages, topics } from "@/data/site-pages";
 import { getLegacyArticles } from "@/lib/content-catalog";
 import { podcastEpisodes, episodePath } from "@/data/podcast";
-import insightRedirects from "@/data/insights/redirects.json";
+import { canonicalOrigin, launchPages, siteIsIndexable } from "@/lib/indexing";
+import legacyPages from "@/data/legacy-pages.json";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://jackskeen.com";
-
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  if (!siteIsIndexable()) return [];
   const strategic = [
-    "/",
-    ...sitePages
-      .map((page) => page.path)
-      .filter(
-        (path) =>
-          path !== "/insights/podcast" &&
-          !insightRedirects.some((redirect) => redirect.source === path),
-      ),
-    "/inside-the-circle",
+    ...launchPages,
     ...podcastEpisodes.map(episodePath),
+    ...legacyPages
+      .filter((page) => !page.deferredSignup)
+      .map((page) => page.pathname),
   ];
-  const topicPaths = topics.map((topic) => `/insights/topics/${topic.slug}`);
-  const legacy = getLegacyArticles().map((article) => ({
-    url: new URL(article.pathname, siteUrl).toString(),
-    lastModified: article.updatedDateGmt || article.publicationDateGmt,
-  }));
-
+  const articles = (await getLegacyArticles()).filter(
+    (article) => !article.noIndex,
+  );
   return [
-    ...[...strategic, ...topicPaths].map((path) => ({
-      url: new URL(path, siteUrl).toString(),
+    ...strategic.map((path) => ({
+      url: new URL(path, canonicalOrigin).toString(),
     })),
-    ...legacy,
+    ...articles.map((article) => ({
+      url: article.canonicalUrl,
+      lastModified: article.updatedDateGmt || article.publicationDateGmt,
+    })),
   ];
 }

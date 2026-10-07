@@ -1,0 +1,1537 @@
+{
+  "checkedAt": "2026-10-07T16:23:58.894Z",
+  "scope": "Local production build; no external account validation",
+  "indexable": true,
+  "sitemapEntries": 161,
+  "redirectVariants": 50,
+  "legacyUrls": 218,
+  "runtimeErrors": false,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/100-percent-love-is-it-possible/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/about-jack-skeen/",
+      "status": 301,
+      "location": "/about",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/about-tcb/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/accountability/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/all-testimonials/",
+      "status": 301,
+      "location": "/success-stories",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/allies-or-enemies/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/are-you-as-happy-as-you-want-to-be/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/are-you-crisis-prone/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/are-you-living-below-the-line/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/are-you-thriving-2/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/are-you-thriving/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/authenticity-the-new-currency-in-a-world-of-illusions/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/author/fernando/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/author/jack/",
+      "status": 301,
+      "location": "/insights",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/autonomy/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/becoming-aware-of-yourself-independence-is-the-first-step-toward-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/being-a-plow-horse-or-a-reservoir/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/big-and-little-self/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/blog/",
+      "status": 301,
+      "location": "/insights",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/boiled-frog/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/breaking-through-upper-limits/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/category/blog/",
+      "status": 301,
+      "location": "/insights",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/category/video/",
+      "status": 301,
+      "location": "/insights?format=video",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/choosing-to-expand-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-allies-or-enemies/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-and-getting-past-the-need-to-be-right/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-and-grace/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-and-identity/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-and-taking-radical-responsibility/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-being-a-plow-horse-or-a-reservoir/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-christmas-civility-on-steroids/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-lesson/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-listening/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-loner-of-lover/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-the-power-of-seeing-others/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/civility-who-are-you-being/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/community-2/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/community-intentionality/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/community-lets-get-creative/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/community/",
+      "status": 200,
+      "location": null,
+      "robots": "noindex, follow",
+      "action": "NOINDEX"
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/control-in-difficult-times/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/corporate-solutions/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/cost-of-pleasing/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/courses-2/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/discovering-your-unique-gift-to-the-world/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/do-i-need-a-coach/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/drama-the-great-energy-waster/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/drama-triangle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/embracing-gratitude-a-thanksgiving-reflection/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/embracing-stillness-a-path-to-inner-transformation/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/entitlements-we-all-have-them/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/escaping-the-drama-trap-battling-the-imaginary-bear/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/events/annual-executive-coaching-conference/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/events/capital-coaches-conference/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/events/global-mentoring-coaching-and-supervision-conference/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/events/spring-summit-rising-awareness/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/executive-coaching/",
+      "status": 301,
+      "location": "/work-with-jack/executive-coaching",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/expanding-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/facts-versus-stories/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/faqs/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/feeding-the-fire-within/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/finding-your-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/finding-your-path/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/finding-your-power/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/free-books/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/free-ebook/",
+      "status": 200,
+      "location": null,
+      "robots": "noindex, follow",
+      "action": "NOINDEX"
+    },
+    {
+      "path": "/gas-pedals-and-brakes/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/giving-thanks-at-thanksgiving/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/gladys-turtle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/gratitude/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/growing-your-independence/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/happiness/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/how-can-you-be-so-dumb/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/how-to-identify-your-true-power/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/humility-and-the-christmas-story/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/humility/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/independence/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/individuality-and-civility/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/instructors-7/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/its-a-wonderful-day-in-the-neighborhood/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/jacks-purpose/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/leadership-lessons-from-iron-john/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/learning-to-play-a-friendly-game-of-tennis/",
+      "status": 301,
+      "location": "/civility-listening",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/letting-go-to-grow/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/living-within-your-passion/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/loner-or-lover/",
+      "status": 301,
+      "location": "/civility-loner-of-lover",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/lp-profile-6/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/lp-term-conditions-5/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/maintenance/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/making-real-connections-in-a-self-centered-world/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/mastering-the-self-taming-the-ego-for-lasting-fulfillment/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/meet-gladys-the-turtle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/messing-with-your-operating-system/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/money-and-happiness/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/north-star/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/our_team_category/our-team/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/belinda/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/christian/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/jane-nguyen/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/john-doe/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/jonathan/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/robert/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/ryze-faker/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/our_team/tony-teo/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/outgrowing-your-shell-the-courage-to-become-a-bigger-you/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/overcoming-the-illusion-of-fear/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/portfolio-category/books/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio-category/courses/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio-category/presentations/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/about-soft-skills/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/design-cover/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/electronic-book/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/fighting/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/home-work/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/keeping-smile/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/library/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/opened-book/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/reading-book/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/reading-glasses/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/startup-team/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/portfolio/up-your-skill/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/power/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/purpose/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/pushing-the-boundaries-of-your-comfort-zone-achieving-a-big-dream/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/rediscovering-your-inner-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/roadmap-essentials/",
+      "status": 301,
+      "location": "/work-with-jack/roadmap-essentials",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/roadmap-vault/",
+      "status": 200,
+      "location": null,
+      "robots": "noindex, nofollow",
+      "action": "NOINDEX"
+    },
+    {
+      "path": "/shedding-your-shell-embracing-change-and-growth-in-2025/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/shifting-from-below-to-above-the-line/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/skeen-stronghold/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/story-of-ghandi/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/tag/being/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/christmas/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/civility/",
+      "status": 301,
+      "location": "/insights/topics/relationships",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/coaching/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/community/",
+      "status": 301,
+      "location": "/insights/topics/relationships",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/company-improvement/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/control/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/creativity/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/development-reducing-turnover-within-my-company/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/ego/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/executive-leadership-development/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/family/",
+      "status": 301,
+      "location": "/insights/topics/relationships",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/fun/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/happiness/",
+      "status": 301,
+      "location": "/insights/topics/success-fulfillment",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/human-resource-professional-development/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/human-resource-professional/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/improving-employee-satisfaction/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/increasing-return-on-employee-investment/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/intentionality/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/leadership-coaching/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/leadership/",
+      "status": 301,
+      "location": "/insights/topics/leadership",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/life-coach/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/listening/",
+      "status": 301,
+      "location": "/insights/topics/relationships",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/neighbor-fred-rogers/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/personal-growth-coach/",
+      "status": 301,
+      "location": "/insights/topics/personal-growth",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/tag/professional-development/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/reducing-turnover-within-my-company/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/responsibility/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/ritual/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/self-help/",
+      "status": 404,
+      "location": null,
+      "robots": "noindex,index, follow",
+      "action": "REMOVE"
+    },
+    {
+      "path": "/tag/spiritual-growth/",
+      "status": 301,
+      "location": "/insights/topics/personal-growth",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/taking-100-responsibility/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/taking-radical-responsibility-for-your-life/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/alexander-koff/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/bob-moss/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/dr-laura-berman/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/jean-moran/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/kathleen-mccormick/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/marie-hartman/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/mark-few/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/mark-mitchell/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/michael-stewart/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/pat-mcmahon/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/rodrigo-leonardo-anunciato/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/samuel-p-chapman/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/testimonials/shane-goodwin-phd/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/thanksgiving-and-giving-thanks/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-art-of-mind-management-being-your-mind-vs-having-a-mind/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-change-formula/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-circle-blueprint-assessment/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-circle-blueprint-system/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-civility-essays/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-four-developmental-tasks/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-path-to-true-humility/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-power-of-being-seen-and-embracing-vulnerability/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-power-of-dreams-igniting-your-path-to-fulfillment/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-power-of-fierce-conversations/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-power-of-preference/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-roadmap/",
+      "status": 301,
+      "location": "/roadmap",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/the-small-part-of-who-we-are/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-sub-factors-of-independence/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-three-faces-of-drama/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-thriving-scale-a-first-step-to-greatness/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/the-universal-truth-of-happiness-a-journey-within/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/thriving-scale-2/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/type/video/",
+      "status": 301,
+      "location": "/insights?format=video",
+      "robots": "",
+      "action": "REDIRECT"
+    },
+    {
+      "path": "/wear-your-life-scars-with-honor/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-do-you-want/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-gets-you-out-of-bed-in-the-morning/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-is-civility/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-is-the-line/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-is-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-is-your-happiness-strategy/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-kind-of-coach-do-you-need/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-really-matters-to-you/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/what-the-dying-can-teach-us-about-living/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/whats-in-your-circle-2/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/whats-in-your-circle/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/why-i-wrote-the-circle-blueprint/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/wont-you-be-my-neighbor/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/wowthe-christmas-story/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/wp-content/uploads/2024/02/JSkeen-Speaker-One-Sheet.pdf",
+      "status": 200,
+      "location": null,
+      "robots": "",
+      "action": "KEEP"
+    },
+    {
+      "path": "/your-free-coach/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    },
+    {
+      "path": "/your-personal-development-plan/",
+      "status": 200,
+      "location": null,
+      "robots": "index, follow",
+      "action": "KEEP"
+    }
+  ]
+}

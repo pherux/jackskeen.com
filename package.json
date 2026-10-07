@@ -19,7 +19,11 @@
     "sanity:validate": "npm run sanity:typegen && sanity schemas validate --level error",
     "check": "npm run format:check && npm run lint && npm run typecheck && npm run build",
     "migrate:insights": "node scripts/migration/import-insights.mjs",
-    "verify:insights": "node scripts/migration/verify-insights.mjs"
+    "verify:insights": "node scripts/migration/verify-insights.mjs",
+    "prepare:sanity-archive": "node scripts/migration/prepare-sanity-archive.mjs",
+    "prepare:legacy-pages": "node scripts/migration/prepare-legacy-pages.mjs",
+    "verify:prelaunch": "node scripts/migration/verify-prelaunch.mjs",
+    "test:cms-adapter": "node scripts/migration/test-cms-adapter.mjs"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",

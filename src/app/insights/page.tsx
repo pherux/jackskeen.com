@@ -17,7 +17,7 @@ export default async function Page({ searchParams }: Props) {
   const query = archiveQuery(await searchParams);
   if (
     (Number.parseInt(query.page, 10) || 1) >
-    Math.max(1, Math.ceil(selectInsights(query).length / pageSize))
+    Math.max(1, Math.ceil((await selectInsights(query)).length / pageSize))
   )
     notFound();
   return <InsightsPage query={query} />;

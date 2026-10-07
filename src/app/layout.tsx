@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Libre_Caslon_Display } from "next/font/google";
 
 import { SanityPreviewRuntime } from "@/components/sanity/preview-runtime";
+import { pageRobots } from "@/lib/indexing";
 import "./globals.css";
 import "./roadmap.css";
 import "./editorial-pages.css";
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   description:
     "Jack helps accomplished leaders understand their unique strengths, purpose, and next chapter.",
   alternates: { canonical: "/" },
-  robots: { index: false, follow: false },
+  robots: pageRobots(),
 };
 
 export default function RootLayout({

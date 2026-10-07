@@ -20,6 +20,11 @@ export const article = defineType({
       type: "slug",
       description: "Preserve the legacy slug whenever practical.",
       options: { source: "title", maxLength: 120 },
+      readOnly: ({ document }) =>
+        Boolean(
+          (document?.migration as { wordpressId?: number } | undefined)
+            ?.wordpressId,
+        ),
       validation: (r) => r.required(),
     }),
     defineField({
@@ -31,7 +36,20 @@ export const article = defineType({
     defineField({
       name: "body",
       type: "richText",
-      validation: (r) => r.required(),
+      description:
+        "For imported WordPress entries, leave empty to preserve the original archived body. Add a body only when an editorial replacement is approved.",
+      validation: (r) =>
+        r.custom(
+          (value, context) =>
+            (Array.isArray(value) && value.length > 0) ||
+            Boolean(
+              (
+                context.document?.migration as
+                  { wordpressId?: number } | undefined
+              )?.wordpressId,
+            ) ||
+            "A body is required for new articles.",
+        ),
     }),
     defineField({
       name: "author",
@@ -43,6 +61,11 @@ export const article = defineType({
       name: "publishedAt",
       type: "datetime",
       description: "Migration must retain the original publication date.",
+      readOnly: ({ document }) =>
+        Boolean(
+          (document?.migration as { wordpressId?: number } | undefined)
+            ?.wordpressId,
+        ),
       validation: (r) => r.required(),
     }),
     defineField({ name: "updatedAt", type: "datetime" }),

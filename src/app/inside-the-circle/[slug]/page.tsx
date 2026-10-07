@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PodcastGuestPage } from "@/components/podcast/podcast-pages";
 import { podcastEpisodes, episodePath } from "@/data/podcast";
-export const dynamicParams = false;
+import { pageRobots } from "@/lib/indexing";
+export const dynamicParams = true;
 export function generateStaticParams() {
   return podcastEpisodes.map(({ slug }) => ({ slug }));
 }
@@ -15,10 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${episode.name} | Roadmap Graduate Story`,
     description: episode.summary,
     alternates: { canonical: episodePath(episode) },
-    robots: {
-      index: process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true",
-      follow: true,
-    },
+    robots: pageRobots(),
     openGraph: {
       title: `${episode.name}: ${episode.headline}`,
       description: episode.summary,

@@ -1,14 +1,21 @@
 import type { NextConfig } from "next";
 import insightRedirects from "./src/data/insights/redirects.json";
+import migrationRedirects from "./src/data/migration-redirects.json";
 
 const nextConfig: NextConfig = {
   agentRules: false,
   devIndicators: false,
   reactStrictMode: true,
   skipTrailingSlashRedirect: true,
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "cdn.sanity.io", pathname: "/images/**" },
+    ],
+  },
   async redirects() {
     const routes = [
       ...insightRedirects,
+      ...migrationRedirects,
       {
         source: "/insights/podcast",
         destination: "/inside-the-circle",
@@ -24,7 +31,7 @@ const nextConfig: NextConfig = {
       {
         source: "/roadmap/how-it-works",
         destination: "/roadmap",
-        permanent: true,
+        statusCode: 301,
       },
     ];
     return routes.flatMap((route) => [

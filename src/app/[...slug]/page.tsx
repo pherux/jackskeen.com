@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { launchPages, pageRobots } from "@/lib/indexing";
+import legacyPages from "@/data/legacy-pages.json";
+import { LegacyPage } from "@/components/content/legacy-page";
 
 import { InsightArticlePage } from "@/components/content/insight-article";
 import { articleMetadata } from "@/lib/insights-metadata";
@@ -31,7 +34,7 @@ import {
 
 type Props = { params: Promise<{ slug: string[] }> };
 
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 function toPath(slug: string[]) {
   return `/${slug.join("/")}`;
@@ -91,18 +94,37 @@ export async function generateStaticParams() {
     .map((page) => ({
       slug: page.path.split("/").filter(Boolean),
     }));
-  const legacy = getLegacyArticles().map((article) => ({
+  const legacy = (
+    process.env.ARTICLE_SOURCE === "sanity" ? [] : await getLegacyArticles()
+  ).map((article) => ({
     slug: article.pathname.split("/").filter(Boolean),
   }));
 
-  return [...strategic, ...legacy];
+  return [
+    ...strategic,
+    ...legacy,
+    ...legacyPages
+      .filter(
+        (page) =>
+          !sitePages.some((sitePage) => sitePage.path === page.pathname),
+      )
+      .map((page) => ({ slug: page.pathname.slice(1).split("/") })),
+  ];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const path = toPath(slug);
+  const preserved = legacyPages.find((page) => page.pathname === path);
+  if (preserved)
+    return {
+      title: preserved.title,
+      description: preserved.description,
+      alternates: { canonical: path },
+      robots: pageRobots(!preserved.deferredSignup),
+    };
   const page = findSitePage(path) ?? topicPage(path);
-  const article = getLegacyArticle(`${path}/`) ?? getLegacyArticle(path);
+  const article = page ? undefined : await getLegacyArticle(path);
 
   if (page) {
     return {
@@ -111,7 +133,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         ? undefined
         : page.description,
       alternates: { canonical: page.path },
-      robots: { index: false, follow: true },
+      robots: pageRobots(launchPages.includes(page.path)),
       openGraph: {
         title: page.title,
         url: page.path,
@@ -147,7 +169,7 @@ function TopicDirectory() {
   );
 }
 
-function StandardPage({ page }: { page: PageSpec }) {
+async function StandardPage({ page }: { page: PageSpec }) {
   const topic = topics.find(
     (item) => page.path === `/insights/topics/${item.slug}`,
   );
@@ -164,11 +186,13 @@ function StandardPage({ page }: { page: PageSpec }) {
         breadcrumbs={breadcrumbsFor(page.path, page.title)}
       />
       <PageBody page={page} />
-      {articleListing ? <ArticleIndex articles={getLegacyArticles()} /> : null}
+      {articleListing ? (
+        <ArticleIndex articles={await getLegacyArticles()} />
+      ) : null}
       {topic ? (
         <>
           <ArticleIndex
-            articles={getArticlesByTopic(topic.title)}
+            articles={await getArticlesByTopic(topic.title)}
             title={`Articles mapped to ${topic.title}`}
           />
           <TopicRelatedLinks title={topic.title} />
@@ -184,8 +208,8 @@ function StandardPage({ page }: { page: PageSpec }) {
   );
 }
 
-function LegacyArticlePage({ path }: { path: string }) {
-  const article = getLegacyArticle(path);
+async function LegacyArticlePage({ path }: { path: string }) {
+  const article = await getLegacyArticle(path);
   if (!article) notFound();
   return <InsightArticlePage article={article} />;
 }
@@ -193,6 +217,8 @@ function LegacyArticlePage({ path }: { path: string }) {
 export default async function CatchAllPage({ params }: Props) {
   const { slug } = await params;
   const path = toPath(slug);
+  const preserved = legacyPages.find((page) => page.pathname === path);
+  if (preserved) return <LegacyPage page={preserved} />;
   if (path === "/roadmap") return <RoadmapPage />;
   if (path === "/success-stories") return <ClientStoriesPage />;
   if (path === "/about") return <AboutJackPage />;

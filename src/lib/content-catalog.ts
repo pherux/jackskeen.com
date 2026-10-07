@@ -1,5 +1,6 @@
 import records from "@/data/insights/articles.json";
 import { topics } from "@/data/site-pages";
+import type { PortableTextBlock } from "next-sanity";
 export type ArticleImage = {
   src: string;
   width: number;
@@ -17,6 +18,9 @@ export type ArchiveVideo = {
   sourceUrl: string;
 };
 export type LegacyArticle = {
+  noIndex?: boolean;
+  body?: PortableTextBlock[];
+  migrated?: boolean;
   id: number;
   originalPostId: number;
   pathname: string;
@@ -40,16 +44,20 @@ export type LegacyArticle = {
   sourceHash: string;
 };
 const articles = records as LegacyArticle[];
-export function getLegacyArticles() {
-  return articles;
+export async function getLegacyArticles(): Promise<LegacyArticle[]> {
+  if (process.env.ARTICLE_SOURCE !== "sanity") return articles;
+  const { getSanityArticles } = await import("./sanity/articles");
+  return getSanityArticles();
 }
-export function getLegacyArticle(pathname: string) {
-  return articles.find(
+export async function getLegacyArticle(pathname: string) {
+  return (await getLegacyArticles()).find(
     (article) => article.pathname === pathname.replace(/\/$/, ""),
   );
 }
-export function getArticlesByTopic(topic: string) {
-  return articles.filter((article) => article.topic === topic);
+export async function getArticlesByTopic(topic: string) {
+  return (await getLegacyArticles()).filter(
+    (article) => article.topic === topic,
+  );
 }
 export function getArticleTopic(article: LegacyArticle) {
   return topics.find((topic) => topic.title === article.topic)!;
@@ -62,8 +70,8 @@ export function formatArticleDate(value: string) {
     timeZone: "UTC",
   }).format(new Date(`${value.slice(0, 10)}T12:00:00Z`));
 }
-export function getRelatedArticles(article: LegacyArticle) {
-  return articles
+export async function getRelatedArticles(article: LegacyArticle) {
+  return (await getLegacyArticles())
     .filter((other) => other.pathname !== article.pathname)
     .sort(
       (a, b) =>

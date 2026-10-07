@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { toPlainText } from "next-sanity";
 import Link from "next/link";
 import { Frame } from "@/components/site/roadmap-pages";
 import { RoadmapCta } from "@/components/sections/roadmap-sections";
@@ -18,20 +19,20 @@ export function InsightSchema({ value }: { value: unknown }) {
 }
 export const pageSize = 15;
 export type InsightQuery = { q?: string; format?: string; page?: string };
-export function selectInsights(query: InsightQuery, topic?: string) {
+export async function selectInsights(query: InsightQuery, topic?: string) {
   const normalized = (query.q || "")
     .trim()
     .slice(0, 200)
     .toLocaleLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "");
-  return getLegacyArticles().filter(
+  return (await getLegacyArticles()).filter(
     (article) =>
       (!topic || topic === article.topic) &&
       (!["article", "video"].includes(query.format || "") ||
         query.format === article.kind) &&
       (!normalized ||
-        `${article.title} ${article.excerpt} ${article.topic} ${article.bodyHtml.replace(/<[^>]*>/g, " ")}`
+        `${article.title} ${article.excerpt} ${article.topic} ${article.body ? toPlainText(article.body) : article.bodyHtml.replace(/<[^>]*>/g, " ")}`
           .toLocaleLowerCase()
           .normalize("NFD")
           .replace(/[\u0300-\u036f]/g, "")
@@ -51,7 +52,7 @@ function queryUrl(
   if (page > 1) params.set("page", String(page));
   return base + (params.size ? `?${params}` : "") + "#archive";
 }
-export function InsightsPage({
+export async function InsightsPage({
   query = {},
   topicSlug,
 }: {
@@ -60,7 +61,7 @@ export function InsightsPage({
 }) {
   const topic = topics.find((item) => item.slug === topicSlug);
   const base = topic ? `/insights/topics/${topic.slug}` : "/insights";
-  const all = selectInsights(query, topic?.title);
+  const all = await selectInsights(query, topic?.title);
   const totalPages = Math.max(1, Math.ceil(all.length / pageSize));
   const page = Math.max(
     1,
@@ -69,7 +70,7 @@ export function InsightsPage({
   const visible = all.slice((page - 1) * pageSize, page * pageSize);
   const featured =
     !topic && !query.q && !query.format && page === 1
-      ? getLegacyArticles().find(
+      ? (await getLegacyArticles()).find(
           (article) =>
             article.pathname === "/discovering-your-unique-gift-to-the-world",
         )!

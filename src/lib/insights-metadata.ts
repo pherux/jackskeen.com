@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { topics } from "@/data/site-pages";
 import { getLegacyArticles, type LegacyArticle } from "./content-catalog";
+import { pageRobots } from "./indexing";
 export type ArchiveSearch = Record<string, string | string[] | undefined>;
 export function archiveQuery(params: ArchiveSearch) {
   return {
@@ -13,10 +14,10 @@ export function archiveQuery(params: ArchiveSearch) {
     page: typeof params.page === "string" ? params.page : "1",
   };
 }
-export function archiveMetadata(
+export async function archiveMetadata(
   params: ArchiveSearch,
   slug?: string,
-): Metadata {
+): Promise<Metadata> {
   const query = archiveQuery(params);
   const topic = topics.find((item) => item.slug === slug);
   const base = topic ? `/insights/topics/${topic.slug}` : "/insights";
@@ -27,7 +28,7 @@ export function archiveMetadata(
   const description = topic
     ? `${topic.description} Explore Jack Skeen’s original writing and videos.`
     : "Explore Jack Skeen’s articles and original videos on purpose, leadership, relationships, personal growth, and a more fulfilling life.";
-  const image = getLegacyArticles().find(
+  const image = (await getLegacyArticles()).find(
     (article) =>
       article.pathname === "/discovering-your-unique-gift-to-the-world",
   )?.image;
@@ -35,10 +36,7 @@ export function archiveMetadata(
     title,
     description,
     alternates: { canonical },
-    robots: {
-      index: !filtered && process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true",
-      follow: true,
-    },
+    robots: pageRobots(!filtered && !topic),
     openGraph: {
       title,
       description,
@@ -65,10 +63,7 @@ export function articleMetadata(article: LegacyArticle): Metadata {
     title: article.seoTitle,
     description: article.description,
     alternates: { canonical: article.canonicalUrl },
-    robots: {
-      index: process.env.NEXT_PUBLIC_SITE_INDEXABLE === "true",
-      follow: true,
-    },
+    robots: pageRobots(!article.noIndex),
     authors: [{ name: article.author, url: "/about" }],
     openGraph: {
       title: article.seoTitle,
