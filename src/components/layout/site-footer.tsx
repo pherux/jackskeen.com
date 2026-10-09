@@ -21,6 +21,7 @@ export function SiteFooter() {
             <Link href="/about">Meet Jack</Link>
             <Link href="/insights">Insights</Link>
             <Link href="/contact">Contact</Link>
+            <Link href="/#newsletter">Get Jack’s insights</Link>
           </nav>
         </div>
         <div className="brand-footer__bottom">

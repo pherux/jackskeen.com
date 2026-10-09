@@ -13,6 +13,8 @@ import {
   RoadmapCta,
 } from "@/components/sections/roadmap-sections";
 import { roadmapContact } from "@/data/roadmap";
+import { CalendlyEmbed } from "@/components/site/calendly-embed";
+import { NewsletterSection } from "@/components/sections/newsletter-section";
 
 export function Frame({ children }: { children: ReactNode }) {
   return (
@@ -37,11 +39,42 @@ export function RoadmapHome({ detail = false }: { detail?: boolean }) {
       <MeetJack />
       <RoadmapFaq />
       <RoadmapCta />
+      <NewsletterSection />
     </Frame>
   );
 }
 
 export function StartRoadmapPage({ contact = false }: { contact?: boolean }) {
+  if (!contact) {
+    return (
+      <Frame>
+        <CalendlyEmbed />
+        <section
+          className="rm-container rm-start-contact"
+          aria-labelledby="direct-contact-title"
+        >
+          <div>
+            <p className="rm-eyebrow">Another way to connect</p>
+            <h2 id="direct-contact-title">Prefer to reach out directly?</h2>
+            <p>
+              You don’t need to have every answer. Bring the questions that
+              matter to you.
+            </p>
+          </div>
+          <div className="rm-contact-direct">
+            <a href={`mailto:${roadmapContact.email}`}>
+              {roadmapContact.email}
+            </a>
+            <a href={`tel:${roadmapContact.phone}`}>
+              {roadmapContact.phoneLabel}
+            </a>
+          </div>
+        </section>
+        <RoadmapFaq />
+      </Frame>
+    );
+  }
+
   return (
     <Frame>
       <section className="rm-container rm-page-intro rm-contact">
@@ -62,17 +95,21 @@ export function StartRoadmapPage({ contact = false }: { contact?: boolean }) {
         <div className="rm-contact-panel">
           <p className="rm-eyebrow">A more intentional next chapter</p>
           <h2>Find a time to talk with Jack.</h2>
-          <p>Choose a convenient time in Jack’s calendar.</p>
+          <p>
+            {contact
+              ? "Choose a convenient time in Jack’s calendar."
+              : "Explore the questions that matter to you. Choose a time in the calendar below, or reach out directly."}
+          </p>
           <a
-            href={roadmapContact.scheduler}
+            href={contact ? roadmapContact.scheduler : "#scheduling-title"}
             className="rm-button"
-            target="_blank"
-            rel="noopener noreferrer"
+            target={contact ? "_blank" : undefined}
+            rel={contact ? "noopener noreferrer" : undefined}
           >
             View available times <ArrowUpRight size={18} aria-hidden="true" />
-            <span className="sr-only"> (opens in a new tab)</span>
+            {contact && <span className="sr-only"> (opens in a new tab)</span>}
           </a>
-          <small>Scheduling opens in a new tab.</small>
+          {contact && <small>Scheduling opens in a new tab.</small>}
           <div className="rm-contact-direct">
             <h3>Prefer to reach out directly?</h3>
             <a href={`mailto:${roadmapContact.email}`}>

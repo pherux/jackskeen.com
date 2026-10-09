@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowDown, ArrowUpRight, Plus } from "lucide-react";
 import { Frame } from "@/components/site/roadmap-pages";
 import { ClientVideo } from "@/components/site/client-video";
+import { roadmapContact } from "@/data/roadmap";
 import {
   RoadmapCta,
   RoadmapDocument,
@@ -81,9 +82,9 @@ export function AboutJackPage() {
             interest in what makes people come alive.
           </p>
           <div className="rm-actions">
-            <Link className="rm-button" href="/start">
+            <a className="rm-button" href={roadmapContact.scheduler}>
               Talk with Jack <ArrowUpRight size={17} aria-hidden="true" />
-            </Link>
+            </a>
             <a className="rm-text-link" href="#perspective">
               His perspective <ArrowDown size={16} aria-hidden="true" />
             </a>
@@ -574,10 +575,13 @@ export function RoadmapPage() {
               Flexible payment options available on request. Discuss fit and
               current terms with Jack before committing.
             </p>
-            <Link href="/start" className="rm-button rm-button--white">
+            <a
+              href={roadmapContact.scheduler}
+              className="rm-button rm-button--white"
+            >
               Let’s talk about your next chapter{" "}
               <ArrowUpRight size={17} aria-hidden="true" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
