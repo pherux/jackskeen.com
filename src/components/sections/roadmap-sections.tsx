@@ -2,16 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Plus, Quote } from "lucide-react";
 import {
-  clientVideos,
   clientQuotes,
+  clientVideos,
   testimonialSource,
 } from "@/data/client-stories";
-import { ClientVideo } from "@/components/site/client-video";
+import { ClientStoryPreview } from "@/components/site/client-story-preview";
+import { TestimonialFilm } from "@/components/site/testimonial-film";
 import { roadmapBenefits, roadmapQuestions } from "@/data/roadmap";
 
 export function RoadmapHero({ detail = false }: { detail?: boolean }) {
   return (
-    <section className="rm-container rm-hero" aria-labelledby="roadmap-title">
+    <section
+      className={
+        detail
+          ? "rm-container rm-hero"
+          : "rm-container rm-hero rm-hero--portrait"
+      }
+      aria-labelledby="roadmap-title"
+    >
       <div className="rm-hero__copy">
         <p className="rm-eyebrow">The Roadmap with Jack Skeen</p>
         <h1 id="roadmap-title">
@@ -28,7 +36,7 @@ export function RoadmapHero({ detail = false }: { detail?: boolean }) {
               <br />
               brought you here.
               <br />
-              What comes next?
+              <em>What comes next?</em>
             </>
           )}
         </h1>
@@ -40,42 +48,73 @@ export function RoadmapHero({ detail = false }: { detail?: boolean }) {
           <Link className="rm-button" href="/start">
             Start Your Roadmap <ArrowUpRight size={17} aria-hidden="true" />
           </Link>
-          <a className="rm-button rm-button--outline" href="#value">
+          <a
+            className={detail ? "rm-button rm-button--outline" : "rm-text-link"}
+            href="#value"
+          >
             Explore the value
           </a>
         </div>
       </div>
-      <div className="rm-hero__image">
-        <Image
-          src="/images/jack-skeen-diamonds.webp"
-          alt="Jack Skeen speaking, coaching, and in conversation"
-          fill
-          sizes="(max-width: 760px) 100vw, 52vw"
-          priority
-        />
-      </div>
+      {detail ? (
+        <div className="rm-hero__image">
+          <Image
+            src="/images/jack-skeen-diamonds.webp"
+            alt="Jack Skeen speaking, coaching, and in conversation"
+            fill
+            sizes="(max-width: 760px) 100vw, 52vw"
+            priority
+          />
+        </div>
+      ) : (
+        <figure className="rm-hero-portrait">
+          <div className="rm-hero-portrait__photo">
+            <Image
+              src="/images/jack-skeen-office.jpg"
+              alt="Jack Skeen seated in his office"
+              fill
+              sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1100px) 43vw, 530px"
+              priority
+            />
+          </div>
+          <figcaption>Jack Skeen · Executive coach</figcaption>
+        </figure>
+      )}
     </section>
   );
 }
 
 export function VideoTestimonials() {
   return (
-    <section className="rm-proof" id="stories" aria-labelledby="stories-title">
+    <section
+      className="testimonial-premiere"
+      id="stories"
+      aria-labelledby="stories-title"
+    >
       <div className="rm-container rm-section">
+        <p className="rm-eyebrow">CLIENT PERSPECTIVES</p>
         <div className="rm-section-heading">
           <h2 id="stories-title">Hear it in their own words.</h2>
-          <Link className="proof-link" href="/success-stories">
-            Explore client stories <ArrowUpRight size={17} aria-hidden="true" />
+          <Link className="rm-text-link" href="/success-stories">
+            See more testimonials <ArrowUpRight size={17} aria-hidden="true" />
           </Link>
         </div>
-        <div className="client-film-grid">
-          <ClientVideo story={clientVideos[0]} featured />
-          <div className="client-film-support">
-            {clientVideos.slice(1).map((story) => (
-              <ClientVideo key={story.slug} story={story} />
+      </div>
+      <div className="testimonial-premiere__band">
+        <div className="rm-container testimonial-premiere__grid">
+          <TestimonialFilm />
+          <div className="testimonial-premiere__list">
+            {clientVideos.slice(0, 2).map((story) => (
+              <ClientStoryPreview key={story.slug} story={story} />
             ))}
           </div>
         </div>
+      </div>
+      <div className="testimonial-premiere__quote">
+        <figure className="rm-container">
+          <blockquote>“{clientQuotes[0].quote}”</blockquote>
+          <figcaption>{clientQuotes[0].name}</figcaption>
+        </figure>
       </div>
     </section>
   );

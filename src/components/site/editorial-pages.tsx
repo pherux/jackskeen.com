@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDown, ArrowUpRight, Plus } from "lucide-react";
 import { Frame } from "@/components/site/roadmap-pages";
+import { TestimonialFilm } from "@/components/site/testimonial-film";
+import { TestimonialWall } from "@/components/site/testimonial-wall";
 import { ClientVideo } from "@/components/site/client-video";
 import { roadmapContact } from "@/data/roadmap";
 import {
@@ -10,7 +12,6 @@ import {
 } from "@/components/sections/roadmap-sections";
 import {
   clientVideos,
-  clientQuotes,
   storyPerspectives,
   testimonialSource,
 } from "@/data/client-stories";
@@ -248,7 +249,7 @@ export function ClientStoriesPage() {
             made The Roadmap part of their own next chapter.
           </p>
           <div className="rm-actions">
-            <a className="rm-button" href="#client-films">
+            <a className="rm-button" href="#stories-film-title">
               Watch their stories <ArrowDown size={17} aria-hidden="true" />
             </a>
             <a href="#written-stories" className="rm-text-link">
@@ -257,71 +258,64 @@ export function ClientStoriesPage() {
           </div>
         </div>
       </section>
-      <section className="stories-feature" id="client-films">
-        <div className="rm-container rm-section">
-          <div className="stories-feature__intro">
-            <div>
-              <p className="rm-eyebrow">In their own words</p>
-              <h2>
-                A personal perspective
-                <br />
-                from Mohnish Pabrai.
-              </h2>
-            </div>
+      <section
+        className="stories-film-intro"
+        aria-labelledby="stories-film-title"
+      >
+        <div className="rm-container stories-film-intro__grid">
+          <div>
+            <p className="rm-eyebrow">Start with their voices</p>
+            <h2 id="stories-film-title">
+              What changes when you see yourself more clearly?
+            </h2>
             <p>
-              Investor. Philanthropist.
-              <br />
-              Roadmap client.
+              A short film bringing together personal perspectives on The
+              Roadmap.
             </p>
+            <a className="rm-text-link" href="#client-films">
+              Explore individual stories{" "}
+              <ArrowDown size={17} aria-hidden="true" />
+            </a>
           </div>
-          <ClientVideo story={clientVideos[0]} featured />
-          <div className="stories-support">
-            {clientVideos.slice(1).map((story) => (
-              <ClientVideo key={story.slug} story={story} />
-            ))}
-          </div>
+          <TestimonialFilm />
         </div>
       </section>
       <section
-        className="rm-container rm-section stories-written"
-        id="written-stories"
+        className="rm-container rm-section"
+        id="client-films"
+        aria-labelledby="individual-stories-title"
       >
         <div className="rm-section-heading">
           <div>
-            <p className="rm-eyebrow">Written reflections</p>
-            <h2>What stayed with them.</h2>
+            <p className="rm-eyebrow">Individual stories</p>
+            <h2 id="individual-stories-title">
+              A closer look at their experience.
+            </h2>
           </div>
-          <p>
-            Short excerpts from published client feedback. Each experience is
-            individual.
-          </p>
         </div>
-        <div className="editorial-quotes">
-          {clientQuotes.map((story, index) => (
-            <figure key={story.name}>
-              <span className="editorial-index">0{index + 1}</span>
-              <div>
-                <p className="rm-eyebrow">{story.theme}</p>
-                <blockquote>“{story.quote}”</blockquote>
-                <figcaption>
-                  <strong>{story.name}</strong>
-                  <span>
-                    Excerpt ·{" "}
-                    <time dateTime={story.date}>
-                      {new Date(`${story.date}T12:00:00Z`).toLocaleDateString(
-                        "en-US",
-                        { month: "long", year: "numeric", timeZone: "UTC" },
-                      )}
-                    </time>
-                  </span>
-                  <a href={testimonialSource}>
-                    Read the original{" "}
-                    <ArrowUpRight size={14} aria-hidden="true" />
-                  </a>
-                </figcaption>
-              </div>
-            </figure>
+        <div className="stories-video-gallery">
+          {clientVideos.map((story) => (
+            <ClientVideo key={story.slug} story={story} />
           ))}
+        </div>
+      </section>
+      <section
+        className="stories-community"
+        id="written-stories"
+        aria-labelledby="community-stories-title"
+      >
+        <div className="rm-container rm-section">
+          <div className="rm-section-heading">
+            <div>
+              <p className="rm-eyebrow">More client perspectives</p>
+              <h2 id="community-stories-title">In their own words.</h2>
+            </div>
+            <p>
+              Explore the full collection of client feedback. Each story
+              reflects an individual experience.
+            </p>
+          </div>
+          <TestimonialWall />
         </div>
       </section>
       <section className="editorial-tint">

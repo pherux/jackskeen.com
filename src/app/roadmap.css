@@ -1124,3 +1124,328 @@
     transition: none;
   }
 }
+
+/* Homepage hero: selected portrait direction. */
+.rm-hero.rm-hero--portrait {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 72px;
+  padding-block: 56px 60px;
+  min-height: 0;
+}
+.rm-hero--portrait h1 {
+  font-size: clamp(56px, 5.6vw, 84px);
+  line-height: 1.08;
+}
+.rm-hero--portrait h1 em {
+  color: var(--rm-blue);
+  font-weight: 400;
+}
+.rm-hero--portrait .rm-lead {
+  max-width: 510px;
+  margin-top: 28px;
+}
+.rm-hero--portrait .rm-actions {
+  align-items: center;
+  gap: 32px;
+  margin-top: 36px;
+}
+.rm-hero-portrait {
+  position: relative;
+  isolation: isolate;
+  margin: 0;
+  padding: 24px 36px 0 0;
+}
+.rm-hero-portrait::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 0 44%;
+  background: #eaf4fa;
+  z-index: -1;
+}
+.rm-hero-portrait__photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+}
+.rm-hero-portrait__photo img {
+  object-fit: cover;
+  object-position: center 42%;
+}
+.rm-hero-portrait figcaption {
+  padding-block: 15px 0;
+  color: var(--rm-muted);
+  font-size: 12px;
+}
+@media (max-width: 1100px) {
+  .rm-hero.rm-hero--portrait {
+    gap: 36px;
+  }
+  .rm-hero--portrait h1 {
+    font-size: clamp(44px, 5.5vw, 62px);
+  }
+  .rm-hero-portrait {
+    padding-right: 24px;
+  }
+}
+@media (max-width: 760px) {
+  .rm-hero.rm-hero--portrait {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding-block: 40px;
+  }
+  .rm-hero--portrait h1 {
+    font-size: clamp(43px, 10.9vw, 72px);
+  }
+  .rm-hero--portrait .rm-actions {
+    gap: 22px;
+    margin-top: 26px;
+  }
+  .rm-hero-portrait {
+    width: 100%;
+    max-width: 500px;
+    justify-self: center;
+  }
+}
+
+/* Featured client film: editorial premiere. */
+.testimonial-premiere {
+  border-top: 1px solid var(--rm-line);
+}
+.testimonial-premiere > .rm-section {
+  padding-bottom: 36px;
+}
+.testimonial-premiere .rm-section-heading {
+  align-items: end;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+.testimonial-premiere .rm-text-link {
+  flex-shrink: 0;
+}
+.testimonial-premiere h2 {
+  font-size: clamp(40px, 5vw, 72px);
+}
+.testimonial-film {
+  margin: 0;
+}
+.testimonial-film__media {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: var(--rm-ink);
+}
+.testimonial-film__media button {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+.testimonial-film__media img {
+  object-fit: cover;
+  transform: scale(1.08);
+}
+.testimonial-film__media iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.testimonial-film__play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: var(--rm-blue);
+  color: white;
+}
+.testimonial-film__media button:hover .testimonial-film__play {
+  background: var(--night-deep);
+}
+.testimonial-film__media button:focus-visible {
+  outline: 3px solid var(--rm-blue);
+  outline-offset: 5px;
+}
+.testimonial-film figcaption {
+  padding-top: 20px;
+}
+.testimonial-film figcaption h3 {
+  font-size: clamp(26px, 3vw, 42px);
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+.testimonial-film figcaption a {
+  color: var(--rm-muted);
+  font-size: 16px;
+  text-underline-offset: 5px;
+}
+.testimonial-film figcaption a:hover {
+  text-decoration: underline;
+}
+.testimonial-premiere__quote {
+  background: var(--pale);
+  padding-block: 40px;
+}
+.testimonial-premiere__quote blockquote {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(32px, 3.8vw, 54px);
+  font-style: italic;
+  line-height: 1.2;
+  color: var(--rm-blue);
+}
+.testimonial-premiere__quote figcaption {
+  margin-top: 18px;
+  color: var(--rm-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+@media (max-width: 760px) {
+  .testimonial-premiere .rm-section-heading {
+    align-items: start;
+  }
+  .testimonial-film__play {
+    width: 60px;
+    height: 60px;
+  }
+  .testimonial-premiere__quote {
+    padding-block: 32px;
+  }
+}
+
+/* Compact featured film with two individual stories. */
+.testimonial-premiere .rm-section-heading {
+  margin-bottom: 0;
+}
+.testimonial-premiere__band {
+  background: var(--pale);
+  padding-block: 48px;
+}
+.testimonial-premiere__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 560px) minmax(0, 1fr);
+  gap: 52px;
+  align-items: start;
+}
+.testimonial-premiere__list {
+  display: grid;
+  gap: 28px;
+}
+.testimonial-preview {
+  display: grid;
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+}
+.testimonial-preview + .testimonial-preview {
+  border-top: 1px solid var(--rm-line);
+  padding-top: 28px;
+}
+.testimonial-preview__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--rm-ink);
+}
+.testimonial-preview__media button {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.testimonial-preview__media img {
+  object-fit: cover;
+  object-position: center 35%;
+}
+.testimonial-preview__media video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  object-fit: contain;
+}
+.testimonial-preview__play {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--rm-blue);
+  color: white;
+  border: 1px solid white;
+}
+.testimonial-preview h3 {
+  font-size: 32px;
+  line-height: 1.1;
+}
+.testimonial-preview p {
+  color: var(--rm-muted);
+  font-size: 15px;
+  margin-top: 8px;
+}
+.testimonial-preview .rm-text-link {
+  margin-top: 22px;
+  cursor: pointer;
+  background: transparent;
+}
+.testimonial-preview button:focus-visible {
+  outline: 3px solid var(--rm-blue);
+  outline-offset: 4px;
+}
+.testimonial-premiere .testimonial-film__play {
+  width: 64px;
+  height: 64px;
+}
+.testimonial-premiere .testimonial-film figcaption h3 {
+  font-size: clamp(26px, 2.5vw, 36px);
+}
+.testimonial-film figcaption .rm-eyebrow {
+  margin-bottom: 12px;
+}
+.testimonial-premiere__quote {
+  background: white;
+  text-align: center;
+  padding-block: 56px;
+}
+@media (max-width: 1100px) {
+  .testimonial-premiere__grid {
+    gap: 32px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .testimonial-preview {
+    gap: 18px;
+    grid-template-columns: 45% minmax(0, 1fr);
+  }
+  .testimonial-preview h3 {
+    font-size: 26px;
+  }
+  .testimonial-preview .rm-text-link {
+    margin-top: 12px;
+  }
+}
+@media (max-width: 760px) {
+  .testimonial-premiere__grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .testimonial-premiere__band {
+    padding-block: 32px;
+  }
+  .testimonial-preview {
+    grid-template-columns: 44% minmax(0, 1fr);
+  }
+  .testimonial-premiere__quote {
+    padding-block: 36px;
+  }
+}

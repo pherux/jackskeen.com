@@ -748,3 +748,84 @@
     margin-top: 12px;
   }
 }
+
+/* Client Stories: film introduction, individual voices, live testimonial wall. */
+.stories-film-intro {
+  background: var(--pale);
+  padding-block: 52px;
+}
+.stories-film-intro__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 560px);
+  gap: 72px;
+  align-items: center;
+}
+.stories-film-intro h2 {
+  max-width: 520px;
+}
+.stories-film-intro__grid > div > p:not(.rm-eyebrow) {
+  max-width: 430px;
+  color: var(--rm-muted);
+  margin-block: 24px;
+}
+.stories-film-intro .testimonial-film h3 {
+  font-size: 30px;
+}
+.stories-film-intro .testimonial-film__play {
+  width: 64px;
+  height: 64px;
+}
+.stories-video-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+.stories-video-gallery .client-film video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: var(--rm-ink);
+}
+.stories-video-gallery .client-film figcaption {
+  display: block;
+}
+.stories-video-gallery .client-film figcaption a {
+  display: inline-block;
+  margin-top: 12px;
+}
+.stories-community {
+  border-block: 1px solid var(--rm-line);
+  background: #f7fbfd;
+}
+.stories-wall {
+  min-height: 420px;
+}
+.stories-wall iframe {
+  display: block;
+  width: 100%;
+}
+.stories-wall-fallback {
+  margin-top: 28px;
+}
+@media (max-width: 1000px) {
+  .stories-film-intro__grid {
+    gap: 36px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .stories-video-gallery {
+    gap: 20px;
+  }
+}
+@media (max-width: 760px) {
+  .stories-film-intro__grid,
+  .stories-video-gallery {
+    grid-template-columns: 1fr;
+  }
+  .stories-film-intro {
+    padding-block: 36px;
+  }
+  .stories-video-gallery {
+    gap: 36px;
+  }
+}

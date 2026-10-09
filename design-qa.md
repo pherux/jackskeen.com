@@ -63,3 +63,40 @@ No open P0/P1/P2 design implementation findings in the reviewed states.
 - [x] Typecheck, lint, production build pass.
 - [x] Preview available locally; no deployment performed.
 - [ ] Editorial/migration and final launch approval.
+
+## Homepage hero option 1 — 2026-10-09
+
+final result: passed
+
+- Applied the selected split portrait concept: blue italic closing headline, quiet pale-blue photo backing, primary button and understated secondary link.
+- Compared the selected image and desktop capture together. Existing brand fonts, header, and authentic office photograph are retained; the mockup's generated likeness is not used.
+- Checked 1487px desktop, 834px tablet, 390px mobile, and 320px mobile. Headline and controls fit; portrait stacks below the copy on mobile.
+- One semantic h1, descriptive image alt, existing focus styles, and unchanged CTA destinations. Homepage canonical remains https://jackskeen.com. No metadata or schema changes.
+- Lint and production build (including TypeScript) pass. No new dependencies or environment variables.
+- Local evidence: design-qa-hero-applied.png. Changes are not deployed.
+
+## Featured testimonials — 2026-10-09
+
+final result: passed
+
+- Implemented selected option 1: white editorial section, large featured YouTube film, See more testimonials link, and pale-blue Andrew Wilkinson quote strip.
+- Compared selected mockup and rendered desktop capture together. Uses the original YouTube poster rather than generated faces; source thumbnail resolution limits sharpness.
+- Verified playback with captions in browser and followed the link to /success-stories, which contains three individual videos, published quotes and additional client perspectives.
+- Verified mobile 390px layout, keyboard control access, descriptive player label, and no horizontal overflow. Existing page metadata/canonical routes preserved; no new schema claims.
+- Lint, typecheck and build pass. No new environment variables. Not deployed.
+
+## Compact testimonials, selected option 2 — 2026-10-09
+
+final result: passed
+
+- Featured film capped at 560px beside compact Mohnish Pabrai and Rob Fraser video rows on pale blue, with the centered quote below and existing testimonials link preserved.
+- Compared selected mockup with rendered section. Original source thumbnails retained. Verified mobile stacking at 390px without horizontal overflow and visible keyboard focus.
+- Both individual videos verified playing with readyState 4 and advancing time; caption tracks included. Featured YouTube player remains unchanged.
+- Lint, TypeScript and production build pass. Metadata and canonical routes unchanged; no setup changes. Not deployed.
+
+## Client Stories page refresh — 2026-10-09
+
+- Added the shared compact YouTube film in a pale-blue introduction, followed by a three-column individual-video gallery.
+- Replaced excerpt repetition with the requested Testimonial.to widget and exact wall URL. Script initializes on each route mount, gives the generated iframe an accessible title, and includes a direct collection fallback.
+- Verified live feedback rendered on desktop and mobile, automatic iframe heights (2708px desktop / 7368px mobile), and one iframe after navigating away and returning via the homepage link.
+- Mobile 390px has no horizontal overflow. One h1 and canonical https://jackskeen.com/success-stories retained. Lint, typecheck and build pass; no new configuration. Not deployed.
