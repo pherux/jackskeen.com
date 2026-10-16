@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { ArrowUpRight } from "lucide-react";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import {
@@ -77,48 +76,31 @@ export function StartRoadmapPage({ contact = false }: { contact?: boolean }) {
 
   return (
     <Frame>
-      <section className="rm-container rm-page-intro rm-contact">
+      <section className="rm-container rm-contact-intro">
         <div>
-          <p className="rm-eyebrow">
-            {contact ? "Contact Jack" : "Start your Roadmap"}
-          </p>
-          <h1>
-            Begin with
-            <br />a conversation.
-          </h1>
-          <p className="rm-lead">
-            You don’t need to have every answer. Bring the questions that matter
-            to you, and explore whether The Roadmap is right for your next
-            chapter.
-          </p>
+          <p className="rm-eyebrow">Contact Jack</p>
+          <h1>Begin with a conversation.</h1>
         </div>
-        <div className="rm-contact-panel">
-          <p className="rm-eyebrow">A more intentional next chapter</p>
-          <h2>Find a time to talk with Jack.</h2>
-          <p>
-            {contact
-              ? "Choose a convenient time in Jack’s calendar."
-              : "Explore the questions that matter to you. Choose a time in the calendar below, or reach out directly."}
-          </p>
-          <a
-            href={contact ? roadmapContact.scheduler : "#scheduling-title"}
-            className="rm-button"
-            target={contact ? "_blank" : undefined}
-            rel={contact ? "noopener noreferrer" : undefined}
-          >
-            View available times <ArrowUpRight size={18} aria-hidden="true" />
-            {contact && <span className="sr-only"> (opens in a new tab)</span>}
+        <p className="rm-lead">
+          You don’t need to have every answer. Bring the questions that matter
+          to you, and explore whether The Roadmap is right for your next
+          chapter.
+        </p>
+      </section>
+      <CalendlyEmbed contact />
+      <section
+        className="rm-container rm-start-contact"
+        aria-labelledby="direct-contact-title"
+      >
+        <div>
+          <p className="rm-eyebrow">Another way to connect</p>
+          <h2 id="direct-contact-title">Prefer to reach out directly?</h2>
+        </div>
+        <div className="rm-contact-direct">
+          <a href={`mailto:${roadmapContact.email}`}>{roadmapContact.email}</a>
+          <a href={`tel:${roadmapContact.phone}`}>
+            {roadmapContact.phoneLabel}
           </a>
-          {contact && <small>Scheduling opens in a new tab.</small>}
-          <div className="rm-contact-direct">
-            <h3>Prefer to reach out directly?</h3>
-            <a href={`mailto:${roadmapContact.email}`}>
-              {roadmapContact.email}
-            </a>
-            <a href={`tel:${roadmapContact.phone}`}>
-              {roadmapContact.phoneLabel}
-            </a>
-          </div>
         </div>
       </section>
       <RoadmapFaq />

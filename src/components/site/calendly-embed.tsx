@@ -14,7 +14,8 @@ type CalendlyWindow = Window & {
   };
 };
 
-export function CalendlyEmbed() {
+export function CalendlyEmbed({ contact = false }: { contact?: boolean }) {
+  const Heading = contact ? "h2" : "h1";
   const container = useRef<HTMLDivElement>(null);
   const [failed, setFailed] = useState(false);
 
@@ -56,12 +57,22 @@ export function CalendlyEmbed() {
 
   return (
     <section
-      className="rm-container rm-scheduling"
+      className={
+        contact
+          ? "rm-container rm-scheduling rm-scheduling--contact"
+          : "rm-container rm-scheduling"
+      }
       aria-labelledby="scheduling-title"
     >
-      <div className="rm-scheduling-heading">
-        <p className="rm-eyebrow">Start your Roadmap</p>
-        <h1 id="scheduling-title">Find a time to talk with Jack.</h1>
+      <div className={contact ? "sr-only" : "rm-scheduling-heading"}>
+        <p className="rm-eyebrow">
+          {contact ? "Jack’s calendar" : "Start your Roadmap"}
+        </p>
+        <Heading id="scheduling-title">
+          {contact
+            ? "Choose a time that works for you."
+            : "Find a time to talk with Jack."}
+        </Heading>
         <p>Choose an available time below to schedule a call with Jack.</p>
       </div>
       {failed ? (

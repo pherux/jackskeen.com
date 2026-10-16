@@ -633,6 +633,29 @@
 .rm-scheduling {
   padding-block: 48px;
 }
+.rm-scheduling--contact {
+  padding-top: 0;
+}
+.rm-contact-intro {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 48px;
+  padding-block: 40px 24px;
+}
+.rm-contact-intro h1 {
+  font-size: clamp(40px, 4.5vw, 64px);
+}
+@media (max-width: 767px) {
+  .rm-contact-intro {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-top: 28px;
+  }
+}
+.rm-scheduling--contact h2 {
+  font-size: clamp(36px, 4vw, 56px);
+}
 .rm-start-contact {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
