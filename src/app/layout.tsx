@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Libre_Caslon_Display } from "next/font/google";
 
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { SanityPreviewRuntime } from "@/components/sanity/preview-runtime";
 import { pageRobots } from "@/lib/indexing";
 import "./globals.css";
@@ -21,6 +22,12 @@ const sans = Inter({
   weight: ["400", "500", "600", "700"],
   display: "swap",
 });
+
+const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim();
+const analyticsEnabled =
+  process.env.VERCEL_ENV === "production" &&
+  !!gaMeasurementId &&
+  /^G-[A-Z0-9]+$/.test(gaMeasurementId);
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jackskeen.com"),
@@ -46,6 +53,9 @@ export default function RootLayout({
       <body>
         {children}
         <SanityPreviewRuntime />
+        {analyticsEnabled && gaMeasurementId ? (
+          <GoogleAnalytics measurementId={gaMeasurementId} />
+        ) : null}
       </body>
     </html>
   );
