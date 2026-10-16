@@ -1,8 +1,9 @@
 "use client";
 
 import Script from "next/script";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { roadmapContact } from "@/data/roadmap";
+import { trackConversion } from "@/lib/analytics";
 
 type CalendlyWindow = Window & {
   Calendly?: {
@@ -16,6 +17,27 @@ type CalendlyWindow = Window & {
 export function CalendlyEmbed() {
   const container = useRef<HTMLDivElement>(null);
   const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    const bookings = new Set<string>();
+    function onScheduled(event: MessageEvent) {
+      const frame = container.current?.querySelector("iframe");
+      if (
+        event.origin !== "https://calendly.com" ||
+        !frame ||
+        event.source !== frame.contentWindow ||
+        event.data?.event !== "calendly.event_scheduled"
+      )
+        return;
+      // Used locally for deduplication only; booking/invitee details never go to GA.
+      const uri = event.data?.payload?.invitee?.uri;
+      if (typeof uri !== "string" || !uri || bookings.has(uri)) return;
+      bookings.add(uri);
+      trackConversion("calendly_booking_completed");
+    }
+    window.addEventListener("message", onScheduled);
+    return () => window.removeEventListener("message", onScheduled);
+  }, []);
 
   function initialize() {
     const parentElement = container.current;

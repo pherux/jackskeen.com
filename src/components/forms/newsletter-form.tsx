@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { newsletter } from "@/data/newsletter";
+import { trackConversion } from "@/lib/analytics";
 
 export function NewsletterForm() {
   const host = useRef<HTMLDivElement>(null);
@@ -13,6 +14,23 @@ export function NewsletterForm() {
   useEffect(() => {
     const container = host.current;
     if (!container) return;
+
+    let trackedSignup = false;
+    function onSignup(event: Event) {
+      if (
+        trackedSignup ||
+        !(event instanceof CustomEvent) ||
+        event.detail?.uid !== newsletter.uid ||
+        !(event.target instanceof HTMLFormElement) ||
+        event.target.dataset.uid !== newsletter.uid
+      )
+        return;
+      trackedSignup = true;
+      trackConversion("newsletter_signup");
+    }
+    // Kit emits this only after a successful response, not validation or submit.
+    // Do not forward event.detail: it includes the subscriber's email address.
+    container.addEventListener("ckjs:submission:complete", onSignup);
 
     // Kit inserts the live form beside its script. Keep that DOM isolated from React.
     // Load near the section so the homepage's initial render stays lightweight.
@@ -55,6 +73,7 @@ export function NewsletterForm() {
     return () => {
       visibility.disconnect();
       mutations.disconnect();
+      container.removeEventListener("ckjs:submission:complete", onSignup);
       if (script) script.onerror = null;
       container.replaceChildren();
     };
