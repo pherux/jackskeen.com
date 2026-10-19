@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import Link from "next/link";
 import { newsletter } from "@/data/newsletter";
 import { trackConversion } from "@/lib/analytics";
 
@@ -113,8 +112,7 @@ export function NewsletterForm() {
       </div>
       <p id={consentId} className="newsletter-note">
         By signing up, you agree to receive Jack’s newsletter. Confirm your
-        email to join. Unsubscribe anytime.{" "}
-        <Link href="/privacy">Privacy policy</Link>.
+        email to join. Unsubscribe anytime.
       </p>
       <p className="newsletter-fallback">
         Form not appearing?{" "}

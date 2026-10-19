@@ -290,13 +290,6 @@ const offerPages: LinkItem[] = [
     href: "/work-with-jack/roadmap-essentials",
   },
   {
-    eyebrow: "Group",
-    title: "Roadmap Discovery Group",
-    description:
-      "A possible group-based format that remains unavailable until the program is fully defined.",
-    href: "/work-with-jack/roadmap-discovery-group",
-  },
-  {
     eyebrow: "Organizations",
     title: "Corporate advisory",
     description:
