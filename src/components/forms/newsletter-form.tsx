@@ -1,12 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { newsletter } from "@/data/newsletter";
 import { trackConversion } from "@/lib/analytics";
 
 export function NewsletterForm() {
   const host = useRef<HTMLDivElement>(null);
+  const id = useId();
+  const emailId = `${id}-email`;
+  const labelId = `${id}-label`;
+  const consentId = `${id}-consent`;
   const [status, setStatus] = useState<"loading" | "ready" | "error">(
     "loading",
   );
@@ -14,6 +18,12 @@ export function NewsletterForm() {
   useEffect(() => {
     const container = host.current;
     if (!container) return;
+
+    let loadTimeout: ReturnType<typeof setTimeout> | undefined;
+    function failLoading() {
+      clearTimeout(loadTimeout);
+      setStatus("error");
+    }
 
     let trackedSignup = false;
     function onSignup(event: Event) {
@@ -40,10 +50,12 @@ export function NewsletterForm() {
         'input[name="email_address"]',
       );
       if (input) {
-        input.id = "newsletter-email";
+        clearTimeout(loadTimeout);
+        input.id = emailId;
         input.type = "email";
         input.autocomplete = "email";
-        input.setAttribute("aria-describedby", "newsletter-consent");
+        input.setAttribute("aria-labelledby", labelId);
+        input.setAttribute("aria-describedby", consentId);
         setStatus("ready");
       }
       container
@@ -62,26 +74,31 @@ export function NewsletterForm() {
         script.src = newsletter.embedUrl;
         script.async = true;
         script.dataset.uid = newsletter.uid;
-        script.onerror = () => setStatus("error");
+        script.onerror = failLoading;
+        // A blocked or stalled embed may never fire an error. Bound the wait,
+        // while still allowing a late form to replace the fallback message.
+        loadTimeout = setTimeout(failLoading, 12_000);
         container.appendChild(script);
         visibility.disconnect();
       },
       { rootMargin: "400px" },
     );
-    visibility.observe(container);
+    // Observe the reserved slot rather than the initially empty embed host.
+    visibility.observe(container.parentElement ?? container);
 
     return () => {
       visibility.disconnect();
       mutations.disconnect();
+      clearTimeout(loadTimeout);
       container.removeEventListener("ckjs:submission:complete", onSignup);
       if (script) script.onerror = null;
       container.replaceChildren();
     };
-  }, []);
+  }, [emailId, labelId, consentId]);
 
   return (
     <div className="newsletter-signup">
-      <label className="newsletter-label" htmlFor="newsletter-email">
+      <label className="newsletter-label" id={labelId} htmlFor={emailId}>
         Your email address
       </label>
       <div className="newsletter-form-slot">
@@ -94,7 +111,7 @@ export function NewsletterForm() {
         )}
         <div ref={host} className="newsletter-kit" />
       </div>
-      <p id="newsletter-consent" className="newsletter-note">
+      <p id={consentId} className="newsletter-note">
         By signing up, you agree to receive Jack’s newsletter. Confirm your
         email to join. Unsubscribe anytime.{" "}
         <Link href="/privacy">Privacy policy</Link>.
