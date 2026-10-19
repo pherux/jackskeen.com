@@ -36,6 +36,7 @@ export function SiteHeader() {
             alt="Jack Skeen Executive Coaching"
             width={1200}
             height={199}
+            sizes="(max-width: 370px) 180px, (max-width: 760px) 205px, (max-width: 1100px) 215px, 290px"
             priority
           />
         </Link>

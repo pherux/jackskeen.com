@@ -1,3 +1,4 @@
+import { getImageProps } from "next/image";
 import type { ClientVideo as ClientVideoData } from "@/data/client-stories";
 
 export function ClientVideo({
@@ -7,6 +8,16 @@ export function ClientVideo({
   story: ClientVideoData;
   featured?: boolean;
 }) {
+  const { props: poster } = getImageProps({
+    src: `/images/clients/${story.slug}.jpg`,
+    alt: "",
+    width: 640,
+    height: 360,
+  });
+  // Video posters do not support srcset. Use the 640px candidate instead of
+  // Image's largest density fallback; the portrait is letterboxed in the player.
+  const posterSrc = poster.srcSet?.split(", ")[0].split(" ")[0] ?? poster.src;
+
   return (
     <figure
       className={featured ? "client-film client-film--featured" : "client-film"}
@@ -15,7 +26,7 @@ export function ClientVideo({
         controls
         playsInline
         preload="none"
-        poster={`/images/clients/${story.slug}.jpg`}
+        poster={posterSrc}
         aria-label={`${story.name} on The Roadmap`}
       >
         <source
@@ -39,7 +50,7 @@ export function ClientVideo({
           href={`https://embed-v2.testimonial.to/v/${story.sourceId}/`}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label={`Open ${story.name}’s original video in a new tab`}
+          aria-label={`Original video ↗ — ${story.name} (opens in a new tab)`}
         >
           Original video ↗
         </a>

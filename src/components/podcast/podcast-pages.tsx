@@ -101,6 +101,7 @@ export function PodcastHub() {
             width={1280}
             height={720}
             priority
+            fetchPriority="high"
             sizes="(max-width: 800px) 100vw, 60vw"
           />
           <span className="circle-feature-play" aria-hidden="true">

@@ -12,6 +12,7 @@ export function SiteFooter() {
               alt="Jack Skeen Executive Coaching"
               width={1200}
               height={199}
+              sizes="(max-width: 760px) 230px, 235px"
             />
           </Link>
           <nav aria-label="Footer navigation">

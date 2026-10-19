@@ -42,7 +42,7 @@ export function TestimonialFilm() {
           href="https://www.youtube.com/watch?v=HWSykOKNGog"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Watch the film on YouTube, 1 minute 23 seconds (opens in a new tab)"
+          aria-label="Watch the film · 1:23 on YouTube (opens in a new tab)"
         >
           Watch the film · 1:23
         </a>

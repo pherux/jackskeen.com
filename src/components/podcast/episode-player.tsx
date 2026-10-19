@@ -54,7 +54,7 @@ export function EpisodePlayer({ episode }: { episode: PodcastEpisode }) {
         <button
           type="button"
           onClick={() => setPlaying(true)}
-          aria-label={`Play the full interview with ${episode.name}`}
+          aria-label={`Watch the conversation with ${episode.name}`}
         >
           <Image
             src={episode.thumbnail}
@@ -62,6 +62,7 @@ export function EpisodePlayer({ episode }: { episode: PodcastEpisode }) {
             fill
             sizes="(max-width: 1200px) 100vw, 1200px"
             priority
+            fetchPriority="high"
           />
           <span className="circle-play">
             <span aria-hidden="true">▶</span> Watch the conversation

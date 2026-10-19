@@ -53,7 +53,7 @@ export function ClientStoryPreview({ story }: { story: ClientVideo }) {
           className="rm-text-link"
           type="button"
           onClick={() => setPlaying(true)}
-          aria-label={`Watch ${story.name}’s story`}
+          aria-label={`Watch his story — ${story.name}`}
         >
           Watch his story <ArrowUpRight size={17} aria-hidden="true" />
         </button>

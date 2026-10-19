@@ -64,6 +64,7 @@ export function RoadmapHero({ detail = false }: { detail?: boolean }) {
             fill
             sizes="(max-width: 760px) 100vw, 52vw"
             priority
+            fetchPriority="high"
           />
         </div>
       ) : (
@@ -75,6 +76,7 @@ export function RoadmapHero({ detail = false }: { detail?: boolean }) {
               fill
               sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1100px) 43vw, 530px"
               priority
+              fetchPriority="high"
             />
           </div>
           <figcaption>Jack Skeen · Executive coach</figcaption>

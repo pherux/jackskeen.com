@@ -99,6 +99,7 @@ export function AboutJackPage() {
             width={731}
             height={1024}
             priority
+            fetchPriority="high"
             sizes="(max-width:760px) 100vw, 42vw"
           />
           <figcaption>Dr. Jack Skeen · Executive coach</figcaption>
@@ -422,6 +423,7 @@ export function RoadmapPage() {
             width={1200}
             height={900}
             priority
+            fetchPriority="high"
             sizes="(max-width:760px) 100vw, 55vw"
           />
           <p>
